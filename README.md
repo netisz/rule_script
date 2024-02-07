@@ -31,12 +31,12 @@ https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/dire
 https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/direct_cn_media.list
 ```
 
-#【直连规则】中国境内IPv4地址
+【直连规则】中国境内IPv4地址
 ```
 https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/direct_cn_ipv4.list
 ```
 
-#【直连规则】中国境内IPv6地址
+【直连规则】中国境内IPv6地址
 ```
 https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/direct_cn_ipv6.list
 ```
