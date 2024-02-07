@@ -1,0 +1,18 @@
+#!name = 【拦截过滤】广告
+#!desc = 拦截各类广告
+#!openUrl =
+#!author = 
+#!homepage =
+#!icon =
+#!date = 20240207
+
+[Rule]
+
+# 知乎
+RULE-SET,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/ZhihuAds/ZhihuAds.list,REJECT
+
+# 
+RULE-SET,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/BlockHttpDNS/BlockHttpDNS.list,REJECT
+
+# 广告过滤
+RULE-SET,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/Advertising/Advertising.list,REJECT
