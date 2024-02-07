@@ -4,6 +4,11 @@
 
 - 模块
 
+【直连策略】Apple公司
+```
+https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/direct_apple.sgmodule
+```
+
 【直连策略】中国境内常用规则
 ```
 https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/direct_cn.sgmodule
