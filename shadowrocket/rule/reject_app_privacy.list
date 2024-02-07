@@ -7,6 +7,7 @@
 #####################
 # 朴朴超市
 #####################
+URL-REGEX,^https:\/\/bwy1\.pupuapi\.com\/bv\/i
 
 # 极光推送
 DOMAIN-SUFFIX,jiguang.cn
