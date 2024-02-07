@@ -1,0 +1,17 @@
+# NAME: 【拦截过滤】CWiSE自用拦截
+# AUTHOR: CWiSE
+# REPO:
+# UPDATED: 20240207
+
+
+#####################
+# 朴朴超市
+#####################
+
+# 极光推送
+DOMAIN-SUFFIX, jiguang.cn
+DOMAIN-SUFFIX, jpush.cn
+DOMAIN-SUFFIX, jpush-ipv6.cn
+
+# 百度
+DOMAIN, sofire.baidu.com
