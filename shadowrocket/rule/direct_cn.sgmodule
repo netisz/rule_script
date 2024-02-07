@@ -14,4 +14,7 @@ RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/
 #【直连规则】中国境内常用购物网站
 RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/direct_cn_shopping.list,DIRECT
 
+#【直连规则】中国影视娱乐
+RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/direct_cn_media.list,DIRECT
+
 
