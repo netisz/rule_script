@@ -56,6 +56,11 @@ https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/dire
 https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/reject_app_privacy.sgmodule
 ```
 
+【拦截过滤】广告
+```
+https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/reject_ad.sgmodule
+```
+
 - 规则
 ```
 https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/reject_app_privacy.list
