@@ -8,6 +8,9 @@
 
 [Rule]
 
+# Google
+RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/reject_ad_google.list,REJECT
+
 # 知乎
 RULE-SET,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Shadowrocket/ZhihuAds/ZhihuAds.list,REJECT
 
