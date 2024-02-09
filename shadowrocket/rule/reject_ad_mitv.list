@@ -1,0 +1,22 @@
+# NAME: 【拦截规则】小米电视广告
+# AUTHOR: 
+# REPO: 
+# UPDATED: 20240210
+# DOMAIN: 15
+# TOTAL: 15
+
+DOMAIN,ad.intl.xiaomi.com
+DOMAIN,ad.mi.com
+DOMAIN,ad.xiaomi.com
+DOMAIN,ad1.xiaomi.com
+DOMAIN,admob.xiaomi.com
+DOMAIN,adv.sec.intl.miui.com
+DOMAIN,adv.sec.miui.com
+DOMAIN,misc.in.duokanbox.com
+DOMAIN,mistat.xiaomi.com
+DOMAIN,tjqonline.cn
+DOMAIN,tracking.miui.com
+DOMAIN,ad.hpplay.cn
+DOMAIN,adeng.hpplay.cn
+DOMAIN,kuyun.com
+DOMAIN,umeng.com
