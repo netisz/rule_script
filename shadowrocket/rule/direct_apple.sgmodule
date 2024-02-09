@@ -4,7 +4,7 @@
 
 [Rule]
 
-RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/direcrt_apple.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/direct_apple.list,DIRECT
 
 #RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/iCloud/iCloud.list,DIRECT
 #RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/TestFlight/TestFlight.list,DIRECT
