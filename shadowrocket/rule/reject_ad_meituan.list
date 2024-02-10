@@ -27,13 +27,13 @@ IP-CIDR,203.76.217.243/32,no-resolve
 IP-CIDR,203.76.217.37/32,no-resolve
 IP-CIDR6,2405:1480:3000:303f::303f/128,no-resolve
 
-# 大众点评行为回报
+# 美团系用户行为上传
 URL-REGEX,^https:\/\/medusa\.dianping\.com\/sdk\/report
+URL-REGEX,^https:\/\/msp\.meituan\.com\/fingerprint\/v1\/notapp\/bio\/info\/report
 DOMAIN-SUFFIX,d.meituan.net
+DOMAIN-SUFFIX,dreport.meituan.net
 DOMAIN,lx0.meituan.com
-DOMAIN,data-sdk-uuid-report.dreport.meituan.net
-DOMAIN,dreport.meituan.net
-DOMAIN,data-sdk-uuid-log.d.meituan.net
+DOMAIN,hlx.meituan.com
 
 
 
