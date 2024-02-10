@@ -13,6 +13,8 @@ DOMAIN-SUFFIX,ut.taobao.com
 #DOMAIN-SUFFIX,adashx4ae.ut.taobao.com
 #DOMAIN-SUFFIX,adashxgc.ut.taobao.com
 
+DOMAIN-SUFFIX,log.aliyuncs.com
+
 DOMAIN,ossgw.alicdn.com
 DOMAIN,ems.youku.com
 DOMAIN,hudong.alicdn.com
