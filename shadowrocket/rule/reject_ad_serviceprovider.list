@@ -24,3 +24,19 @@ DOMAIN-SUFFIX,n0q.cn
 DOMAIN-SUFFIX,pushcfg.com
 DOMAIN-SUFFIX,s0n.cn
 
+# 快手联盟 - 广告服务商
+DOMAIN,open.e.kuaishou.com
+
+# 秒针系统 - 广告服务商
+DOMAIN-SUFFIX,miaozhen.com
+
+# 达佳互联 - 广告服务商
+DOMAIN-SUFFIX,adukwai.com
+
+# 艾狄墨搏 - 广告服务商
+DOMAIN,monitor.ssp.admobile.top
+DOMAIN,sdk.ssp.admobile.top
+DOMAIN-SUFFIX,admobile.top
+
+# 天目 - 广告服务商
+DOMAIN,sdk.tianmu.mobi
