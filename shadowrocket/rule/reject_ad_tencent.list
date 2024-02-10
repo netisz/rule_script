@@ -26,3 +26,7 @@ DOMAIN,mazu.m.qq.com
 DOMAIN,sdk.e.qq.com
 #DOMAIN-SUFFIX,gdt.qq.com
 
+# 手机QQ
+DOMAIN,adsmind.gdtimg.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN-SUFFIX,gdt.qq.com
