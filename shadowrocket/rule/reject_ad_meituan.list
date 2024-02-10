@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,d.meituan.net
 DOMAIN-SUFFIX,dreport.meituan.net
 DOMAIN,lx0.meituan.com
 DOMAIN,hlx.meituan.com
+DOMAIN,plx.meituan.com
 
 # 小象买菜 - 兜底TCP请求下发广告
 IP-CIDR,101.50.8.64/32,no-resolve
