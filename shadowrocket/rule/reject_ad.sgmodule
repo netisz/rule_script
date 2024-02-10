@@ -33,6 +33,9 @@ RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/
 # 美团广告
 RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/reject_ad_meituan.list,REJECT
 
+# 拼多多
+RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/reject_ad_pinduoduo.list,REJECT
+
 # 腾讯广告
 RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/reject_ad_tencent.list,REJECT
 
