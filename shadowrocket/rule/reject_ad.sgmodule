@@ -188,6 +188,9 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/r
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.wdk\.render\.querysinglepage - reject
 ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/show\.do - reject
 ^https?:\/\/act\.vip\.iqiyi\.com\/interact\/api\/v2\/show - reject
+^https?:\/\/static\.iqiyi\.com\/js\/common\/mars_v\.js - reject
+
+
 ^https?:\/\/ad\.lofter\.com\/.*yitou\/madr - reject
 ^https?:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/adv-filter\/AdInfoFilter\/getAdInfos$ - reject
 ^https?:\/\/adapi\.izuiyou\.com\/ - reject
