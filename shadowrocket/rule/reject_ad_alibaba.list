@@ -15,6 +15,8 @@ DOMAIN-SUFFIX,ut.taobao.com
 
 DOMAIN-SUFFIX,log.aliyuncs.com
 
+URL-REGEX,^https:\/\/gm\.mmstat\.com/cnux\.1\.0
+
 DOMAIN,ossgw.alicdn.com
 DOMAIN,ems.youku.com
 DOMAIN,hudong.alicdn.com
