@@ -1,0 +1,46 @@
+# NAME: 【拦截规则】广告服务商
+# AUTHOR: 
+# REPO:
+# UPDATED: 20240207
+
+
+# 通用广告
+DOMAIN-SUFFIX,doubleclick-cn.net
+DOMAIN-SUFFIX,doubleclick.net
+
+# 极光推送 - 广告服务商
+DOMAIN-SUFFIX,jiguang.cn
+DOMAIN-SUFFIX,jpush.cn
+DOMAIN-SUFFIX,jpush-ipv6.cn
+DOMAIN-SUFFIX,42r.cn
+DOMAIN-SUFFIX,5566ua.com
+DOMAIN-SUFFIX,aurorapush.cn
+DOMAIN-SUFFIX,e0n.cn
+DOMAIN-SUFFIX,japps.cn
+DOMAIN-SUFFIX,jchat.io
+DOMAIN-SUFFIX,jmlk.co
+DOMAIN-SUFFIX,jpush.io
+DOMAIN-SUFFIX,jpushoa.com
+DOMAIN-SUFFIX,jsurvey.cn
+DOMAIN-SUFFIX,jvoice.cn
+DOMAIN-SUFFIX,kc9.cn
+DOMAIN-SUFFIX,n0q.cn
+DOMAIN-SUFFIX,pushcfg.com
+DOMAIN-SUFFIX,s0n.cn
+
+# 快手联盟 - 广告服务商
+DOMAIN,open.e.kuaishou.com
+
+# 秒针系统 - 广告服务商
+DOMAIN-SUFFIX,miaozhen.com
+
+# 达佳互联 - 广告服务商
+DOMAIN-SUFFIX,adukwai.com
+
+# 艾狄墨搏 - 广告服务商
+#DOMAIN,monitor.ssp.admobile.top
+#DOMAIN,sdk.ssp.admobile.top
+DOMAIN-SUFFIX,admobile.top
+
+# 天目 - 广告服务商
+DOMAIN-SUFFIX,sdk.tianmu.mobi

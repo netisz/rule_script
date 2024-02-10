@@ -1,0 +1,12 @@
+# NAME: 【拦截规则】APP回传行为数据
+# AUTHOR: 
+# REPO:
+# UPDATED: 20240207
+
+
+#####################
+# 朴朴超市
+#####################
+DOMAIN-SUFFIX,bwy1.pupuapi.com
+#URL-REGEX,^https:\/\/bwy1\.pupuapi\.com\/bv\/i
+

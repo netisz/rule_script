@@ -1,0 +1,11 @@
+#!name = 【拦截过滤】APP回传行为数据
+#!desc = 拦截各类APP收集回传个人行为数据信息
+#!openUrl =
+#!author = 
+#!homepage =
+#!icon =
+#!date = 20240207
+
+[Rule]
+
+RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/ShadowRocket/Rule/Reject_App_Privacy.list,REJECT

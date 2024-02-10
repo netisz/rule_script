@@ -1,0 +1,10 @@
+# NAME: 【拦截规则】Spotify广告
+# AUTHOR: 
+# REPO: 
+# UPDATED: 20240210
+# DOMAIN: 3
+# TOTAL: 3
+
+DOMAIN-SUFFIX,adeventtracker.spotify.com
+DOMAIN-SUFFIX,adstudio-assets.scdn.co
+DOMAIN-SUFFIX,bloodhound.spotify.com
