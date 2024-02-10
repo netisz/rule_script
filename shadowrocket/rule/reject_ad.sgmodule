@@ -27,8 +27,11 @@ RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/
 # 爱奇艺广告
 RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/reject_ad_iqiyi.list,REJECT
 
-# 极光推送 - 广告服务商
-RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/reject_ad_jiguang.list,REJECT
+# 广告服务商
+RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/reject_ad_serviceprovider.list,REJECT
+
+# 美团广告
+RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/reject_ad_meituan.list,REJECT
 
 # 腾讯广告
 RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/reject_ad_tencent.list,REJECT
@@ -36,8 +39,8 @@ RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/
 # 喜马拉雅广告
 RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/reject_ad_ximalaya.list,REJECT
 
-# 小米电视广告
-RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/reject_ad_mitv.list,REJECT
+# 小米广告
+RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/reject_ad_xiaomi.list,REJECT
 
 # 知乎广告
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ZhihuAds/ZhihuAds.list,REJECT
@@ -50,19 +53,6 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/r
 
 
 
-# 快手联盟 - 广告服务商
-DOMAIN, open.e.kuaishou.com, REJECT
-
-# 秒针系统 - 广告服务商
-DOMAIN-SUFFIX, miaozhen.com, REJECT
-
-# 达佳互联 - 广告服务商
-DOMAIN-SUFFIX, adukwai.com, REJECT
-
-# 艾狄墨搏 - 广告服务商
-DOMAIN, monitor.ssp.admobile.top, REJECT
-DOMAIN, sdk.ssp.admobile.top, REJECT
-DOMAIN-SUFFIX, admobile.top, REJECT
 
 
 
@@ -70,25 +60,6 @@ DOMAIN-SUFFIX, admobile.top, REJECT
 
 
 
-# 天目 - 广告服务商
-DOMAIN, sdk.tianmu.mobi, REJECT
-
-
-
-
-# 手机QQ
-DOMAIN, adsmind.gdtimg.com, REJECT
-DOMAIN, pgdt.gtimg.cn, REJECT
-DOMAIN-SUFFIX, gdt.qq.com, REJECT
-
-
-
-# 美团
-DOMAIN, al-log.d.meituan.net, REJECT
-DOMAIN, babel-statistics-android.d.meituan.net, REJECT
-DOMAIN, maplocatesdksnapshot.d.meituan.net, REJECT
-DOMAIN, metrics-picture.d.meituan.net, REJECT
-DOMAIN, route-stats.d.meituan.net, REJECT
 
 # Outlook
 DOMAIN, acdn.adnxs.com, REJECT
@@ -107,16 +78,9 @@ URL-REGEX, ^http:\/\/mobilead\.kuwo\.cn\/EcomResourceServer, REJECT
 URL-REGEX, ^http:\/\/wapi\.kuwo\.cn\/openapi\/v1\/app\/startup, REJECT
 URL-REGEX, ^http:\/\/rich\.kuwo\.cn\/AdService, REJECT
 
-# 小米
-DOMAIN, sdkconfig.ad.xiaomi.com, REJECT-DROP
-DOMAIN, data.mistat.xiaomi.com, REJECT
-DOMAIN, tracking.intl.miui.com, REJECT
-# 米家
-DOMAIN, sdkconfig.ad.xiaomi.com, REJECT
 
-# 通用广告
-DOMAIN-SUFFIX, doubleclick-cn.net, REJECT
-DOMAIN-SUFFIX, doubleclick.net, REJECT
+
+
 
 # 虎牙直播开屏广告
 DOMAIN, business.msstatic.com, REJECT
@@ -141,19 +105,7 @@ IP-CIDR, 122.229.29.89/32, REJECT
 # 弃用地址
 DOMAIN, waapdg.jd.com, REJECT
 
-# 小象买菜 - 兜底TCP请求下发广告
-IP-CIDR, 101.50.8.64/32, REJECT, no-resolve
-IP-CIDR, 101.50.8.75/32, REJECT, no-resolve
-IP-CIDR, 103.37.152.161/32, REJECT, no-resolve
-IP-CIDR, 103.37.152.162/32, REJECT, no-resolve
-IP-CIDR, 103.63.160.64/32, REJECT, no-resolve
-IP-CIDR, 119.29.48.215/32, REJECT, no-resolve
-IP-CIDR, 119.29.48.215/32, REJECT, no-resolve
-IP-CIDR, 202.90.110.8/32, REJECT, no-resolve
-IP-CIDR, 203.76.217.241/32, REJECT, no-resolve
-IP-CIDR, 203.76.217.243/32, REJECT, no-resolve
-IP-CIDR, 203.76.217.37/32, REJECT, no-resolve
-IP-CIDR6, 2405:1480:3000:303f::303f/128, REJECT, no-resolve
+
 
 
 [Rewrite]
