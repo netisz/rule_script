@@ -10,3 +10,7 @@ DOMAIN-SUFFIX,union.baidu.com
 
 # 百度
 DOMAIN,sofire.baidu.com
+
+DOMAIN,mobads.baidu.com
+DOMAIN-SUFFIX,pos.baidu.com
+
