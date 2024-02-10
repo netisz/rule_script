@@ -7,15 +7,15 @@
 
 # 阿里巴巴
 
-#DOMAIN-SUFFIX, ut.taobao.com
+#DOMAIN-SUFFIX,ut.taobao.com
 DOMAIN-SUFFIX,adashbc.ut.taobao.com
 DOMAIN-SUFFIX,adash-c.ut.taobao.com
 DOMAIN-SUFFIX,adashx4ae.ut.taobao.com
 DOMAIN-SUFFIX,adashxgc.ut.taobao.com
 
-DOMAIN, ossgw.alicdn.com
-DOMAIN, ems.youku.com
-DOMAIN, hudong.alicdn.com
+DOMAIN,ossgw.alicdn.com
+DOMAIN,ems.youku.com
+DOMAIN,hudong.alicdn.com
 DOMAIN-SUFFIX,a.alimama.cn
 DOMAIN-SUFFIX,acjs.aliyun.com
 DOMAIN-SUFFIX,adash.m.taobao.com
