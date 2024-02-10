@@ -4,6 +4,10 @@
 # UPDATED: 20240207
 
 
+# 通用广告
+DOMAIN-SUFFIX,doubleclick-cn.net
+DOMAIN-SUFFIX,doubleclick.net
+
 # 极光推送 - 广告服务商
 DOMAIN-SUFFIX,jiguang.cn
 DOMAIN-SUFFIX,jpush.cn
