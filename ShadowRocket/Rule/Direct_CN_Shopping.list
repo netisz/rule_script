@@ -249,6 +249,7 @@ DOMAIN-SUFFIX,duolabao.com
 DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,kunluncan.com
 DOMAIN-SUFFIX,alikunlun.com
+DOMAIN-SUFFIX,tbcache.com
 
 # 淘天
 DOMAIN-KEYWORD,alibaba
@@ -330,11 +331,20 @@ DOMAIN-SUFFIX,dingtalk.com
 DOMAIN-SUFFIX,ddurl.to
 DOMAIN-SUFFIX,alibabadns.com
 
-DOMAIN-SUFFIX,tbcache.com
 DOMAIN-SUFFIX,aliapp.org
 DOMAIN-SUFFIX,queniuak.com
 DOMAIN-SUFFIX,effirst.com
 
+# 菜鸟驿站
+DOMAIN-SUFFIX,cainiao.com
+DOMAIN-SUFFIX,cainiao.com.cn
+DOMAIN-SUFFIX,56che.com
+DOMAIN-SUFFIX,cainiao-inc.cn
+DOMAIN-SUFFIX,cainiao-inc.com
+DOMAIN-SUFFIX,cainiao-inc.net
+DOMAIN-SUFFIX,cainiaoyizhan.com
+DOMAIN-SUFFIX,guoguo-app.com
+DOMAIN-SUFFIX,xiaog.xyz
 
 #
 DOMAIN-KEYWORD,litetaobao-app
@@ -344,8 +354,10 @@ DOMAIN-SUFFIX,ltao.com
 URL-REGEX,litetaobao-app
 URL-REGEX,ltao-user-growth-internet
 DOMAIN-SUFFIX,1688.com
+
+# 咸鱼
 DOMAIN-SUFFIX,goofish.com
-DOMAIN-SUFFIX,cainiao.com
+
 
 # 饿了么
 DOMAIN-SUFFIX,ele.me
