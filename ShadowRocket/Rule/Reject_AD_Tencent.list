@@ -30,3 +30,12 @@ DOMAIN,sdk.e.qq.com
 DOMAIN,adsmind.gdtimg.com
 DOMAIN,pgdt.gtimg.cn
 DOMAIN-SUFFIX,gdt.qq.com
+
+
+# QQ
+# QQ钱包广告 //m.qianbao.qq.com
+URL-REGEX,^https:\/\/m\.qianbao\.qq\.com\/services\/walletHome\/getQQshopData\?
+URL-REGEX,^https:\/\/m\.qianbao\.qq\.com\/services\/walletHome\/getGameData\?
+
+# QQ钱包公益广告
+URL-REGEX,^https:\/\/m\.qianbao\.qq\.com\/services\/walletHome\/getFootData\?
