@@ -1,0 +1,20 @@
+# NAME: 【拦截规则】运营商广告
+# AUTHOR: 
+# REPO:
+# UPDATED: 20240211
+
+
+# 中国移动
+IP-CIDR,120.240.95.37/32
+
+# 中国联通
+DOMAIN-SUFFIX,m1.ad.10010.com
+
+# 中国电信
+DOMAIN,ad.21cn.com
+DOMAIN,ad.k.21cn.com
+DOMAIN,admarket.21cn.com
+DOMAIN,adshows.21cn.com
+IP-CIDR,122.229.8.47/32
+IP-CIDR,122.229.29.89/32
+
