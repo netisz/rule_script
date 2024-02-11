@@ -9,4 +9,7 @@
 [Rule]
 
 # 直连规则
-RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/ShadowRocket/Rule/Direct_COM_Microsoft.list,DIRECT
+#RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/ShadowRocket/Rule/Direct_COM_Microsoft.list,DIRECT
+
+DOMAIN-SUFFIX,microsoftonline.com,DIRECT
+DOMAIN-SUFFIX,microsoft.com,DIRECT
