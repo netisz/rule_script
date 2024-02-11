@@ -7,18 +7,28 @@
 
 # 阿里巴巴
 
+# 用户隐私数据回传
 DOMAIN-SUFFIX,ut.taobao.com
-#DOMAIN-SUFFIX,adashbc.ut.taobao.com
-#DOMAIN-SUFFIX,adash-c.ut.taobao.com
-#DOMAIN-SUFFIX,adashx4ae.ut.taobao.com
-#DOMAIN-SUFFIX,adashxgc.ut.taobao.com
-
-DOMAIN-SUFFIX,log.aliyuncs.com
-
+DOMAIN-SUFFIX,tanx.com
+DOMAIN,log.aliyuncs.com
+DOMAIN,err.taobao.com
+DOMAIN,wgo.mmstat.com
+DOMAIN,log.mmstat.com
+DOMAIN,px.effirst.com
+DOMAIN,agoo-report.m.taobao.com
+DOMAIN,ems.youku.com
+DOMAIN,ipm.atm.youku.com
+DOMAIN,dualstack-logs.amap.com
 URL-REGEX,^https:\/\/gm\.mmstat\.com/cnux\.1\.0
+#URL-REGEX,^https:\/\/ifs\.tanx\.com\/display_ifs
+URL-REGEX,^https:\/\/px\.ucweb\.com\/api\/v1\/raw\/upload
+
+
+# 开屏广告
+URL-REGEX,^https:\/\/iyes\.youku\.com\/uts\/v1\/start\/pre
+URL-REGEX,^https:\/\/iyes\.youku\.com\/uts\/v1\/start\/rt
 
 DOMAIN,ossgw.alicdn.com
-DOMAIN,ems.youku.com
 DOMAIN,hudong.alicdn.com
 DOMAIN-SUFFIX,a.alimama.cn
 DOMAIN-SUFFIX,acjs.aliyun.com
