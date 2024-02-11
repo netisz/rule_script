@@ -1,6 +1,10 @@
 #!name=【直连策略】Apple公司
 #!desc=Description Here
-
+#!openUrl =
+#!author = 
+#!homepage =
+#!icon =
+#!date = 20240211
 
 [Rule]
 
