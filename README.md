@@ -1,78 +1,33 @@
 # rule_script
 
-## 直连
+## ShadowRocket
 
-- 模块
+### 模块
 
-【直连策略】Apple公司
+- 【拦截过滤】广告
 ```
-https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/direct_apple.sgmodule
-```
-
-【直连策略】中国境内常用规则
-```
-https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/direct_cn.sgmodule
+https://raw.githubusercontent.com/netisz/rule_script/main/ShadowRocket/Module/Reject_AD.sgmodule
 ```
 
-【直连策略】中国境内IP地址
+- 【拦截过滤】APP回传行为数据
 ```
-https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/direct_cn_ip.sgmodule
-```
-
-- 规则
-
-【直连规则】中国境内常用域名
-```
-https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/direct_cn_base.list
+https://raw.githubusercontent.com/netisz/rule_script/main/ShadowRocket/Module/Reject_App_Privacy.sgmodule
 ```
 
-【直连规则】中国境内常用购物网站
+- 【直连策略】中国IP地址
 ```
-https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/direct_cn_shopping.list
-```
-
-【直连规则】中国影视娱乐
-```
-https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/direct_cn_media.list
+https://raw.githubusercontent.com/netisz/rule_script/main/ShadowRocket/Module/Direct_CN_IP.sgmodule
 ```
 
-【直连规则】中国境内IPv4地址
+- 【直连策略】中国常用域名
 ```
-https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/direct_cn_ipv4.list
-```
-
-【直连规则】中国境内IPv6地址
-```
-https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/direct_cn_ipv6.list
+https://raw.githubusercontent.com/netisz/rule_script/main/ShadowRocket/Module/Direct_CN.sgmodule
 ```
 
-
-
-
-
-
-
-## 拦截
-
-### 拦截各种 App 报告回传
-
-- 模块
+- 【直连策略】Apple公司
 ```
-https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/reject_app_privacy.sgmodule
+https://raw.githubusercontent.com/netisz/rule_script/main/ShadowRocket/Module/Direct_Apple.sgmodule
 ```
 
-【拦截过滤】广告
-```
-https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/reject_ad.sgmodule
-```
-
-- 规则
-```
-https://raw.githubusercontent.com/netisz/rule_script/main/shadowrocket/rule/reject_app_privacy.list
-```
-
-
-
-
-
+### 规则
 
