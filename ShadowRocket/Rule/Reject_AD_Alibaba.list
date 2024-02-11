@@ -29,9 +29,10 @@ URL-REGEX,^https:\/\/gw\.alicdn\.com\/tfs\/.+\d{3,4}-\d{4}
 URL-REGEX,^https:\/\/gw\.alicdn\.com\/tps\/.+\d{3,4}-\d{4}
 URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome
 
-# 开屏广告
-URL-REGEX,^https:\/\/iyes\.youku\.com\/uts\/v1\/start\/pre
-URL-REGEX,^https:\/\/iyes\.youku\.com\/uts\/v1\/start\/rt
+# 闲鱼 - 开屏广告
+URL-REGEX,^https:\/\/iyes\.youku\.com\/uts\/v1\/start\/
+# 闲鱼 - 底部浮层发布球
+URL-REGEX,^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.user\.strategy\.get\/
 
 DOMAIN,ossgw.alicdn.com
 DOMAIN,hudong.alicdn.com
