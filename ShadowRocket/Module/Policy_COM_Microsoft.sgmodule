@@ -1,4 +1,4 @@
-#!name=【直连策略】Microsoft公司
+#!name=【路由策略】Microsoft公司
 #!desc=Description Here
 #!openUrl =
 #!author = 
@@ -8,4 +8,5 @@
 
 [Rule]
 
+# 直连规则
 RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/ShadowRocket/Rule/Direct_COM_Microsoft.list,DIRECT
