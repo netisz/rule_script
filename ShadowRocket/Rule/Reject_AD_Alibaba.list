@@ -23,6 +23,11 @@ URL-REGEX,^https:\/\/gm\.mmstat\.com/cnux\.1\.0
 #URL-REGEX,^https:\/\/ifs\.tanx\.com\/display_ifs
 URL-REGEX,^https:\/\/px\.ucweb\.com\/api\/v1\/raw\/upload
 
+# 闲鱼 //gw.alicdn.com, acs.m.taobao.com
+URL-REGEX,^https:\/\/gw\.alicdn\.com\/mt\/
+URL-REGEX,^https:\/\/gw\.alicdn\.com\/tfs\/.+\d{3,4}-\d{4}
+URL-REGEX,^https:\/\/gw\.alicdn\.com\/tps\/.+\d{3,4}-\d{4}
+URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome
 
 # 开屏广告
 URL-REGEX,^https:\/\/iyes\.youku\.com\/uts\/v1\/start\/pre
