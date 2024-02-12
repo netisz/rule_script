@@ -8,13 +8,13 @@
 
 [Rule]
 #DOMAIN, api.m.jd.com, REJECT
-URL-REGEX, ^https:\/\/api\.m\.jd\.com\/\?appid=yinliu.*, REJECT
+URL-REGEX, ^https:\/\/api\.m\.jd\.com\/\?appid=yinliu, REJECT
 
 GEOIP,cn,DIRECT
 
 [Rewrite]
 # test for head banner
-^https:\/\/api\.m\.jd\.com\/\?appid=yinliu reject
+#^https:\/\/api\.m\.jd\.com\/\?appid=yinliu reject
 
 
 [Mitm]
