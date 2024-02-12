@@ -19,4 +19,4 @@ URL-REGEX, ^https:\/\/mapi\.m\.jd\.com\/commonHeader\/headerInfo\.action, REJECT
 
 
 [Mitm]
-hostname = api.m.jd.com
+hostname = *.m.jd.com
