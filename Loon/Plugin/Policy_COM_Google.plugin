@@ -56,6 +56,11 @@ DOMAIN-SUFFIX,analytics.google.com,REJECT
 
 DOMAIN-KEYWORD,adservice.google,REJECT
 
+# 代理
+DOMAIN-KEYWORD,gmail,PROXY
+DOMAIN-KEYWORD,google,PROXY
+DOMAIN-KEYWORD,youtube,PROXY
+
 [Rewrite]
 #^https:\/\/api\.m\.jd\.com\/\?appid=yinliu.* reject-dict
 # Redirect Google Search Service
