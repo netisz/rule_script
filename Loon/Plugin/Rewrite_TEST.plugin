@@ -7,6 +7,7 @@
 #!date = 20240212
 
 [Rule]
+DOMAIN, api.m.jd.com, REJECT
 URL-REGEX, ^https:\/\/api\.m\.jd\.com\/\?appid=yinliu.*, REJECT
 
 GEOIP,cn,DIRECT
