@@ -10,7 +10,7 @@
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
 
 [URL Rewrite]
-^https:\/\/api\.m\.jd\.com\.gslb\.qianxun\.com\/ware\/price\/getPriceInfo - reject-dict
+^https:\/\/api\.m\.jd\.com\/ware\/price\/getPriceInfo - reject-dict
 
 
 
