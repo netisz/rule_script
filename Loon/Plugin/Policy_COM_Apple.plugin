@@ -12,6 +12,7 @@
 #RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/ShadowRocket/Rule/Direct_COM_Apple.list,DIRECT
 
 DOMAIN-SUFFIX,apple.com,DIRECT
+DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,appleschoolcontent.com,DIRECT
 DOMAIN-SUFFIX,axm-usercontent-apple.com,DIRECT
 DOMAIN-SUFFIX,qtlcdn.com,DIRECT
