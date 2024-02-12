@@ -1,22 +1,20 @@
-#!name = Rewrite_TEST
-#!desc = ajax denied request for TEST 
+#!name = 【拦截规则】京东
+#!desc = 
 #!openUrl = 
-#!author = Anonymous
+#!author = 
 #!homepage = 
 #!icon = 
-#!date = 20240212
+#!date = 20240213
 
 [Rule]
-#DOMAIN, api.m.jd.com, REJECT
+
+# 在使用 html5 浏览页面时在屏幕上方的打开京东的引流栏
 URL-REGEX, ^https:\/\/api\.m\.jd\.com\/\?appid=yinliu, REJECT
 URL-REGEX, ^https:\/\/mapi\.m\.jd\.com\/commonHeader\/headerInfo\.action, REJECT
 
-#GEOIP,cn,DIRECT
-
-[Rewrite]
+#[Rewrite]
 # test for head banner
 #^https:\/\/api\.m\.jd\.com\/\?appid=yinliu reject
 
-
 [Mitm]
-hostname = *.m.jd.com
+hostname = api.m.jd.com,mapi.m.jd.com
