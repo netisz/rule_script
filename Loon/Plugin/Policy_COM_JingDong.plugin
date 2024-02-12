@@ -8,6 +8,10 @@
 
 [Rule]
 
+# 屏蔽在使用移动端 html5 浏览页面时在屏幕上方的打开京东的引流栏
+URL-REGEX, ^https:\/\/api\.m\.jd\.com\/\?appid=yinliu, REJECT
+URL-REGEX, ^https:\/\/mapi\.m\.jd\.com\/commonHeader\/headerInfo\.action, REJECT
+
 # 直连域名
 DOMAIN-SUFFIX,1huizhan.com,DIRECT
 DOMAIN-SUFFIX,3.cn,DIRECT
@@ -240,9 +244,7 @@ DOMAIN-SUFFIX,yihaodianimg.com,DIRECT
 DOMAIN-SUFFIX,yiyaojd.com,DIRECT
 DOMAIN-SUFFIX,yizhitou.com,DIRECT
 
-# 屏蔽在使用移动端 html5 浏览页面时在屏幕上方的打开京东的引流栏
-URL-REGEX, ^https:\/\/api\.m\.jd\.com\/\?appid=yinliu, REJECT
-URL-REGEX, ^https:\/\/mapi\.m\.jd\.com\/commonHeader\/headerInfo\.action, REJECT
+
 
 #[Rewrite]
 # test for head banner
