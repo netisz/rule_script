@@ -9,6 +9,8 @@
 [Rule]
 URL-REGEX, ^https:\/\/api\.m\.jd\.com\/\?appid=yinliu.*, REJECT
 
+GEOIP,cn,DIRECT
+
 [Rewrite]
 # test for head banner
 ^https:\/\/api\.m\.jd\.com\/\?appid=yinliu reject
