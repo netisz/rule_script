@@ -1,0 +1,18 @@
+#!name=Rewrite_TEST
+#!desc=
+#!author=blackmatrix7
+#!repo=https://github.com/blackmatrix7/ios_rule_script
+#!reject=
+#!mitm=
+#!total=
+
+[General]
+force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
+
+[URL Rewrite]
+^https:\/\/api\.m\.jd\.com\.gslb\.qianxun\.com\/ware\/price\/getPriceInfo - reject-dict
+
+
+
+[MITM]
+hostname = %APPEND% api.m.jd.com
