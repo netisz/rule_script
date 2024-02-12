@@ -1,8 +1,8 @@
 #!url=https://raw.githubusercontent.com/netisz/rule_script/main/ShadowRocket/Module/Rewrite_TEST.sgmodule
 #!name=Rewrite_TEST
 #!desc=
-#!author=blackmatrix7
-#!repo=https://github.com/netisz/rule_scrip
+#!author=Anonymous
+#!repo=
 #!reject=
 #!mitm=
 #!total=
@@ -13,9 +13,8 @@
 force-http-engine-hosts = %APPEND% *.ott.cibntv.net,intl.iqiyi.com,maicai.api.ddxq.mobi,mobileapi-v6.elong.com,weibointl.api.weibo.cn,wmapi.meituan.com
 
 [URL Rewrite]
-^https:\/\/api\.m\.jd\.com\/ware\/price\/getPriceInfo - reject-dict
-
-
+#^https:\/\/api\.m\.jd\.com\/ware\/price\/getPriceInfo - reject-dict
+^https:\/\/api\.m\.jd\.com\/\?appid=yinliu - reject-dict
 
 [MITM]
 hostname = %APPEND% api.m.jd.com
