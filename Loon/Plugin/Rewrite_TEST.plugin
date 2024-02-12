@@ -1,0 +1,17 @@
+#!name = Rewrite_TEST
+#!desc = ajax denied request for TEST 
+#!openUrl = 
+#!author = Anonymous
+#!homepage = 
+#!icon = 
+#!date = 20240212
+
+[Rule]
+
+[Rewrite]
+# test for head banner
+^https:\/\/api\.m\.jd\.com\/\?appid=yinliu reject
+
+
+[Mitm]
+hostname = %APPEND% api.m.jd.com
