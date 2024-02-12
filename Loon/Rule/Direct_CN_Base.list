@@ -1,0 +1,39 @@
+# NAME: 【直连规则】中国境内常用域名
+# AUTHOR: 
+# REPO:
+# UPDATED: 20240207
+
+#####################
+# 基础
+#####################
+DOMAIN-SUFFIX,cn
+GEOIP,CN
+
+#####################
+# 百度
+#####################
+DOMAIN-SUFFIX,baidu.com
+
+# CDN
+DOMAIN-SUFFIX, jsdelivr.net 
+
+#####################
+# 腾讯
+#####################
+DOMAIN-SUFFIX,qq.com
+
+#####################
+# 微信
+#####################
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,tencentcloudapi.com
+DOMAIN-SUFFIX,weixinbridge.com
+DOMAIN-SUFFIX,wxworklive.com
+DOMAIN-SUFFIX,ovscdns.net
+DOMAIN-SUFFIX,ovscdns.com
+DOMAIN-SUFFIX,dcloudstc.com
+DOMAIN-SUFFIX,tdnsv6.com
+DOMAIN-SUFFIX,tdnsv15.com
+DOMAIN-SUFFIX,gtimg.com
