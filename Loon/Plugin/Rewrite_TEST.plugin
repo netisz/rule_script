@@ -11,7 +11,7 @@
 URL-REGEX, ^https:\/\/api\.m\.jd\.com\/\?appid=yinliu, REJECT
 URL-REGEX, ^https:\/\/mapi\.m\.jd\.com\/commonHeader\/headerInfo\.action, REJECT
 
-GEOIP,cn,DIRECT
+#GEOIP,cn,DIRECT
 
 [Rewrite]
 # test for head banner
