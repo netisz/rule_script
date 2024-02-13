@@ -48,7 +48,7 @@ DOMAIN, aegis.qq.com, REJECT-NO-DROP
 DOMAIN, dm.video.qq.com, REJECT-NO-DROP
 # 腾讯视频广告
 URL-REGEX, ^https:\/\/pbaccess\.video\.qq\.com\/trpc\.iwan\.pc_video_play_page_svr\.PcVideoPlayPageSvr\/GetSideResourceModule, REJECT-NO-DROP
-URL-REGEX, ^https:\/\/pbaccess\.video\.qq\.com\/trpc\.vector_layout\.page_view\.PageService\/getPage, REJECT-NO-DROP
+#URL-REGEX, ^https:\/\/pbaccess\.video\.qq\.com\/trpc\.vector_layout\.page_view\.PageService\/getPage, REJECT-NO-DROP
 
 # QQ
 # QQ钱包广告 //m.qianbao.qq.com
