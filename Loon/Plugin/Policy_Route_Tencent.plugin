@@ -46,7 +46,8 @@ DOMAIN, h.trace.qq.com, REJECT-NO-DROP
 DOMAIN, aegis.qq.com, REJECT-NO-DROP
 # 腾讯视频弹幕
 DOMAIN, dm.video.qq.com, REJECT-NO-DROP
-
+# 腾讯视频广告
+URL-REGEX, ^https:\/\/pbaccess\.video\.qq\.com\/trpc\.iwan\.pc_video_play_page_svr\.PcVideoPlayPageSvr\/GetSideResourceModule, REJECT-NO-DROP
 
 # QQ
 # QQ钱包广告 //m.qianbao.qq.com
@@ -80,4 +81,4 @@ DOMAIN-SUFFIX, gtimg.com, DIRECT
 
 
 [Mitm]
-hostname = m.qianbao.qq.com
+hostname = m.qianbao.qq.com, pbaccess.video.qq.com
