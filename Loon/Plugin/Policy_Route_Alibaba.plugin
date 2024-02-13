@@ -27,6 +27,10 @@ DOMAIN, ossgw.alicdn.com, REJECT-NO-DROP
 DOMAIN, ems.youku.com, REJECT-NO-DROP
 DOMAIN, hudong.alicdn.com, REJECT-NO-DROP
 
+# 优酷 
+URL-REGEX, ^https:\/\/gm\.mmstat\.com\/yt\/youku\.pcweb\.control, REJECT-NO-DROP
+
+#
 URL-REGEX, ^https:\/\/gm\.mmstat\.com/cnux\.1\.0, REJECT-NO-DROP
 URL-REGEX, ^https:\/\/ifs\.tanx\.com\/display_ifs, REJECT-NO-DROP
 URL-REGEX, ^https:\/\/px\.ucweb\.com\/api\/v1\/raw\/upload, REJECT-NO-DROP
@@ -220,4 +224,4 @@ DOMAIN-SUFFIX, ykimg.com, DIRECT
 DOMAIN-SUFFIX, aliapp.org, DIRECT
 
 [Mitm]
-hostname = acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, gm.mmstat.com, ifs.tanx.com, gm.mmstat.com, iyes.youku.com
+hostname = acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, gm.mmstat.com, ifs.tanx.com, iyes.youku.com
