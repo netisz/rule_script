@@ -13,28 +13,28 @@
 ##########################################
 
 # 用户行为数据回传
-DOMAIN-SUFFIX, ut.taobao.com, REJECT
-DOMAIN-SUFFIX, tanx.com, REJECT
-DOMAIN, log.aliyuncs.com, REJECT
-DOMAIN, wgo.mmstat.com, REJECT
-DOMAIN, log.mmstat.com, REJECT
-DOMAIN, px.effirst.com, REJECT
-DOMAIN, agoo-report.m.taobao.com, REJECT
-DOMAIN, ipm.atm.youku.com, REJECT
-DOMAIN, dualstack-logs.amap.com, REJECT
-DOMAIN, adashx.m.taobao.com, REJECT
-DOMAIN, ossgw.alicdn.com, REJECT
-DOMAIN, ems.youku.com, REJECT
-DOMAIN, hudong.alicdn.com, REJECT
+DOMAIN-SUFFIX, ut.taobao.com, REJECT-NO-DROP
+DOMAIN-SUFFIX, tanx.com, REJECT-NO-DROP
+DOMAIN, log.aliyuncs.com, REJECT-NO-DROP
+DOMAIN, wgo.mmstat.com, REJECT-NO-DROP
+DOMAIN, log.mmstat.com, REJECT-NO-DROP
+DOMAIN, px.effirst.com, REJECT-NO-DROP
+DOMAIN, agoo-report.m.taobao.com, REJECT-NO-DROP
+DOMAIN, ipm.atm.youku.com, REJECT-NO-DROP
+DOMAIN, dualstack-logs.amap.com, REJECT-NO-DROP
+DOMAIN, adashx.m.taobao.com, REJECT-NO-DROP
+DOMAIN, ossgw.alicdn.com, REJECT-NO-DROP
+DOMAIN, ems.youku.com, REJECT-NO-DROP
+DOMAIN, hudong.alicdn.com, REJECT-NO-DROP
 
-URL-REGEX, ^https:\/\/gm\.mmstat\.com/cnux\.1\.0, REJECT
-URL-REGEX, ^https:\/\/ifs\.tanx\.com\/display_ifs, REJECT
-URL-REGEX, ^https:\/\/px\.ucweb\.com\/api\/v1\/raw\/upload, REJECT
+URL-REGEX, ^https:\/\/gm\.mmstat\.com/cnux\.1\.0, REJECT-NO-DROP
+URL-REGEX, ^https:\/\/ifs\.tanx\.com\/display_ifs, REJECT-NO-DROP
+URL-REGEX, ^https:\/\/px\.ucweb\.com\/api\/v1\/raw\/upload, REJECT-NO-DROP
 
 # 咸鱼开屏广告下发
 # DOMAIN, iyes.youku.com, REJECT
-URL-REGEX, ^https:\/\/iyes\.youku\.com\/uts\/v1\/start\/pre, REJECT-DICT
-URL-REGEX, ^https:\/\/iyes\.youku\.com\/uts\/v1\/start\/rt, REJECT-DICT
+URL-REGEX, ^https:\/\/iyes\.youku\.com\/uts\/v1\/start\/pre, REJECT-NO-DROP
+URL-REGEX, ^https:\/\/iyes\.youku\.com\/uts\/v1\/start\/rt, REJECT-NO-DROP
 
 # 阿里巴巴
 URL-REGEX, ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict), REJECT-DICT
