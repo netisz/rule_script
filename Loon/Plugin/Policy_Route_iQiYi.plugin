@@ -33,17 +33,12 @@ DOMAIN-SUFFIX, yuedu.iqiyi.com, REJECT-NO-DROP
 
 DOMAIN, msg.qy.net, REJECT-NO-DROP
 DOMAIN, oaa.iqiyi.com, REJECT-NO-DROP
+#URL-REGEX, ^https:\/\/
 
-#URL-REGEX, ^https:\/\/oaa\.iqiyi\.com\/health, REJECT-NO-DROP
-#https://oaa.iqiyi.com/trace
-
-#URL-REGEX, ^https:\/\/msg\.qy\.net\/qos, REJECT-NO-DROP
-
-#https://msg.qy.net/cp2.gif
 
 # 直连规则
 DOMAIN-SUFFIX, iqiyi.com, DIRECT
 DOMAIN-SUFFIX, iqiyipic.com, DIRECT
 
 [Mitm]
-hostname = oaa.iqiyi.com, msg.qy.net
+hostname = static.iqiyi.com
