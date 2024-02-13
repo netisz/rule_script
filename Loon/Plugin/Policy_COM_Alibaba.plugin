@@ -31,6 +31,11 @@ URL-REGEX,^https:\/\/gm\.mmstat\.com/cnux\.1\.0, REJECT
 URL-REGEX,^https:\/\/ifs\.tanx\.com\/display_ifs, REJECT
 URL-REGEX,^https:\/\/px\.ucweb\.com\/api\/v1\/raw\/upload, REJECT
 
+# 咸鱼开屏广告下发
+# DOMAIN, iyes.youku.com, REJECT
+URL-REGEX,^https:\/\/iyes\.youku\.com\/uts\/v1\/start\/pre, REJECT-DICT
+URL-REGEX,^https:\/\/iyes\.youku\.com\/uts\/v1\/start\/rt, REJECT-DICT
+
 # 阿里巴巴
 URL-REGEX, ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict), REJECT-DICT
 URL-REGEX, ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv, REJECT-DICT
@@ -209,4 +214,4 @@ DOMAIN-SUFFIX,luohanacademy.com,DIRECT
 DOMAIN-SUFFIX,sinopayment.com.cn
 
 [Mitm]
-hostname = acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, gm.mmstat.com, ifs.tanx.com, gm.mmstat.com
+hostname = acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, gm.mmstat.com, ifs.tanx.com, gm.mmstat.com, iyes.youku.com
