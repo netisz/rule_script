@@ -1,0 +1,77 @@
+#!name = 【路由策略】腾讯
+#!desc = 腾讯旗下QQ，微信的直连，屏蔽广告的策略
+#!openUrl = 
+#!author = 
+#!homepage = 
+#!icon = 
+#!date = 20240214
+
+[Rule]
+
+##########################################
+# 拦截规则
+##########################################
+
+# 用户行为数据回传
+DOMAIN-SUFFIX, a.ckm.iqiyi.com, REJECT-NO-DROP
+DOMAIN-SUFFIX, ad.m.iqiyi.com, REJECT-NO-DROP
+
+# 腾讯
+DOMAIN, adsmind.gdtimg.com, REJECT-NO-DROP
+DOMAIN, info4.video.qq.com, REJECT-NO-DROP
+DOMAIN, info6.video.qq.com, REJECT-NO-DROP
+DOMAIN, ios.video.mpush.qq.com, REJECT-NO-DROP
+DOMAIN, otheve.beacon.qq.com, REJECT-NO-DROP
+DOMAIN, pgdt.gtimg.cn, REJECT-NO-DROP
+DOMAIN, tmead.y.qq.com, REJECT-NO-DROP
+DOMAIN, tmeadbak.y.qq.com, REJECT-NO-DROP
+DOMAIN, tmeadcomm.y.qq.com, REJECT-NO-DROP
+DOMAIN, tpns.qq.com, REJECT-NO-DROP
+DOMAIN-SUFFIX, l.qq.com, REJECT-NO-DROP
+DOMAIN-KEYWORD, trace.qq.com, REJECT-NO-DROP
+DOMAIN-KEYWORD, trace.video.qq.com, REJECT-NO-DROP
+IP-CIDR, 47.110.187.87/32, REJECT-NO-DROP
+DOMAIN-SUFFIX, gdt.qq.com, REJECT-NO-DROP
+
+# 腾讯优量汇 - 广告服务商
+DOMAIN, mazu.m.qq.com, REJECT-NO-DROP
+DOMAIN, sdk.e.qq.com, REJECT-NO-DROP
+
+# 手机QQ
+DOMAIN, adsmind.gdtimg.com, REJECT-NO-DROP
+DOMAIN, pgdt.gtimg.cn, REJECT-NO-DROP
+
+
+# QQ
+# QQ钱包广告 //m.qianbao.qq.com
+URL-REGEX, ^https:\/\/m\.qianbao\.qq\.com\/services\/walletHome\/getQQshopData, REJECT-NO-DROP
+URL-REGEX, ^https:\/\/m\.qianbao\.qq\.com\/services\/walletHome\/getGameData, REJECT-NO-DROP
+
+# QQ钱包公益广告
+URL-REGEX, ^https:\/\/m\.qianbao\.qq\.com\/services\/walletHome\/getFootData, REJECT-NO-DROP
+
+
+##########################################
+# 直连规则
+##########################################
+
+# QQ
+DOMAIN-SUFFIX, qq.com, DIRECT
+
+# 微信
+DOMAIN-SUFFIX, servicewechat.com, DIRECT
+DOMAIN-SUFFIX, wechat.com, DIRECT
+DOMAIN-SUFFIX, tencent.com, DIRECT
+DOMAIN-SUFFIX, tencentcloudapi.com, DIRECT
+DOMAIN-SUFFIX, weixinbridge.com, DIRECT
+DOMAIN-SUFFIX, wxworklive.com, DIRECT
+DOMAIN-SUFFIX, ovscdns.net, DIRECT
+DOMAIN-SUFFIX, ovscdns.com, DIRECT
+DOMAIN-SUFFIX, dcloudstc.com, DIRECT
+DOMAIN-SUFFIX, tdnsv6.com, DIRECT
+DOMAIN-SUFFIX, tdnsv15.com, DIRECT
+DOMAIN-SUFFIX, gtimg.com, DIRECT
+
+
+[Mitm]
+hostname = m.qianbao.qq.com
