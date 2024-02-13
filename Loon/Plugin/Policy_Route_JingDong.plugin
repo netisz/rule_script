@@ -9,15 +9,15 @@
 [Rule]
 
 # 屏蔽在使用移动端 html5 浏览页面时在屏幕上方的打开京东的引流栏
-URL-REGEX, ^https:\/\/api\.m\.jd\.com\/\?appid=yinliu, REJECT-DROP
-URL-REGEX, ^https:\/\/mapi\.m\.jd\.com\/commonHeader\/headerInfo\.action, REJECT-DROP
+URL-REGEX, ^https:\/\/api\.m\.jd\.com\/\?appid=yinliu, REJECT-NO-DROP
+URL-REGEX, ^https:\/\/mapi\.m\.jd\.com\/commonHeader\/headerInfo\.action, REJECT-NO-DROP
 
-URL-REGEX, ^https:\/\/h5speed\.m\.jd\.com\/v2\/speed\/event, REJECT-DROP
-URL-REGEX, ^https:\/\/h5speed\.m\.jd\.com\/v3\/exception, REJECT-DROP
-URL-REGEX, ^https:\/\/knicks\.jd\.com\/log\/server, REJECT-DROP
+URL-REGEX, ^https:\/\/h5speed\.m\.jd\.com\/v2\/speed\/event, REJECT-NO-DROP
+URL-REGEX, ^https:\/\/h5speed\.m\.jd\.com\/v3\/exception, REJECT-NO-DROP
+URL-REGEX, ^https:\/\/knicks\.jd\.com\/log\/server, REJECT-NO-DROP
 
-DOMAIN, hermes.jd.com, REJECT-DROP
-DOMAIN, uranus.jd.com, REJECT-DROP
+DOMAIN, hermes.jd.com, REJECT-NO-DROP
+DOMAIN, uranus.jd.com, REJECT-NO-DROP
 
 # 直连域名
 DOMAIN-SUFFIX,1huizhan.com,DIRECT
