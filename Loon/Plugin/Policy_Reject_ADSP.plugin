@@ -44,5 +44,11 @@ DOMAIN-SUFFIX, adukwai.com, REJECT
 # 艾狄墨搏 - 广告服务商
 DOMAIN-SUFFIX, admobile.top, REJECT
 
+# 朴朴超市
+DOMAIN-SUFFIX,bwy1.pupuapi.com
+#URL-REGEX,^https:\/\/bwy1\.pupuapi\.com\/bv\/i
+
+
+
 # 天目 - 广告服务商
 DOMAIN-SUFFIX, sdk.tianmu.mobi, REJECT
