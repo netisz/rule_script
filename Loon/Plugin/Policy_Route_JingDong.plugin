@@ -9,11 +9,11 @@
 [Rule]
 
 # 屏蔽在使用移动端 html5 浏览页面时在屏幕上方的打开京东的引流栏
-URL-REGEX, ^https:\/\/api\.m\.jd\.com\/\?appid=yinliu, REJECT
-URL-REGEX, ^https:\/\/mapi\.m\.jd\.com\/commonHeader\/headerInfo\.action, REJECT
+URL-REGEX, ^https:\/\/api\.m\.jd\.com\/\?appid=yinliu, REJECT-DROP
+URL-REGEX, ^https:\/\/mapi\.m\.jd\.com\/commonHeader\/headerInfo\.action, REJECT-DROP
 
-URL-REGEX, ^https:\/\/h5speed\.m\.jd\.com\/v2\/speed\/event, REJECT
-URL-REGEX, ^https:\/\/h5speed\.m\.jd\.com\/v3\/exception, REJECT
+URL-REGEX, ^https:\/\/h5speed\.m\.jd\.com\/v2\/speed\/event, REJECT-DROP
+URL-REGEX, ^https:\/\/h5speed\.m\.jd\.com\/v3\/exception, REJECT-DROP
 
 DOMAIN, hermes.jd.com, REJECT
 DOMAIN, uranus.jd.com, REJECT
