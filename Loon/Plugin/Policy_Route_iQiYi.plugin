@@ -33,3 +33,4 @@ DOMAIN-SUFFIX, yuedu.iqiyi.com, REJECT
 
 # 直连规则
 DOMAIN-SUFFIX, iqiyi.com, DIRECT
+DOMAIN-SUFFIX, iqiyipic.com, DIRECT
