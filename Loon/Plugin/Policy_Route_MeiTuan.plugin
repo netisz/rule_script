@@ -13,36 +13,36 @@
 ##########################################
 
 # 美团
-URL-REGEX, ^https:\/\/medusa\.dianping\.com\/sdk\/report, REJECT
-URL-REGEX, ^https:\/\/msp\.meituan\.com\/fingerprint\/v1\/notapp\/bio\/info\/report, REJECT
-DOMAIN-SUFFIX, d.meituan.net, REJECT
-DOMAIN-SUFFIX, dreport.meituan.net, REJECT
-DOMAIN, lx0.meituan.com, REJECT
-DOMAIN, hlx.meituan.com, REJECT
-DOMAIN, plx.meituan.com, REJECT
+URL-REGEX, ^https:\/\/medusa\.dianping\.com\/sdk\/report, REJECT-NO-DROP
+URL-REGEX, ^https:\/\/msp\.meituan\.com\/fingerprint\/v1\/notapp\/bio\/info\/report, REJECT-NO-DROP
+DOMAIN-SUFFIX, d.meituan.net, REJECT-NO-DROP
+DOMAIN-SUFFIX, dreport.meituan.net, REJECT-NO-DROP
+DOMAIN, lx0.meituan.com, REJECT-NO-DROP
+DOMAIN, hlx.meituan.com, REJECT-NO-DROP
+DOMAIN, plx.meituan.com, REJECT-NO-DROP
 
 # 小象买菜 - 兜底TCP请求下发广告
-# IP-CIDR, 101.50.8.64/32, REJECT
-# IP-CIDR, 101.50.8.75/32, REJECT
-# IP-CIDR, 103.37.152.161/32, REJECT
-# IP-CIDR, 103.37.152.162/32, REJECT
-# IP-CIDR, 103.63.160.64/32, REJECT
-# IP-CIDR, 119.29.48.215/32, REJECT
-# IP-CIDR, 119.29.48.215/32, REJECT
-# IP-CIDR, 202.90.110.8/32, REJECT
-# IP-CIDR, 203.76.217.241/32, REJECT
-# IP-CIDR, 203.76.217.243/32, REJECT
-# IP-CIDR, 203.76.217.37/32, REJECT
-# IP-CIDR6, 2405:1480:3000:303f::303f/128, REJECT
+# IP-CIDR, 101.50.8.64/32, REJECT-NO-DROP
+# IP-CIDR, 101.50.8.75/32, REJECT-NO-DROP
+# IP-CIDR, 103.37.152.161/32, REJECT-NO-DROP
+# IP-CIDR, 103.37.152.162/32, REJECT-NO-DROP
+# IP-CIDR, 103.63.160.64/32, REJECT-NO-DROP
+# IP-CIDR, 119.29.48.215/32, REJECT-NO-DROP
+# IP-CIDR, 119.29.48.215/32, REJECT-NO-DROP
+# IP-CIDR, 202.90.110.8/32, REJECT-NO-DROP
+# IP-CIDR, 203.76.217.241/32, REJECT-NO-DROP
+# IP-CIDR, 203.76.217.243/32, REJECT-NO-DROP
+# IP-CIDR, 203.76.217.37/32, REJECT-NO-DROP
+# IP-CIDR6, 2405:1480:3000:303f::303f/128, REJECT-NO-DROP
 
 # 小象买菜 - 广告下发
-URL-REGEX, ^https:\/\/portal-portm\.meituan\.com\/horn_ios\/mergeRequest, REJECT
+URL-REGEX, ^https:\/\/portal-portm\.meituan\.com\/horn_ios\/mergeRequest, REJECT-NO-DROP
 
 # 小象买菜 - 开屏广告
-URL-REGEX, ^https:\/\/mall\.meituan\.com\/api\/c\/homepage\/splash, REJECT
+URL-REGEX, ^https:\/\/mall\.meituan\.com\/api\/c\/homepage\/splash, REJECT-NO-DROP
 
 # 小象买菜 - 首页领券悬浮红包
-URL-REGEX, ^https:\/\/mall\.meituan\.com\/api\/c\/homepage\/bubble\/operate\/info, REJECT
+URL-REGEX, ^https:\/\/mall\.meituan\.com\/api\/c\/homepage\/bubble\/operate\/info, REJECT-NO-DROP
 
 
 ##########################################
