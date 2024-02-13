@@ -41,6 +41,9 @@ DOMAIN, sdk.e.qq.com, REJECT-NO-DROP
 DOMAIN, adsmind.gdtimg.com, REJECT-NO-DROP
 DOMAIN, pgdt.gtimg.cn, REJECT-NO-DROP
 
+# 腾讯视频
+DOMAIN, h.trace.qq.com, REJECT-NO-DROP
+DOMAIN, aegis.qq.com, REJECT-NO-DROP
 
 # QQ
 # QQ钱包广告 //m.qianbao.qq.com
