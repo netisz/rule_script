@@ -14,6 +14,7 @@ URL-REGEX, ^https:\/\/mapi\.m\.jd\.com\/commonHeader\/headerInfo\.action, REJECT
 
 URL-REGEX, ^https:\/\/h5speed\.m\.jd\.com\/v2\/speed\/event, REJECT-NO-DROP
 URL-REGEX, ^https:\/\/h5speed\.m\.jd\.com\/v3\/exception, REJECT-NO-DROP
+URL-REGEX, ^https:\/\/knicks\.jd\.com\/log\/server, REJECT-NO-DROP
 
 DOMAIN, hermes.jd.com, REJECT-NO-DROP
 DOMAIN, uranus.jd.com, REJECT-NO-DROP
@@ -257,4 +258,4 @@ DOMAIN-SUFFIX,yizhitou.com,DIRECT
 #^https:\/\/api\.m\.jd\.com\/\?appid=yinliu reject
 
 [Mitm]
-hostname = api.m.jd.com, mapi.m.jd.com, h5speed.m.jd.com
+hostname = api.m.jd.com, mapi.m.jd.com, h5speed.m.jd.com, knicks.jd.com
