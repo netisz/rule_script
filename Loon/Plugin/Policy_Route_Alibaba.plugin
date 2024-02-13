@@ -211,7 +211,13 @@ DOMAIN-SUFFIX, alipayobjects.com, DIRECT
 DOMAIN-SUFFIX, alipayplus.com, DIRECT
 DOMAIN-SUFFIX, ifaa.org.cn, DIRECT
 DOMAIN-SUFFIX, luohanacademy.com, DIRECT
-DOMAIN-SUFFIX, sinopayment.com.cn
+DOMAIN-SUFFIX, sinopayment.com.cn, DIRECT
+
+# 优酷
+DOMAIN-SUFFIX, youku.com, DIRECT
+DOMAIN-SUFFIX, cibntv.net, DIRECT
+DOMAIN-SUFFIX, ykimg.com, DIRECT
+DOMAIN-SUFFIX, aliapp.org, DIRECT
 
 [Mitm]
 hostname = acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, gm.mmstat.com, ifs.tanx.com, gm.mmstat.com, iyes.youku.com
