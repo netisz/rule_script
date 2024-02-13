@@ -32,4 +32,4 @@ DOMAIN-SUFFIX, policy.video.iqiyi.com, REJECT
 DOMAIN-SUFFIX, yuedu.iqiyi.com, REJECT
 
 # 直连规则
-DOMAIN-SUFFIX, iqiyi.com, REJECT
+DOMAIN-SUFFIX, iqiyi.com, DIRECT
