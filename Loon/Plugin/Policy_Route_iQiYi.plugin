@@ -1,0 +1,35 @@
+#!name = 【路由策略】爱奇艺
+#!desc = 爱奇艺旗下的直连，屏蔽广告的策略
+#!openUrl = 
+#!author = 
+#!homepage = 
+#!icon = 
+#!date = 20240213
+
+[Rule]
+
+##########################################
+# 拦截规则
+##########################################
+
+# 用户行为数据回传
+DOMAIN-SUFFIX, a.ckm.iqiyi.com, REJECT
+DOMAIN-SUFFIX, ad.m.iqiyi.com, REJECT
+DOMAIN-SUFFIX, afp.iqiyi.com, REJECT
+DOMAIN-SUFFIX, c.uaa.iqiyi.com, REJECT
+DOMAIN-SUFFIX, cloudpush.iqiyi.com, REJECT
+DOMAIN-SUFFIX, cm.passport.iqiyi.com, REJECT
+DOMAIN-SUFFIX, cupid.iqiyi.com, REJECT
+DOMAIN-SUFFIX, emoticon.sns.iqiyi.com, REJECT
+DOMAIN-SUFFIX, gamecenter.iqiyi.com, REJECT
+DOMAIN-SUFFIX, hotchat-im.iqiyi.com, REJECT
+DOMAIN-SUFFIX, ifacelog.iqiyi.com, REJECT
+DOMAIN-SUFFIX, mbdlog.iqiyi.com, REJECT
+DOMAIN-SUFFIX, msg.71.am, REJECT
+DOMAIN-SUFFIX, msg.video.qiyi.com, REJECT
+DOMAIN-SUFFIX, msg2.video.qiyi.com, REJECT
+DOMAIN-SUFFIX, policy.video.iqiyi.com, REJECT
+DOMAIN-SUFFIX, yuedu.iqiyi.com, REJECT
+
+# 直连规则
+DOMAIN-SUFFIX, iqiyi.com, REJECT
