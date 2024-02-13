@@ -15,8 +15,8 @@ URL-REGEX, ^https:\/\/mapi\.m\.jd\.com\/commonHeader\/headerInfo\.action, REJECT
 URL-REGEX, ^https:\/\/h5speed\.m\.jd\.com\/v2\/speed\/event, REJECT-NO-DROP
 URL-REGEX, ^https:\/\/h5speed\.m\.jd\.com\/v3\/exception, REJECT-NO-DROP
 
-DOMAIN, hermes.jd.com, REJECT
-DOMAIN, uranus.jd.com, REJECT
+DOMAIN, hermes.jd.com, REJECT-NO-DROP
+DOMAIN, uranus.jd.com, REJECT-NO-DROP
 
 # 直连域名
 DOMAIN-SUFFIX,1huizhan.com,DIRECT
