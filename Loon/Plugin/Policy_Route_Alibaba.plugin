@@ -29,7 +29,8 @@ DOMAIN, hudong.alicdn.com, REJECT-NO-DROP
 
 # 优酷 
 URL-REGEX, ^https:\/\/gm\.mmstat\.com\/yt\/youku\.pcweb\.control, REJECT-NO-DROP
-URL-REGEX, ^https:\/\/gm\.mmstat\.com\/show\.index\.module, REJECT-NO-DROP
+# 这个url屏蔽后会出现强制登陆
+# URL-REGEX, ^https:\/\/gm\.mmstat\.com\/show\.index\.module, REJECT-NO-DROP
 
 #
 URL-REGEX, ^https:\/\/gm\.mmstat\.com/cnux\.1\.0, REJECT-NO-DROP
