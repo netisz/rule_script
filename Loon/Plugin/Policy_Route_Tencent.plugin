@@ -12,10 +12,6 @@
 # 拦截规则
 ##########################################
 
-# 用户行为数据回传
-DOMAIN-SUFFIX, a.ckm.iqiyi.com, REJECT-NO-DROP
-DOMAIN-SUFFIX, ad.m.iqiyi.com, REJECT-NO-DROP
-
 # 腾讯
 DOMAIN, adsmind.gdtimg.com, REJECT-NO-DROP
 DOMAIN, info4.video.qq.com, REJECT-NO-DROP
