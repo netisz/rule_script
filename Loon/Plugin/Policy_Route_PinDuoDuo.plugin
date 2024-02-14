@@ -1,0 +1,32 @@
+#!name = 【路由策略】腾讯
+#!desc = 拼多多的直连，屏蔽广告的策略
+#!openUrl = 
+#!author = 
+#!homepage = 
+#!icon = 
+#!date = 20240214
+
+[Rule]
+
+##########################################
+# 拦截规则
+##########################################
+
+# 拼多多行为数据上传
+DOMAIN-SUFFIX, th.pinduoduo.com, REJECT-NO-DROP
+DOMAIN-SUFFIX, th-a.pinduoduo.com, REJECT-NO-DROP
+DOMAIN-SUFFIX, abtk.pinduoduo.com, REJECT-NO-DROP
+DOMAIN-SUFFIX, ta-a.pinduoduo.com, REJECT-NO-DROP
+
+URL-REGEX, ^https:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash, REJECT-NO-DROP
+
+
+##########################################
+# 直连规则
+##########################################
+
+DOMAIN-SUFFIX, pinduoduo.com, DIRECT
+DOMAIN-SUFFIX, yangkeduo.com, DIRECT
+
+[Mitm]
+hostname = api.pinduoduo.com, api.yangkeduo.com
