@@ -6,13 +6,15 @@
 #####################
 # 基础
 #####################
-DOMAIN-SUFFIX,cn
-GEOIP,CN
+DOMAIN-SUFFIX, cn
+GEOIP, CN
+
+DOMAIN-SUFFIX, digicert.com
 
 #####################
 # 百度
 #####################
-DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX, baidu.com
 
 # CDN
 DOMAIN-SUFFIX, jsdelivr.net 
