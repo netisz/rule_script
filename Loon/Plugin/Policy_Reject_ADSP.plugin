@@ -57,10 +57,6 @@ DOMAIN-SUFFIX, pos.baidu.com, REJECT-NO-DROP
 # 天目 - 广告服务商
 DOMAIN-SUFFIX, sdk.tianmu.mobi, REJECT-NO-DROP
 
-# 朴朴超市
-DOMAIN-SUFFIX, bwy1.pupuapi.com, REJECT-NO-DROP
-# URL-REGEX, ^https:\/\/bwy1\.pupuapi\.com\/bv\/i, REJECT-NO-DROP
-
 # 中国联通
 DOMAIN-SUFFIX, m1.ad.10010.com, REJECT-NO-DROP
 
