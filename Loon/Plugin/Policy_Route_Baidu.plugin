@@ -1,4 +1,4 @@
-#!name = 【路由策略】Baidu
+#!name = 【路由策略】百度
 #!desc = 百度旗下的百度搜索，百度地图直连、拦截策略
 #!openUrl = 
 #!author = 
@@ -11,6 +11,8 @@
 ##########################################
 # 拦截规则
 ##########################################
+
+DOMAIN, httpdns.baidubce.com, REJECT-NO-DROP
 
 # 百度地图
 URL-REGEX, ^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare, REJECT-NO-DROP
