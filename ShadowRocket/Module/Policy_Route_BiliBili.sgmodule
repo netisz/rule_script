@@ -1,0 +1,35 @@
+#!name = 【路由策略】BiliBili
+#!desc = BiliBili 的直连，屏蔽广告的策略
+#!openUrl = 
+#!author = 
+#!homepage = 
+#!icon = 
+#!date = 20240213
+
+[Rule]
+
+##########################################
+# 拦截规则
+##########################################
+
+
+
+##########################################
+# 直连规则
+##########################################
+
+DOMAIN-SUFFIX, bilibili.com, DIRECT
+DOMAIN-SUFFIX, biliapi.net, DIRECT
+DOMAIN-SUFFIX, biliapi.com, DIRECT
+DOMAIN-SUFFIX, bilivideo.com, DIRECT
+DOMAIN-SUFFIX, bilivideo.cn, DIRECT
+DOMAIN-SUFFIX, hdslb.com, DIRECT
+DOMAIN-SUFFIX, kunlunno.com, DIRECT
+DOMAIN-SUFFIX, kunlunar.com, DIRECT
+DOMAIN-SUFFIX, cdn20.com, DIRECT
+DOMAIN-SUFFIX, bilicdn1.com, DIRECT
+DOMAIN-SUFFIX, bilicdn2.com, DIRECT
+
+
+[MITM]
+#hostname = %APPEND% 
