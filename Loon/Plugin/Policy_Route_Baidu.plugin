@@ -12,7 +12,21 @@
 # 拦截规则
 ##########################################
 
+# 百度联盟 - 广告服务商
+DOMAIN-SUFFIX, union.baidu.cn, REJECT-NO-DROP
+DOMAIN-SUFFIX, union.baidu.com, REJECT-NO-DROP
+
+# 百度慧推，广告推送
+DOMAIN, sofire.baidu.com, REJECT-NO-DROP
+DOMAIN, sofire.bdstatic.com, REJECT-NO-DROP
+
+# 
+DOMAIN, mobads.baidu.com, REJECT-NO-DROP
+DOMAIN-SUFFIX, pos.baidu.com, REJECT-NO-DROP
 DOMAIN, httpdns.baidubce.com, REJECT-NO-DROP
+
+# 百度地图开屏广告
+URL-REGEX, ^https:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.jpg, REJECT-NO-DROP
 
 # 百度地图
 URL-REGEX, ^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare, REJECT-NO-DROP
@@ -30,4 +44,4 @@ URL-REGEX, ^https?:\/\/newclient\.map\.baidu\.com\/client\/usersystem\/home\/dyn
 DOMAIN-SUFFIX, baidu.com, DIRECT
 
 [Mitm]
-hostname = mbd.baidu.com, ugc.map.baidu.com, newclient.map.baidu.com
+hostname = mbd.baidu.com, ugc.map.baidu.com, newclient.map.baidu.com, dss0.bdstatic.com
