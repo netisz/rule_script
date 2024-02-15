@@ -12,8 +12,8 @@
 # 拦截规则
 ##########################################
 
-# DOMAIN-SUFFIX, , REJECT-NO-DROP
-# URL-REGEX, ^https:\/\/, REJECT-NO-DROP
+# DOMAIN-SUFFIX, , REJECT-200
+# URL-REGEX, ^https:\/\/, REJECT-200
 
 
 ##########################################
