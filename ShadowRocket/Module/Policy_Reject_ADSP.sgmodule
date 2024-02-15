@@ -8,10 +8,6 @@
 
 [Rule]
 
-# 通用广告
-DOMAIN-SUFFIX, doubleclick-cn.net, REJECT-200
-DOMAIN-SUFFIX, doubleclick.net, REJECT-200
-
 # 极光推送 - 广告服务商
 DOMAIN-SUFFIX, jiguang.cn, REJECT-200
 DOMAIN-SUFFIX, jpush.cn, REJECT-200
