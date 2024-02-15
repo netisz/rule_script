@@ -22,8 +22,19 @@ DOMAIN, sofire.bdstatic.com, REJECT-NO-DROP
 
 # 
 DOMAIN, mobads.baidu.com, REJECT-NO-DROP
+# URL-REGEX, ^https?:\/\/mobads\.baidu\.com\/cpro\/ui\/mads.php, REJECT-NO-DROP
+
 DOMAIN-SUFFIX, pos.baidu.com, REJECT-NO-DROP
 DOMAIN, httpdns.baidubce.com, REJECT-NO-DROP
+
+# 百度输入法
+DOMAIN-KEYWORD, jomodns, REJECT-NO-DROP
+DOMAIN, res.mi.baidu.com, REJECT-NO-DROP
+DOMAIN, r6.mo.baidu.com, REJECT-NO-DROP
+URL-REGEX, ^https:\/\/mime\.baidu\.com\/v\d\/start_screen_ads\/list, REJECT-NO-DROP
+URL-REGEX, ^https:\/\/mime\.baidu\.com\/v\d\/hotpatch\/check\?hotpatch, REJECT-NO-DROP
+URL-REGEX, ^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo, REJECT-NO-DROP
+URL-REGEX, ^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement, REJECT-NO-DROP
 
 # 百度地图开屏广告
 URL-REGEX, ^https:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.jpg, REJECT-NO-DROP
@@ -36,6 +47,25 @@ URL-REGEX, ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads, REJ
 URL-REGEX, ^https?:\/\/newclient\.map\.baidu\.com\/client\/crossmarketing, REJECT-NO-DROP
 URL-REGEX, ^https?:\/\/newclient\.map\.baidu\.com\/client\/usersystem\/home\/dynamic, REJECT-NO-DROP
 
+# 百度贴吧
+URL-REGEX, ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule, REJECT-NO-DROP
+URL-REGEX, ^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo, REJECT-NO-DROP
+URL-REGEX, ^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog), REJECT-NO-DROP
+URL-REGEX, ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/\w+\/\w+\/(sync|newRnSync|mlog), REJECT-NO-DROP
+URL-REGEX, ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/c\/s\/splashSchedule, REJECT-NO-DROP
+
+
+URL-REGEX, ^https:\/\/pn\.baidu\.com\/iad\/.+\.json, REJECT-NO-DROP
+URL-REGEX, ^https:\/\/feed-image\.baidu\.com\/0\/pic\/, REJECT-NO-DROP
+
+URL-REGEX, ^https?:\/\/pan\.baidu\.com\/act\/v\d\/(bchannel|welfare)\/list, REJECT-NO-DROP
+URL-REGEX, ^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad, REJECT-NO-DROP
+URL-REGEX, ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry, REJECT-NO-DROP
+
+URL-REGEX, ^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad, REJECT-NO-DROP
+
+# URL-REGEX, ^http:\/\/.+\/c\/s\/(trackConfig|dashengVideo|splashSchedule), REJECT-NO-DROP
+
 
 ##########################################
 # 直连规则
@@ -44,4 +74,4 @@ URL-REGEX, ^https?:\/\/newclient\.map\.baidu\.com\/client\/usersystem\/home\/dyn
 DOMAIN-SUFFIX, baidu.com, DIRECT
 
 [Mitm]
-hostname = mbd.baidu.com, ugc.map.baidu.com, newclient.map.baidu.com, dss0.bdstatic.com
+hostname = mbd.baidu.com, ugc.map.baidu.com, newclient.map.baidu.com, dss0.bdstatic.com, mime.baidu.com, *.tieba.baidu.com, feed-image.baidu.com, pn.baidu.com, pan.baidu.com, appwk.baidu.com
