@@ -61,9 +61,9 @@ DOMAIN-SUFFIX, urchin.com, REJECT-NO-DROP
 
 
 # 代理
-DOMAIN-KEYWORD,gmail,PROXY
-DOMAIN-KEYWORD,google,PROXY
-DOMAIN-KEYWORD,youtube,PROXY
+DOMAIN-KEYWORD, gmail, PROXY
+DOMAIN-KEYWORD, google, PROXY
+DOMAIN-KEYWORD, youtube, PROXY
 
 [Rewrite]
 # Redirect Google Search Service
