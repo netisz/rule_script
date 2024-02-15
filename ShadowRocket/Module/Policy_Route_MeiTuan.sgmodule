@@ -1,0 +1,63 @@
+#!name = 【路由策略】美团
+#!desc = 美团公司旗下美团，大众点评，美团外卖，小象超市的直连，屏蔽广告的策略
+#!openUrl = 
+#!author = 
+#!homepage = 
+#!icon = 
+#!date = 20240213
+
+[Rule]
+
+##########################################
+# 拦截规则
+##########################################
+
+# 美团
+URL-REGEX, ^https:\/\/medusa\.dianping\.com\/sdk\/report, REJECT-200
+URL-REGEX, ^https:\/\/msp\.meituan\.com\/fingerprint\/v1\/notapp\/bio\/info\/report, REJECT-200
+DOMAIN-SUFFIX, d.meituan.net, REJECT-200
+DOMAIN-SUFFIX, dreport.meituan.net, REJECT-200
+DOMAIN, lx0.meituan.com, REJECT-200
+DOMAIN, hlx.meituan.com, REJECT-200
+DOMAIN, plx.meituan.com, REJECT-200
+
+# 小象买菜 - 兜底TCP请求下发广告
+# IP-CIDR, 101.50.8.64/32, REJECT-200
+# IP-CIDR, 101.50.8.75/32, REJECT-200
+# IP-CIDR, 103.37.152.161/32, REJECT-200
+# IP-CIDR, 103.37.152.162/32, REJECT-200
+# IP-CIDR, 103.63.160.64/32, REJECT-200
+# IP-CIDR, 119.29.48.215/32, REJECT-200
+# IP-CIDR, 119.29.48.215/32, REJECT-200
+# IP-CIDR, 202.90.110.8/32, REJECT-200
+# IP-CIDR, 203.76.217.241/32, REJECT-200
+# IP-CIDR, 203.76.217.243/32, REJECT-200
+# IP-CIDR, 203.76.217.37/32, REJECT-200
+# IP-CIDR6, 2405:1480:3000:303f::303f/128, REJECT-200
+
+# 小象买菜 - 广告下发
+URL-REGEX, ^https:\/\/portal-portm\.meituan\.com\/horn_ios\/mergeRequest, REJECT-200
+
+# 小象买菜 - 开屏广告
+URL-REGEX, ^https:\/\/mall\.meituan\.com\/api\/c\/homepage\/splash, REJECT-200
+
+# 小象买菜 - 首页领券悬浮红包
+URL-REGEX, ^https:\/\/mall\.meituan\.com\/api\/c\/homepage\/bubble\/operate\/info, REJECT-200
+
+
+##########################################
+# 直连规则
+##########################################
+DOMAIN-SUFFIX, meituan.com, DIRECT
+DOMAIN-SUFFIX, meituan.net, DIRECT
+DOMAIN-SUFFIX, maoyan.com, DIRECT
+DOMAIN-SUFFIX, mtyun.com, DIRECT
+DOMAIN-SUFFIX, neixin.cn, DIRECT
+DOMAIN-SUFFIX, sankuai.com, DIRECT
+
+# 大众点评
+DOMAIN-SUFFIX, dianping.com, DIRECT
+
+
+[MITM]
+hostname = %APPEND% mall.meituan.com, portal-portm.meituan.com, medusa.dianping.com, msp.meituan.com
