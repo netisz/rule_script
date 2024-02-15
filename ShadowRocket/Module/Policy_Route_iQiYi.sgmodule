@@ -42,7 +42,11 @@ DOMAIN, oaa.iqiyi.com, REJECT-200
 DOMAIN, cmts.iqiyi.com, REJECT-200
 #URL-REGEX, ^https:\/\/cmts\.iqiyi\.com\/bullet\/, REJECT-200
 
+
+##########################################
 # 直连规则
+##########################################
+
 DOMAIN-SUFFIX, iqiyi.com, DIRECT
 DOMAIN-SUFFIX, iqiyipic.com, DIRECT
 
