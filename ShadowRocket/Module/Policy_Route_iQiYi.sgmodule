@@ -49,6 +49,7 @@ DOMAIN, cmts.iqiyi.com, REJECT-200
 
 DOMAIN-SUFFIX, iqiyi.com, DIRECT
 DOMAIN-SUFFIX, iqiyipic.com, DIRECT
+DOMAIN-SUFFIX, 71edge.com, DIRECT
 
 [MITM]
 # hostname = %APPEND% 
