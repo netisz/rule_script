@@ -1,0 +1,50 @@
+#!name = 【路由策略】爱奇艺
+#!desc = 爱奇艺旗下的直连，屏蔽广告的策略
+#!openUrl = 
+#!author = 
+#!homepage = 
+#!icon = 
+#!date = 20240213
+
+[Rule]
+
+##########################################
+# 拦截规则
+##########################################
+
+# 用户行为数据回传
+DOMAIN-SUFFIX, a.ckm.iqiyi.com, REJECT-200
+DOMAIN-SUFFIX, ad.m.iqiyi.com, REJECT-200
+DOMAIN-SUFFIX, afp.iqiyi.com, REJECT-200
+DOMAIN-SUFFIX, c.uaa.iqiyi.com, REJECT-200
+DOMAIN-SUFFIX, cloudpush.iqiyi.com, REJECT-200
+DOMAIN-SUFFIX, cm.passport.iqiyi.com, REJECT-200
+DOMAIN-SUFFIX, cupid.iqiyi.com, REJECT-200
+DOMAIN-SUFFIX, emoticon.sns.iqiyi.com, REJECT-200
+DOMAIN-SUFFIX, gamecenter.iqiyi.com, REJECT-200
+DOMAIN-SUFFIX, hotchat-im.iqiyi.com, REJECT-200
+DOMAIN-SUFFIX, ifacelog.iqiyi.com, REJECT-200
+DOMAIN-SUFFIX, mbdlog.iqiyi.com, REJECT-200
+DOMAIN-SUFFIX, msg.71.am, REJECT-200
+DOMAIN-SUFFIX, msg.video.qiyi.com, REJECT-200
+DOMAIN-SUFFIX, msg2.video.qiyi.com, REJECT-200
+DOMAIN-SUFFIX, policy.video.iqiyi.com, REJECT-200
+DOMAIN-SUFFIX, yuedu.iqiyi.com, REJECT-200
+
+DOMAIN, msg.qy.net, REJECT-200
+DOMAIN, oaa.iqiyi.com, REJECT-200
+#URL-REGEX, ^https:\/\/
+
+# 播放时间条的缩略图 // preimage2.iqiyipic.com
+#URL-REGEX, ^https:\/\/preimage2\.iqiyipic\.com\/preimage, REJECT-200
+
+# 弹幕 // cmts.iqiyi.com
+DOMAIN, cmts.iqiyi.com, REJECT-200
+#URL-REGEX, ^https:\/\/cmts\.iqiyi\.com\/bullet\/, REJECT-200
+
+# 直连规则
+DOMAIN-SUFFIX, iqiyi.com, DIRECT
+DOMAIN-SUFFIX, iqiyipic.com, DIRECT
+
+[MITM]
+# hostname = %APPEND% 
