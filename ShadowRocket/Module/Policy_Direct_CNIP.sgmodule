@@ -1,10 +1,10 @@
-#!name = 【直连策略】中国IP地址
+#!name = 【路由策略】直连中国IP地址
 #!desc = 直连中国境内IPv4、IPv6地址
 #!openUrl =
 #!author = 
 #!homepage =
 #!icon =
-#!date = 20240207
+#!date = 20240215
 
 [Rule]
 
