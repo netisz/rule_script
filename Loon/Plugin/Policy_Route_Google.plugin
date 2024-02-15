@@ -12,7 +12,7 @@
 # 拦截规则
 ##########################################
 
-# URL-REGEX, ^https:\/\/www\.google\.com\.hk\/gen_204, REJECT-NO-DROP
+URL-REGEX, ^https:\/\/www\.google\.com\.hk\/gen_204, REJECT-NO-DROP
 
 DOMAIN-SUFFIX, 2mdn-cn.net, REJECT-NO-DROP
 DOMAIN-SUFFIX, 2mdn.net, REJECT-NO-DROP
