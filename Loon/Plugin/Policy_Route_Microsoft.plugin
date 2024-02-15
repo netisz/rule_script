@@ -8,8 +8,17 @@
 
 [Rule]
 
-# 直连规则
-#RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/ShadowRocket/Rule/Direct_COM_Microsoft.list,DIRECT
+##########################################
+# 拦截规则
+##########################################
 
-DOMAIN-SUFFIX,microsoftonline.com,DIRECT
-DOMAIN-SUFFIX,microsoft.com,DIRECT
+# URL-REGEX, ^https:\/\/, REJECT-NO-DROP
+
+
+##########################################
+# 直连规则
+##########################################
+
+DOMAIN-SUFFIX, microsoftonline.com, DIRECT
+DOMAIN-SUFFIX, microsoft.com, DIRECT
+DOMAIN-SUFFIX, visualstudio.com DIRECT
