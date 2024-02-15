@@ -1,0 +1,35 @@
+#!name = 【路由策略】字节跳动
+#!desc = 字节跳动公司旗下抖音的直连，屏蔽广告的策略
+#!openUrl = 
+#!author = 
+#!homepage = 
+#!icon = 
+#!date = 20240213
+
+[Rule]
+
+##########################################
+# 拦截规则
+##########################################
+
+# 广告
+DOMAIN, ad.zijieapi.com, REJECT-200
+DOMAIN, i.snssdk.com, REJECT-200
+DOMAIN, is.snssdk.com, REJECT-200
+DOMAIN-KEYWORD, -ad-sign.byteimg.com, REJECT-200
+DOMAIN-KEYWORD, -tos.pstatp.com, REJECT-200
+DOMAIN-KEYWORD, asiad.byteactivity, REJECT-200
+DOMAIN-KEYWORD, pangolin.snssdk.com, REJECT-200
+DOMAIN-KEYWORD, pangolin-sdk-toutiao, REJECT-200
+DOMAIN-KEYWORD, pglstatp-toutiao, REJECT-200
+DOMAIN-KEYWORD, video-cn.snssdk.com, REJECT-200
+
+##########################################
+# 直连规则
+##########################################
+
+DOMAIN-SUFFIX, douyin.com, DIRECT
+DOMAIN-SUFFIX, bytedance.com, DIRECT
+
+[MITM]
+# hostname = %APPEND% 
