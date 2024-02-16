@@ -12,11 +12,16 @@
 # 拦截规则
 ##########################################
 
+# Denied Log
 DOMAIN-SUFFIX, dataflow.biliapi.com, REJECT-200
 DOMAIN-SUFFIX, data.bilibili.com, REJECT-200
+URL-REGEX, ^https?:\/\/api\.bilibili\.com\/x\/click-interface\/click/h5, REJECT-200
+URL-REGEX, ^https?:\/\/api\.bilibili\.com\/x\/report\/web\/heartbeat, REJECT-200
 
 URL-REGEX, ^https?:\/\/i0\.hdslb\.com\/bfs\/sycp\/creative_img\/, REJECT-200
 
+# 字幕，弹幕
+# wss://broadcast.chat.bilibili.com:7826/sub
 
 DOMAIN-SUFFIX, cm.bilibili.com, REJECT-200
 URL-REGEX, ^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/ad, REJECT-200
