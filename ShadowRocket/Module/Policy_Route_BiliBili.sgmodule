@@ -12,7 +12,12 @@
 # 拦截规则
 ##########################################
 
-DOMAIN-SUFFIX, cm.bilibili.com, REJECT-200
+DOMAIN-SUFFIX, dataflow.biliapi.com, REJECT
+
+URL-REGEX, ^https?:\/\/i0\.hdslb\.com\/bfs\/sycp\/creative_img\/, REJECT-IMG
+
+
+DOMAIN-SUFFIX, cm.bilibili.com, REJECT
 URL-REGEX, ^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/ad, REJECT-200
 # 可能的一些推广(beta)
 URL-REGEX, ^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\?, REJECT-200
