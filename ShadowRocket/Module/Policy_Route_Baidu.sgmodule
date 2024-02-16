@@ -53,21 +53,22 @@ URL-REGEX, ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule, REJECT-200
 URL-REGEX, ^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo, REJECT-200
 URL-REGEX, ^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog), REJECT-200
 URL-REGEX, ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/\w+\/\w+\/(sync|newRnSync|mlog), REJECT-200
-URL-REGEX, ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/c\/s\/splashSchedule, REJECT-200
-URL-REGEX, ^https?:\/\/show-g\.mediav\.com\/s, REJECT-200
+URL-REGEX, ^https:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/c\/s\/splashSchedule, REJECT-200
+URL-REGEX, ^https:\/\/show-g\.mediav\.com\/s, REJECT-200
+URL-REGEX, ^https:\/\/tb3\.bdstatic\.com\/tb\/wise\/wise-main-core\/static\/js\/, REJECT-200
 
 URL-REGEX, ^https:\/\/pn\.baidu\.com\/iad\/.+\.json, REJECT-200
 URL-REGEX, ^https:\/\/feed-image\.baidu\.com\/0\/pic\/, REJECT-200
 
-URL-REGEX, ^https?:\/\/pan\.baidu\.com\/act\/v\d\/(bchannel|welfare)\/list, REJECT-200
-URL-REGEX, ^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad, REJECT-200
-URL-REGEX, ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry, REJECT-200
+URL-REGEX, ^https:\/\/pan\.baidu\.com\/act\/v\d\/(bchannel|welfare)\/list, REJECT-200
+URL-REGEX, ^https:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad, REJECT-200
+URL-REGEX, ^https:\/\/pan\.baidu\.com\/act\/api\/activityentry, REJECT-200
 
-URL-REGEX, ^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad, REJECT-200
+URL-REGEX, ^https:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad, REJECT-200
 
 # URL-REGEX, ^http:\/\/.+\/c\/s\/(trackConfig|dashengVideo|splashSchedule), REJECT-200
 
-URL-REGEX, ^https?:\/\/tb3\.bdstatic\.com\/tb\/wise\/wise-main-core\/static\/js\/, REJECT-200
+
 
 ##########################################
 # 直连规则
