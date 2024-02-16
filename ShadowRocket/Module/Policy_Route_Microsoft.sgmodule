@@ -27,6 +27,7 @@ DOMAIN-SUFFIX, visualstudio.com, DIRECT
 # 代理规则
 ##########################################
 
+# Github
 DOMAIN-SUFFIX, github.com, PROXY
 DOMAIN-SUFFIX, githubusercontent.com, PROXY
 
