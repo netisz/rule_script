@@ -21,7 +21,14 @@
 
 DOMAIN-SUFFIX, microsoftonline.com, DIRECT
 DOMAIN-SUFFIX, microsoft.com, DIRECT
-DOMAIN-SUFFIX, visualstudio.com DIRECT
+DOMAIN-SUFFIX, visualstudio.com, DIRECT
+
+##########################################
+# 代理规则
+##########################################
+
+DOMAIN-SUFFIX, github.com, PROXY
+DOMAIN-SUFFIX, githubusercontent.com, PROXY
 
 [MITM]
 # hostname = %APPEND% 
