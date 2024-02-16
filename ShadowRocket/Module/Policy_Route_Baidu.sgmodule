@@ -67,7 +67,7 @@ URL-REGEX, ^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad, REJECT-200
 
 # URL-REGEX, ^http:\/\/.+\/c\/s\/(trackConfig|dashengVideo|splashSchedule), REJECT-200
 
-URL-REGEX, ^https?:\/\/tb3\.bdstatic\.com\/tb\/wise\/wise-main-core\/static\/js\/pb\.761c15c4\.js, REJECT-200
+URL-REGEX, ^https?:\/\/tb3\.bdstatic\.com\/tb\/wise\/wise-main-core\/static\/js\/, REJECT-200
 
 ##########################################
 # 直连规则
