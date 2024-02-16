@@ -13,8 +13,9 @@
 ##########################################
 
 DOMAIN-SUFFIX, dataflow.biliapi.com, REJECT-200
+DOMAIN-SUFFIX, data.bilibili.com, REJECT-200
 
-URL-REGEX, ^https?:\/\/i0\.hdslb\.com\/bfs\/sycp\/creative_img\/, REJECT-IMG
+URL-REGEX, ^https?:\/\/i0\.hdslb\.com\/bfs\/sycp\/creative_img\/, REJECT-200
 
 
 DOMAIN-SUFFIX, cm.bilibili.com, REJECT-200
