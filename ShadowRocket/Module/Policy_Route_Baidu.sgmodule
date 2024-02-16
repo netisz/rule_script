@@ -67,6 +67,7 @@ URL-REGEX, ^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad, REJECT-200
 
 # URL-REGEX, ^http:\/\/.+\/c\/s\/(trackConfig|dashengVideo|splashSchedule), REJECT-200
 
+URL-REGEX, ^https?:\/\/tb3\.bdstatic\.com\/tb\/wise\/wise-main-core\/static\/js\/pb\.761c15c4\.js, REJECT-200
 
 ##########################################
 # 直连规则
@@ -75,4 +76,4 @@ URL-REGEX, ^https?:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad, REJECT-200
 DOMAIN-SUFFIX, baidu.com, DIRECT
 
 [MITM]
-hostname = %APPEND% show-g.mediav.com, mbd.baidu.com, ugc.map.baidu.com, newclient.map.baidu.com, dss0.bdstatic.com, mime.baidu.com, *.tieba.baidu.com, feed-image.baidu.com, pn.baidu.com, pan.baidu.com, appwk.baidu.com
+hostname = %APPEND% show-g.mediav.com, mbd.baidu.com, ugc.map.baidu.com, newclient.map.baidu.com, tb3.bdstatic.com, dss0.bdstatic.com, mime.baidu.com, *.tieba.baidu.com, feed-image.baidu.com, pn.baidu.com, pan.baidu.com, appwk.baidu.com
