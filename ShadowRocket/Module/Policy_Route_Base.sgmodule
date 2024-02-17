@@ -4,7 +4,41 @@
 #!author = 
 #!homepage = 
 #!icon = 
-#!date = 20240215
+#!date = 20240218
+
+
+##########################################
+# > "DIRECT"           绕过代理，直接连接
+# > "PROXY"            强制通过代理连接
+# >
+# > "REJECT"           策略返回 HTTP 状态码 404,不附带任何额外内容
+# > "REJECT-DICT"      策略返回 HTTP 状态码 200,同时附带一个空的 JSON {} 对象
+# > "REJECT-ARRAY"     策略返回 HTTP 状态码 200,同时附带一个空的 JSON [] 数组
+# > "REJECT-200"       策略返回 HTTP 状态码 200,不附带任何额外内容
+# > "REJECT-IMG"       策略返回 HTTP 状态码 200,同时附带 1px gif
+# > "REJECT-TINYGIF"   策略返回 HTTP 状态码 200,同时附带 1px gif
+# > "REJECT-DROP"      丢弃 IP 包
+# > "REJECT-NO-DROP"   返回 ICMP 端口不可达。
+##########################################
+
+##########################################
+# > "DOMAIN-SUFFIX"    域名后缀，使用拦截策略的话，只能使用 REJECT。
+# > "DOMAIN-KEYWORD"   域名中的关键字，使用拦截策略的话，只能使用 REJECT。
+# > "DOMAIN"           域名全写，使用拦截策略的话，只能使用 REJECT。
+# > "USER-AGENT"       用户代理。
+# > "URL-REGEX"        匹配访问地址的正则式，需要启用 MITM 并在hostname栏位中填写对应的域名，否则不会生效。
+# > "IP-CIDR"
+# > "IP-ASN"
+# > "RULE-SET"
+# > "DOMAIN-SET"
+# > "SCRIPT"
+# > "DST-PORT"
+# > "GEOIP"
+# > "FINAL"            守门员策略，对已经设置好的所有规则均无法匹配，而执行的策略
+# > "AND"
+# > "NOT"
+# > "OR"
+##########################################
 
 [Rule]
 
