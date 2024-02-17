@@ -13,39 +13,39 @@
 ##########################################
 
 # Denied Beacon
-DOMAIN-SUFFIX, dataflow.biliapi.com, REJECT-200
-DOMAIN-SUFFIX, data.bilibili.com, REJECT-200
-URL-REGEX, ^https?:\/\/api\.bilibili\.com\/x\/click-interface\/click/h5, REJECT-200
-URL-REGEX, ^https?:\/\/api\.bilibili\.com\/x\/report\/web\/heartbeat, REJECT-200
+DOMAIN-SUFFIX, dataflow.biliapi.com, REJECT
+DOMAIN-SUFFIX, data.bilibili.com, REJECT
+URL-REGEX, ^https?:\/\/api\.bilibili\.com\/x\/click-interface\/click/h5, REJECT
+URL-REGEX, ^https?:\/\/api\.bilibili\.com\/x\/report\/web\/heartbeat, REJECT
 
 # 广告图片存放位置
-URL-REGEX, ^https?:\/\/i0\.hdslb\.com\/bfs\/sycp\/creative_img\/, REJECT-200
+URL-REGEX, ^https?:\/\/i0\.hdslb\.com\/bfs\/sycp\/creative_img\/, REJECT
 
 # 移动端 HTML5 页面下方的打开BiliBili状态栏
-#URL-REGEX, ^https:\/\/s1\.hdslb\.com\/bfs\/static\/jinkela\/mstation-h5\/css\/mstation, REJECT-200
+#URL-REGEX, ^https:\/\/s1\.hdslb\.com\/bfs\/static\/jinkela\/mstation-h5\/css\/mstation, REJECT
 
 # 字幕，弹幕
 # wss://broadcast.chat.bilibili.com:7826/sub
 
-DOMAIN-SUFFIX, cm.bilibili.com, REJECT-200
-URL-REGEX, ^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/ad, REJECT-200
+DOMAIN-SUFFIX, cm.bilibili.com, REJECT
+URL-REGEX, ^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/ad, REJECT
 # 可能的一些推广(beta)
-URL-REGEX, ^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\?, REJECT-200
+URL-REGEX, ^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\?, REJECT
 # BiliBili漫画去广告
-URL-REGEX, ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.comic\/flash, REJECT-200
+URL-REGEX, ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.comic\/flash, REJECT
 
 # URL Rewrite
 # 去除搜索中的大家都在搜
-URL-REGEX, ^https?:\/\/api\.vc\.bilibili\.com\/search_svr\/v\d\/Search\/recommend_words, REJECT-200
+URL-REGEX, ^https?:\/\/api\.vc\.bilibili\.com\/search_svr\/v\d\/Search\/recommend_words, REJECT
 # 去除动态中的话题
-URL-REGEX, ^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr, REJECT-200
+URL-REGEX, ^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr, REJECT
 # 去除动态中的最常访问
-URL-REGEX, ^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/mix_uplist, REJECT-200
+URL-REGEX, ^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/mix_uplist, REJECT
 # 可能的一些推广(beta)
-URL-REGEX, ^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\?, REJECT-200
+URL-REGEX, ^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\?, REJECT
 # BiliBili漫画去广告
-URL-REGEX, ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash, REJECT-200
-URL-REGEX, ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/ListFlash, REJECT-200
+URL-REGEX, ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash, REJECT
+URL-REGEX, ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/ListFlash, REJECT
 
 
 ##########################################
