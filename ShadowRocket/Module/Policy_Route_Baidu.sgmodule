@@ -13,60 +13,60 @@
 ##########################################
 
 # 百度联盟 - 广告服务商
-DOMAIN-SUFFIX, union.baidu.cn, REJECT-200
-DOMAIN-SUFFIX, union.baidu.com, REJECT-200
+DOMAIN-SUFFIX, union.baidu.cn, REJECT
+DOMAIN-SUFFIX, union.baidu.com, REJECT
 
 # 百度慧推，广告推送
-DOMAIN, sofire.baidu.com, REJECT-200
-DOMAIN, sofire.bdstatic.com, REJECT-200
+DOMAIN, sofire.baidu.com, REJECT
+DOMAIN, sofire.bdstatic.com, REJECT
 
 # 
-DOMAIN, mobads.baidu.com, REJECT-200
-# URL-REGEX, ^https?:\/\/mobads\.baidu\.com\/cpro\/ui\/mads.php, REJECT-200
+DOMAIN, mobads.baidu.com, REJECT
+# URL-REGEX, ^https?:\/\/mobads\.baidu\.com\/cpro\/ui\/mads.php, REJECT
 
-DOMAIN-SUFFIX, pos.baidu.com, REJECT-200
-DOMAIN, httpdns.baidubce.com, REJECT-200
+DOMAIN-SUFFIX, pos.baidu.com, REJECT
+DOMAIN, httpdns.baidubce.com, REJECT
 
 # 百度输入法
-DOMAIN-KEYWORD, jomodns, REJECT-200
-DOMAIN, res.mi.baidu.com, REJECT-200
-DOMAIN, r6.mo.baidu.com, REJECT-200
-URL-REGEX, ^https:\/\/mime\.baidu\.com\/v\d\/start_screen_ads\/list, REJECT-200
-URL-REGEX, ^https:\/\/mime\.baidu\.com\/v\d\/hotpatch\/check\?hotpatch, REJECT-200
-URL-REGEX, ^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo, REJECT-200
-URL-REGEX, ^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement, REJECT-200
+DOMAIN-KEYWORD, jomodns, REJECT
+DOMAIN, res.mi.baidu.com, REJECT
+DOMAIN, r6.mo.baidu.com, REJECT
+URL-REGEX, ^https:\/\/mime\.baidu\.com\/v\d\/start_screen_ads\/list, REJECT
+URL-REGEX, ^https:\/\/mime\.baidu\.com\/v\d\/hotpatch\/check\?hotpatch, REJECT
+URL-REGEX, ^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo, REJECT
+URL-REGEX, ^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement, REJECT
 
 # 百度地图开屏广告
-URL-REGEX, ^https:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.jpg, REJECT-200
+URL-REGEX, ^https:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.jpg, REJECT-IMG
 
 # 百度地图
-URL-REGEX, ^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare, REJECT-200
-URL-REGEX, ^https?:\/\/ugc\.map\.baidu\.com\/govui\/rich_content, REJECT-200
-URL-REGEX, ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui.*qt=hw, REJECT-200
-URL-REGEX, ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads, REJECT-200
-URL-REGEX, ^https?:\/\/newclient\.map\.baidu\.com\/client\/crossmarketing, REJECT-200
-URL-REGEX, ^https?:\/\/newclient\.map\.baidu\.com\/client\/usersystem\/home\/dynamic, REJECT-200
+URL-REGEX, ^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare, REJECT
+URL-REGEX, ^https?:\/\/ugc\.map\.baidu\.com\/govui\/rich_content, REJECT
+URL-REGEX, ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui.*qt=hw, REJECT
+URL-REGEX, ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads, REJECT
+URL-REGEX, ^https?:\/\/newclient\.map\.baidu\.com\/client\/crossmarketing, REJECT
+URL-REGEX, ^https?:\/\/newclient\.map\.baidu\.com\/client\/usersystem\/home\/dynamic, REJECT
 
 # 百度贴吧
-URL-REGEX, ^https?:\/\/mbd\.baidu\.com/ztbox, REJECT-200
-URL-REGEX, ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule, REJECT-200
-URL-REGEX, ^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo, REJECT-200
-URL-REGEX, ^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog), REJECT-200
-URL-REGEX, ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/\w+\/\w+\/(sync|newRnSync|mlog), REJECT-200
-URL-REGEX, ^https:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/c\/s\/splashSchedule, REJECT-200
-URL-REGEX, ^https:\/\/show-g\.mediav\.com\/s, REJECT-200
-# URL-REGEX, ^https:\/\/tb3\.bdstatic\.com\/tb\/wise\/wise-main-core\/static\/js\/, REJECT-200
+URL-REGEX, ^https?:\/\/mbd\.baidu\.com/ztbox, REJECT
+URL-REGEX, ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule, REJECT
+URL-REGEX, ^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo, REJECT
+URL-REGEX, ^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog), REJECT
+URL-REGEX, ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/\w+\/\w+\/(sync|newRnSync|mlog), REJECT
+URL-REGEX, ^https:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/c\/s\/splashSchedule, REJECT
+URL-REGEX, ^https:\/\/show-g\.mediav\.com\/s, REJECT
+# URL-REGEX, ^https:\/\/tb3\.bdstatic\.com\/tb\/wise\/wise-main-core\/static\/js\/, REJECT
 
-URL-REGEX, ^https:\/\/pn\.baidu\.com\/iad\/.+\.json, REJECT-200
-URL-REGEX, ^https:\/\/feed-image\.baidu\.com\/0\/pic\/, REJECT-200
+URL-REGEX, ^https:\/\/pn\.baidu\.com\/iad\/.+\.json, REJECT
+URL-REGEX, ^https:\/\/feed-image\.baidu\.com\/0\/pic\/, REJECT
 
-URL-REGEX, ^https:\/\/pan\.baidu\.com\/act\/v\d\/(bchannel|welfare)\/list, REJECT-200
-URL-REGEX, ^https:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad, REJECT-200
-URL-REGEX, ^https:\/\/pan\.baidu\.com\/act\/api\/activityentry, REJECT-200
+URL-REGEX, ^https:\/\/pan\.baidu\.com\/act\/v\d\/(bchannel|welfare)\/list, REJECT
+URL-REGEX, ^https:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/ad, REJECT
+URL-REGEX, ^https:\/\/pan\.baidu\.com\/act\/api\/activityentry, REJECT
 
-URL-REGEX, ^https:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad, REJECT-200
+URL-REGEX, ^https:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad, REJECT
 
-# URL-REGEX, ^http:\/\/.+\/c\/s\/(trackConfig|dashengVideo|splashSchedule), REJECT-200
+# URL-REGEX, ^http:\/\/.+\/c\/s\/(trackConfig|dashengVideo|splashSchedule), REJECT
 
 
 
