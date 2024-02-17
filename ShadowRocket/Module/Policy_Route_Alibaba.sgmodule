@@ -13,34 +13,34 @@
 ##########################################
 
 # 用户行为数据回传
-DOMAIN-SUFFIX, ut.taobao.com, REJECT-200
-DOMAIN-SUFFIX, tanx.com, REJECT-200
-DOMAIN, log.aliyuncs.com, REJECT-200
-DOMAIN, wgo.mmstat.com, REJECT-200
-DOMAIN, log.mmstat.com, REJECT-200
-DOMAIN, px.effirst.com, REJECT-200
-DOMAIN, agoo-report.m.taobao.com, REJECT-200
-DOMAIN, ipm.atm.youku.com, REJECT-200
-DOMAIN, dualstack-logs.amap.com, REJECT-200
-DOMAIN, adashx.m.taobao.com, REJECT-200
-DOMAIN, ossgw.alicdn.com, REJECT-200
-DOMAIN, ems.youku.com, REJECT-200
-DOMAIN, hudong.alicdn.com, REJECT-200
+DOMAIN-SUFFIX, ut.taobao.com, REJECT
+DOMAIN-SUFFIX, tanx.com, REJECT
+DOMAIN, log.aliyuncs.com, REJECT
+DOMAIN, wgo.mmstat.com, REJECT
+DOMAIN, log.mmstat.com, REJECT
+DOMAIN, px.effirst.com, REJECT
+DOMAIN, agoo-report.m.taobao.com, REJECT
+DOMAIN, ipm.atm.youku.com, REJECT
+DOMAIN, dualstack-logs.amap.com, REJECT
+DOMAIN, adashx.m.taobao.com, REJECT
+DOMAIN, ossgw.alicdn.com, REJECT
+DOMAIN, ems.youku.com, REJECT
+DOMAIN, hudong.alicdn.com, REJECT
 
 # 优酷 
-URL-REGEX, ^https:\/\/gm\.mmstat\.com\/yt\/youku\.pcweb\.control, REJECT-200
+URL-REGEX, ^https:\/\/gm\.mmstat\.com\/yt\/youku\.pcweb\.control, REJECT
 # 这个url屏蔽后会出现强制登陆
-# URL-REGEX, ^https:\/\/gm\.mmstat\.com\/show\.index\.module, REJECT-200
+# URL-REGEX, ^https:\/\/gm\.mmstat\.com\/show\.index\.module, REJECT
 
 #
-URL-REGEX, ^https:\/\/gm\.mmstat\.com/cnux\.1\.0, REJECT-200
-URL-REGEX, ^https:\/\/ifs\.tanx\.com\/display_ifs, REJECT-200
-URL-REGEX, ^https:\/\/px\.ucweb\.com\/api\/v1\/raw\/upload, REJECT-200
+URL-REGEX, ^https:\/\/gm\.mmstat\.com/cnux\.1\.0, REJECT
+URL-REGEX, ^https:\/\/ifs\.tanx\.com\/display_ifs, REJECT
+URL-REGEX, ^https:\/\/px\.ucweb\.com\/api\/v1\/raw\/upload, REJECT
 
 # 咸鱼开屏广告下发
 # DOMAIN, iyes.youku.com, REJECT
-URL-REGEX, ^https:\/\/iyes\.youku\.com\/uts\/v1\/start\/pre, REJECT-200
-URL-REGEX, ^https:\/\/iyes\.youku\.com\/uts\/v1\/start\/rt, REJECT-200
+URL-REGEX, ^https:\/\/iyes\.youku\.com\/uts\/v1\/start\/pre, REJECT-DICT
+URL-REGEX, ^https:\/\/iyes\.youku\.com\/uts\/v1\/start\/rt, REJECT-DICT
 
 # 阿里巴巴
 URL-REGEX, ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict), REJECT-DICT
