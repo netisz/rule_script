@@ -9,19 +9,19 @@
 [Rule]
 
 # 屏蔽在使用移动端 html5 浏览页面时在屏幕上方的打开京东的引流栏
-URL-REGEX, ^https:\/\/api\.m\.jd\.com\/\?appid=yinliu, REJECT-200
-URL-REGEX, ^https:\/\/mapi\.m\.jd\.com\/commonHeader\/headerInfo\.action, REJECT-200
+URL-REGEX, ^https:\/\/api\.m\.jd\.com\/\?appid=yinliu, REJECT
+URL-REGEX, ^https:\/\/mapi\.m\.jd\.com\/commonHeader\/headerInfo\.action, REJECT
 
-URL-REGEX, ^https:\/\/h5speed\.m\.jd\.com\/v\d\/speed\/event, REJECT-200
-URL-REGEX, ^https:\/\/h5speed\.m\.jd\.com\/v\d\/exception, REJECT-200
-URL-REGEX, ^https:\/\/knicks\.jd\.com\/log\/server, REJECT-200
+URL-REGEX, ^https:\/\/h5speed\.m\.jd\.com\/v\d\/speed\/event, REJECT
+URL-REGEX, ^https:\/\/h5speed\.m\.jd\.com\/v\d\/exception, REJECT
+URL-REGEX, ^https:\/\/knicks\.jd\.com\/log\/server, REJECT
 
-DOMAIN, uranus.jd.com, REJECT-200
-# URL-REGEX, ^https:\/\/uranus\.jd\.com\/log\/m\/v3, REJECT-200
-# URL-REGEX, ^https:\/\/uranus\.jd\.com\/log\/m, REJECT-200
+DOMAIN, uranus.jd.com, REJECT
+# URL-REGEX, ^https:\/\/uranus\.jd\.com\/log\/m\/v3, REJECT
+# URL-REGEX, ^https:\/\/uranus\.jd\.com\/log\/m, REJECT
 
-DOMAIN, hermes.jd.com, REJECT-200
-DOMAIN, uranus.jd.com, REJECT-200
+DOMAIN, hermes.jd.com, REJECT
+DOMAIN, uranus.jd.com, REJECT
 
 # 直连域名
 DOMAIN-SUFFIX, 1huizhan.com, DIRECT
