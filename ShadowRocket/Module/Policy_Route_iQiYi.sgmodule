@@ -4,13 +4,13 @@
 #!author = 
 #!homepage = 
 #!icon = 
-#!date = 20240213
+#!date = 20240219
 
 [Rule]
 
-##########################################
+####################################
 # 拦截规则
-##########################################
+####################################
 
 DOMAIN-SUFFIX, a.ckm.iqiyi.com, REJECT
 DOMAIN-SUFFIX, ad.m.iqiyi.com, REJECT
@@ -115,9 +115,9 @@ DOMAIN, oaa.iqiyi.com, REJECT
 # DOMAIN, cmts.iqiyi.com, REJECT
 
 
-##########################################
+####################################
 # 直连规则
-##########################################
+####################################
 
 DOMAIN-SUFFIX, iqiyi.com, DIRECT
 DOMAIN-SUFFIX, iqiyipic.com, DIRECT
