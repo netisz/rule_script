@@ -13,8 +13,8 @@
 ##########################################
 
 # 朴朴超市
-DOMAIN-SUFFIX,bwy1.pupuapi.com, REJECT-200
-#URL-REGEX, ^https:\/\/bwy1\.pupuapi\.com\/bv\/i, REJECT-200
+DOMAIN-SUFFIX,bwy1.pupuapi.com, REJECT
+#URL-REGEX, ^https:\/\/bwy1\.pupuapi\.com\/bv\/i, REJECT
 
 
 ##########################################
