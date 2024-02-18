@@ -12,14 +12,12 @@
 # 拦截规则
 ##########################################
 
-# 用户行为数据回传
 DOMAIN-SUFFIX, a.ckm.iqiyi.com, REJECT
 DOMAIN-SUFFIX, ad.m.iqiyi.com, REJECT
 DOMAIN-SUFFIX, afp.iqiyi.com, REJECT
 DOMAIN-SUFFIX, c.uaa.iqiyi.com, REJECT
 DOMAIN-SUFFIX, cloudpush.iqiyi.com, REJECT
 DOMAIN-SUFFIX, cm.passport.iqiyi.com, REJECT
-DOMAIN-SUFFIX, cupid.iqiyi.com, REJECT
 DOMAIN-SUFFIX, emoticon.sns.iqiyi.com, REJECT
 DOMAIN-SUFFIX, gamecenter.iqiyi.com, REJECT
 DOMAIN-SUFFIX, hotchat-im.iqiyi.com, REJECT
@@ -31,15 +29,45 @@ DOMAIN-SUFFIX, msg2.video.qiyi.com, REJECT
 DOMAIN-SUFFIX, policy.video.iqiyi.com, REJECT
 DOMAIN-SUFFIX, yuedu.iqiyi.com, REJECT
 
-DOMAIN, msg.qy.net, REJECT
-DOMAIN, oaa.iqiyi.com, REJECT
+### 未知
+# > https://t7z.cupid.iqiyi.com/mixer?
+# DOMAIN-SUFFIX, cupid.iqiyi.com, REJECT
 
-# 播放时间条的缩略图 // preimage2.iqiyipic.com
-# URL-REGEX, ^https:\/\/preimage2\.iqiyipic\.com\/preimage, REJECT-IMG
+### 可能是浏览观看行为记录回传
+# > https://msg.qy.net/qos?
+# > https://msg.qy.net/act?
+# > https://msg.qy.net/b?
+# > https://msg.qy.net/v5/bi/opendata?
+# DOMAIN, msg.qy.net, REJECT
 
-# 弹幕 // cmts.iqiyi.com
-DOMAIN, cmts.iqiyi.com, REJECT
-# URL-REGEX, ^https:\/\/cmts\.iqiyi\.com\/bullet\/, REJECT
+### Beacon / post data
+# > https://oaa.iqiyi.com/trace
+# DOMAIN, oaa.iqiyi.com, REJECT
+
+### 影片正片视频 TS 切片地址信息，返回信息为对象 {}
+# > https://cache.video.iqiyi.com/dash?
+
+### 影片正片 TS 视频切片文件存放位置
+# > http://pcw-data.video.iqiyi.com/videos/
+
+### 影片简介
+# > https://mesh.if.iqiyi.com/player/pcw/video/baseInfo?
+
+### 短片简介
+# > https://mesh.if.iqiyi.com/player/pcw/video/playervideoinfo?
+
+### 影片短片 TS 视频文件存放位置
+# > https://newscdnct.inter.71edge.com/videos/
+
+### 账号会员信息 / 没什么用
+# > https://vinfo.vip.iqiyi.com/external/vip_users?
+
+### 播放时间条的缩略图 / preimage2.iqiyipic.com
+# > URL-REGEX, ^https:\/\/preimage2\.iqiyipic\.com\/preimage, REJECT-IMG
+
+### 弹幕 / cmts.iqiyi.com
+# > URL-REGEX, ^https:\/\/cmts\.iqiyi\.com\/bullet\/, REJECT
+# DOMAIN, cmts.iqiyi.com, REJECT
 
 
 ##########################################
