@@ -4,13 +4,13 @@
 #!author = 
 #!homepage = 
 #!icon = 
-#!date = 20240213
+#!date = 20240219
 
 [Rule]
 
-##########################################
+####################################
 # 拦截规则
-##########################################
+####################################
 
 # 广告
 DOMAIN, ad.zijieapi.com, REJECT
@@ -24,12 +24,14 @@ DOMAIN-KEYWORD, pangolin-sdk-toutiao, REJECT
 DOMAIN-KEYWORD, pglstatp-toutiao, REJECT
 DOMAIN-KEYWORD, video-cn.snssdk.com, REJECT
 
-##########################################
+
+####################################
 # 直连规则
-##########################################
+####################################
 
 DOMAIN-SUFFIX, douyin.com, DIRECT
 DOMAIN-SUFFIX, bytedance.com, DIRECT
+
 
 [MITM]
 # hostname = %APPEND% 
