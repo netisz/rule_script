@@ -19,6 +19,8 @@
 
 DOMAIN-SUFFIX, apple.com, DIRECT
 DOMAIN-SUFFIX, icloud.com, DIRECT
+DOMAIN-SUFFIX, icloud-content.com, DIRECT
+
 DOMAIN-SUFFIX, appleschoolcontent.com, DIRECT
 DOMAIN-SUFFIX, axm-usercontent-apple.com, DIRECT
 DOMAIN-SUFFIX, qtlcdn.com, DIRECT
