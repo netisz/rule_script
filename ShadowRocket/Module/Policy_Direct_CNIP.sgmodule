@@ -4,12 +4,12 @@
 #!author = 
 #!homepage =
 #!icon =
-#!date = 20240215
+#!date = 20240219
 
 [Rule]
 
-#【直连规则】中国境内IPv4地址
-RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/ShadowRocket/Rule/Direct_CN_IPv4.list,DIRECT
+# 【直连规则】中国境内IPv4地址
+RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/ShadowRocket/Rule/Rule_CN_IPv4.list,DIRECT
 
-#【直连规则】中国境内IPv6地址
-RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/ShadowRocket/Rule/Direct_CN_IPv6.list,DIRECT
+# 【直连规则】中国境内IPv6地址
+RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/ShadowRocket/Rule/Rule_CN_IPv6.list,DIRECT
