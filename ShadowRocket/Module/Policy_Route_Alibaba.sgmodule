@@ -4,13 +4,13 @@
 #!author = 
 #!homepage = 
 #!icon = 
-#!date = 20240213
+#!date = 20240219
 
 [Rule]
 
-##########################################
+####################################
 # 拦截规则
-##########################################
+####################################
 
 # 用户行为数据回传
 DOMAIN-SUFFIX, ut.taobao.com, REJECT
@@ -56,9 +56,9 @@ URL-REGEX, ^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus
 URL-REGEX, ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(volvo\.secondfloor\.getconfig|wireless\.home\.newface\.awesome\.get), REJECT-DICT
 
 
-##########################################
+####################################
 # 直连规则
-##########################################
+####################################
 
 # CDN
 DOMAIN-SUFFIX, alicdn.com, DIRECT
