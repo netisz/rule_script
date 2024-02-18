@@ -4,13 +4,13 @@
 #!author = 
 #!homepage = 
 #!icon = 
-#!date = 20240214
+#!date = 20240219
 
 [Rule]
 
-##########################################
+####################################
 # 拦截规则
-##########################################
+####################################
 
 # 小米
 DOMAIN, sdkconfig.ad.xiaomi.com, REJECT
@@ -68,9 +68,10 @@ URL-REGEX, ^https:\/\/apiwz\.midukanshu\.com\/config\/getAds$, REJECT
 URL-REGEX, ^http:\/\/app\.zhoudamozi\.com\/ad\/.+, REJECT
 
 
-##########################################
+####################################
 # 直连规则
-##########################################
+####################################
+
 DOMAIN-SUFFIX, mi.com, DIRECT
 DOMAIN-SUFFIX, miui.com, DIRECT
 DOMAIN-SUFFIX, xiaomi.com, DIRECT
