@@ -4,13 +4,13 @@
 #!author = 
 #!homepage = 
 #!icon = 
-#!date = 20240213
+#!date = 20240219
 
 [Rule]
 
-##########################################
+####################################
 # 拦截规则
-##########################################
+####################################
 
 # Denied Beacon
 DOMAIN-SUFFIX, dataflow.biliapi.com, REJECT
@@ -48,9 +48,9 @@ URL-REGEX, ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash, RE
 URL-REGEX, ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/ListFlash, REJECT
 
 
-##########################################
+####################################
 # 直连规则
-##########################################
+####################################
 
 DOMAIN-SUFFIX, bilibili.com, DIRECT
 DOMAIN-SUFFIX, biliapi.net, DIRECT
@@ -72,6 +72,7 @@ BiliBili_动态去广告 = type=http-response,requires-body=1,max-size=0,pattern
 BiliBili_开屏去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js
 BiliBili_标签页处理 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js
 BiliBili_我的页面处理 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js
+
 
 [MITM]
 hostname = %APPEND% app.bilibili.com,api.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com,i0.hdslb.com
