@@ -13,34 +13,33 @@
 ##########################################
 
 # 用户行为数据回传
-DOMAIN-SUFFIX, a.ckm.iqiyi.com, REJECT-200
-DOMAIN-SUFFIX, ad.m.iqiyi.com, REJECT-200
-DOMAIN-SUFFIX, afp.iqiyi.com, REJECT-200
-DOMAIN-SUFFIX, c.uaa.iqiyi.com, REJECT-200
-DOMAIN-SUFFIX, cloudpush.iqiyi.com, REJECT-200
-DOMAIN-SUFFIX, cm.passport.iqiyi.com, REJECT-200
-DOMAIN-SUFFIX, cupid.iqiyi.com, REJECT-200
-DOMAIN-SUFFIX, emoticon.sns.iqiyi.com, REJECT-200
-DOMAIN-SUFFIX, gamecenter.iqiyi.com, REJECT-200
-DOMAIN-SUFFIX, hotchat-im.iqiyi.com, REJECT-200
-DOMAIN-SUFFIX, ifacelog.iqiyi.com, REJECT-200
-DOMAIN-SUFFIX, mbdlog.iqiyi.com, REJECT-200
-DOMAIN-SUFFIX, msg.71.am, REJECT-200
-DOMAIN-SUFFIX, msg.video.qiyi.com, REJECT-200
-DOMAIN-SUFFIX, msg2.video.qiyi.com, REJECT-200
-DOMAIN-SUFFIX, policy.video.iqiyi.com, REJECT-200
-DOMAIN-SUFFIX, yuedu.iqiyi.com, REJECT-200
+DOMAIN-SUFFIX, a.ckm.iqiyi.com, REJECT
+DOMAIN-SUFFIX, ad.m.iqiyi.com, REJECT
+DOMAIN-SUFFIX, afp.iqiyi.com, REJECT
+DOMAIN-SUFFIX, c.uaa.iqiyi.com, REJECT
+DOMAIN-SUFFIX, cloudpush.iqiyi.com, REJECT
+DOMAIN-SUFFIX, cm.passport.iqiyi.com, REJECT
+DOMAIN-SUFFIX, cupid.iqiyi.com, REJECT
+DOMAIN-SUFFIX, emoticon.sns.iqiyi.com, REJECT
+DOMAIN-SUFFIX, gamecenter.iqiyi.com, REJECT
+DOMAIN-SUFFIX, hotchat-im.iqiyi.com, REJECT
+DOMAIN-SUFFIX, ifacelog.iqiyi.com, REJECT
+DOMAIN-SUFFIX, mbdlog.iqiyi.com, REJECT
+DOMAIN-SUFFIX, msg.71.am, REJECT
+DOMAIN-SUFFIX, msg.video.qiyi.com, REJECT
+DOMAIN-SUFFIX, msg2.video.qiyi.com, REJECT
+DOMAIN-SUFFIX, policy.video.iqiyi.com, REJECT
+DOMAIN-SUFFIX, yuedu.iqiyi.com, REJECT
 
-DOMAIN, msg.qy.net, REJECT-200
-DOMAIN, oaa.iqiyi.com, REJECT-200
-#URL-REGEX, ^https:\/\/
+DOMAIN, msg.qy.net, REJECT
+DOMAIN, oaa.iqiyi.com, REJECT
 
 # 播放时间条的缩略图 // preimage2.iqiyipic.com
-#URL-REGEX, ^https:\/\/preimage2\.iqiyipic\.com\/preimage, REJECT-200
+# URL-REGEX, ^https:\/\/preimage2\.iqiyipic\.com\/preimage, REJECT-IMG
 
 # 弹幕 // cmts.iqiyi.com
-DOMAIN, cmts.iqiyi.com, REJECT-200
-#URL-REGEX, ^https:\/\/cmts\.iqiyi\.com\/bullet\/, REJECT-200
+DOMAIN, cmts.iqiyi.com, REJECT
+# URL-REGEX, ^https:\/\/cmts\.iqiyi\.com\/bullet\/, REJECT
 
 
 ##########################################
