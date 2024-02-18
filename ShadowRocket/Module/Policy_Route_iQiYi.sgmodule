@@ -29,26 +29,23 @@ DOMAIN-SUFFIX, msg2.video.qiyi.com, REJECT
 DOMAIN-SUFFIX, policy.video.iqiyi.com, REJECT
 DOMAIN-SUFFIX, yuedu.iqiyi.com, REJECT
 
+### 疑似为用户组别的灰度测试信息，请求时会附带上设备编号，返回内容为 JSON 对象 {}
+# > https://mesh.if.iqiyi.com/portal/lw/abtest?
+# > https://mesh.if.iqiyi.com/portal/pcw/abtest?
+# > https://mesh.if.iqiyi.com/portal/pcw/abtestPeople?
+URL-REGEX, ^https:\/\/mesh\.if\.iqiyi\.com\/portal\/lw\/abtest, REJECT-DICT
+URL-REGEX, ^https:\/\/mesh\.if\.iqiyi\.com\/portal\/pcw\/abtest, REJECT-DICT
+URL-REGEX, ^https:\/\/mesh\.if\.iqiyi\.com\/portal\/pcw\/abtestPeople, REJECT-DICT
+
+### 返回内容为天气预报？
+# > https://mesh.if.iqiyi.com/portal/pcw/weather/data?
+
 ### 未知
-# > https://t7z.cupid.iqiyi.com/mixer?
-# DOMAIN-SUFFIX, cupid.iqiyi.com, REJECT
+# > https://mesh.if.iqiyi.com/player/pcw/display/control?
 
-### 可能是浏览观看行为记录回传
-# > https://msg.qy.net/qos?
-# > https://msg.qy.net/act?
-# > https://msg.qy.net/b?
-# > https://msg.qy.net/v5/bi/opendata?
-# DOMAIN, msg.qy.net, REJECT
-
-### Beacon / post data
-# > https://oaa.iqiyi.com/trace
-# DOMAIN, oaa.iqiyi.com, REJECT
-
-### 影片正片视频 TS 切片地址信息，返回信息为对象 {}
-# > https://cache.video.iqiyi.com/dash?
-
-### 影片正片 TS 视频切片文件存放位置
-# > http://pcw-data.video.iqiyi.com/videos/
+### 可能与营销投放策略相关
+# > https://mesh.if.iqiyi.com/tvg/pop_marketing?
+URL-REGEX, ^https:\/\/mesh\.if\.iqiyi\.com\/tvg\/pop_marketing, REJECT-DICT
 
 ### 影片简介
 # > https://mesh.if.iqiyi.com/player/pcw/video/baseInfo?
@@ -58,6 +55,36 @@ DOMAIN-SUFFIX, yuedu.iqiyi.com, REJECT
 
 ### 影片短片 TS 视频文件存放位置
 # > https://newscdnct.inter.71edge.com/videos/
+
+### 播放历史
+# > https://mesh.if.iqiyi.com/tvg/pcw/my/play_history?
+
+### 未知
+# > https://t7z.cupid.iqiyi.com/mixer?
+DOMAIN-SUFFIX, cupid.iqiyi.com, REJECT
+
+### 可能是浏览观看行为记录回传，没有返回
+# > https://msg.qy.net/act?
+### 未知，没有返回
+# > https://msg.qy.net/qos?
+### 未知
+# > https://msg.qy.net/b?
+### 未知
+# > https://msg.qy.net/v5/bi/opendata?
+DOMAIN, msg.qy.net, REJECT
+
+### 返回内容为当前用户的浏览器请求信息，但有一项是是用户当前浏览器是否处于调试模式
+# > https://mpaas.iqiyi.com/h5/main/common/fp?
+
+### Beacon / post data
+# > https://oaa.iqiyi.com/trace
+DOMAIN, oaa.iqiyi.com, REJECT
+
+### 影片正片视频 TS 切片地址信息，返回信息为对象 {}
+# > https://cache.video.iqiyi.com/dash?
+
+### 影片正片 TS 视频切片文件存放位置
+# > http://pcw-data.video.iqiyi.com/videos/
 
 ### 账号会员信息 / 没什么用
 # > https://vinfo.vip.iqiyi.com/external/vip_users?
@@ -78,5 +105,6 @@ DOMAIN-SUFFIX, iqiyi.com, DIRECT
 DOMAIN-SUFFIX, iqiyipic.com, DIRECT
 DOMAIN-SUFFIX, 71edge.com, DIRECT
 
+
 [MITM]
-# hostname = %APPEND% 
+hostname = %APPEND% mesh.if.iqiyi.com
