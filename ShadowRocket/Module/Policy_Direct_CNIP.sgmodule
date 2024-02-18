@@ -8,8 +8,13 @@
 
 [Rule]
 
-# 【直连规则】中国境内IPv4地址
-RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/ShadowRocket/Rule/Rule_CN_IPv4.list,DIRECT
+####################################
+# 【直连规则】
+####################################
 
-# 【直连规则】中国境内IPv6地址
-RULE-SET,https://raw.githubusercontent.com/netisz/rule_script/main/ShadowRocket/Rule/Rule_CN_IPv6.list,DIRECT
+# 中国境内IPv4地址
+
+RULE-SET, https://raw.githubusercontent.com/netisz/rule_script/main/ShadowRocket/Rule/Rule_CN_IPv4.list, DIRECT
+
+# 中国境内IPv6地址
+RULE-SET, https://raw.githubusercontent.com/netisz/rule_script/main/ShadowRocket/Rule/Rule_CN_IPv6.list, DIRECT
