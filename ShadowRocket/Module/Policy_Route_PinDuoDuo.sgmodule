@@ -13,12 +13,12 @@
 ##########################################
 
 # 拼多多行为数据上传
-DOMAIN-SUFFIX, th.pinduoduo.com, REJECT-200
-DOMAIN-SUFFIX, th-a.pinduoduo.com, REJECT-200
-DOMAIN-SUFFIX, abtk.pinduoduo.com, REJECT-200
-DOMAIN-SUFFIX, ta-a.pinduoduo.com, REJECT-200
+DOMAIN-SUFFIX, th.pinduoduo.com, REJECT
+DOMAIN-SUFFIX, th-a.pinduoduo.com, REJECT
+DOMAIN-SUFFIX, abtk.pinduoduo.com, REJECT
+DOMAIN-SUFFIX, ta-a.pinduoduo.com, REJECT
 
-URL-REGEX, ^https:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash, REJECT-200
+URL-REGEX, ^https:\/\/api\.(pinduoduo|yangkeduo)\.com\/api\/cappuccino\/splash, REJECT
 
 
 ##########################################
