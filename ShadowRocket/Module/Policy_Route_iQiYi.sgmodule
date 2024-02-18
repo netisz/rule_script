@@ -55,6 +55,8 @@ URL-REGEX, ^https:\/\/mesh\.if\.iqiyi\.com\/tvg\/pop_marketing, REJECT-DICT
 
 ### 影片短片 TS 视频文件存放位置
 # > https://newscdnct.inter.71edge.com/videos/
+### 广告短片 f4v 视频文件存放位置
+# > https://alicdnct.inter.71edge.com/videos/other/
 
 ### 播放历史
 # > https://mesh.if.iqiyi.com/tvg/pcw/my/play_history?
