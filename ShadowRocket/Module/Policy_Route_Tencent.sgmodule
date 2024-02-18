@@ -4,13 +4,13 @@
 #!author = 
 #!homepage = 
 #!icon = 
-#!date = 20240215
+#!date = 20240219
 
 [Rule]
 
-##########################################
+####################################
 # 拦截规则
-##########################################
+####################################
 
 # 腾讯
 DOMAIN, adsmind.gdtimg.com, REJECT
@@ -57,9 +57,9 @@ URL-REGEX, ^https:\/\/m\.qianbao\.qq\.com\/services\/walletHome\/getGameData, RE
 URL-REGEX, ^https:\/\/m\.qianbao\.qq\.com\/services\/walletHome\/getFootData, REJECT
 
 
-##########################################
+####################################
 # 直连规则
-##########################################
+####################################
 
 # QQ
 DOMAIN-SUFFIX, qq.com, DIRECT
