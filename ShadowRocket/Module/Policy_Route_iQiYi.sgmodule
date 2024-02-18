@@ -59,8 +59,10 @@ URL-REGEX, ^https:\/\/mesh\.if\.iqiyi\.com\/tvg\/pop_marketing, REJECT-DICT
 ### 播放历史
 # > https://mesh.if.iqiyi.com/tvg/pcw/my/play_history?
 
-### 未知
+### 广告投放
 # > https://t7z.cupid.iqiyi.com/mixer?
+# > https://t7z.cupid.iqiyi.com/track2?
+# > https://t7z.cupid.iqiyi.com/dsp_track3?
 DOMAIN-SUFFIX, cupid.iqiyi.com, REJECT
 
 ### 可能是浏览观看行为记录回传，没有返回
