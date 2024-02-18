@@ -4,13 +4,13 @@
 #!author = 
 #!homepage = 
 #!icon = 
-#!date = 20240215
+#!date = 20240219
 
 [Rule]
 
-##########################################
+####################################
 # 拦截规则
-##########################################
+####################################
 
 # 百度联盟 - 广告服务商
 DOMAIN-SUFFIX, union.baidu.cn, REJECT
@@ -70,11 +70,12 @@ URL-REGEX, ^https:\/\/appwk\.baidu\.com\/xpage\/interface\/wknaad, REJECT
 
 
 
-##########################################
+####################################
 # 直连规则
-##########################################
+####################################
 
 DOMAIN-SUFFIX, baidu.com, DIRECT
+
 
 [MITM]
 hostname = %APPEND% show-g.mediav.com, mbd.baidu.com, ugc.map.baidu.com, newclient.map.baidu.com, tb3.bdstatic.com, dss0.bdstatic.com, mime.baidu.com, *.tieba.baidu.com, feed-image.baidu.com, pn.baidu.com, pan.baidu.com, appwk.baidu.com
