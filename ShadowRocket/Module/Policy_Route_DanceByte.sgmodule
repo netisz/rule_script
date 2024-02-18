@@ -13,16 +13,16 @@
 ##########################################
 
 # 广告
-DOMAIN, ad.zijieapi.com, REJECT-200
-DOMAIN, i.snssdk.com, REJECT-200
-DOMAIN, is.snssdk.com, REJECT-200
-DOMAIN-KEYWORD, -ad-sign.byteimg.com, REJECT-200
-DOMAIN-KEYWORD, -tos.pstatp.com, REJECT-200
-DOMAIN-KEYWORD, asiad.byteactivity, REJECT-200
-DOMAIN-KEYWORD, pangolin.snssdk.com, REJECT-200
-DOMAIN-KEYWORD, pangolin-sdk-toutiao, REJECT-200
-DOMAIN-KEYWORD, pglstatp-toutiao, REJECT-200
-DOMAIN-KEYWORD, video-cn.snssdk.com, REJECT-200
+DOMAIN, ad.zijieapi.com, REJECT
+DOMAIN, i.snssdk.com, REJECT
+DOMAIN, is.snssdk.com, REJECT
+DOMAIN-KEYWORD, -ad-sign.byteimg.com, REJECT
+DOMAIN-KEYWORD, -tos.pstatp.com, REJECT
+DOMAIN-KEYWORD, asiad.byteactivity, REJECT
+DOMAIN-KEYWORD, pangolin.snssdk.com, REJECT
+DOMAIN-KEYWORD, pangolin-sdk-toutiao, REJECT
+DOMAIN-KEYWORD, pglstatp-toutiao, REJECT
+DOMAIN-KEYWORD, video-cn.snssdk.com, REJECT
 
 ##########################################
 # 直连规则
