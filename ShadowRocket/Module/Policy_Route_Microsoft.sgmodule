@@ -22,6 +22,7 @@
 DOMAIN-SUFFIX, microsoftonline.com, DIRECT
 DOMAIN-SUFFIX, microsoft.com, DIRECT
 DOMAIN-SUFFIX, visualstudio.com, DIRECT
+DOMAIN-SUFFIX, appcenter.ms, DIRECT
 
 ##########################################
 # 代理规则
