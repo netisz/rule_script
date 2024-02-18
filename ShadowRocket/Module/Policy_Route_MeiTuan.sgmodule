@@ -4,13 +4,13 @@
 #!author = 
 #!homepage = 
 #!icon = 
-#!date = 20240213
+#!date = 20240219
 
 [Rule]
 
-##########################################
+####################################
 # 拦截规则
-##########################################
+####################################
 
 # 美团
 URL-REGEX, ^https:\/\/medusa\.dianping\.com\/sdk\/report, REJECT
@@ -45,9 +45,9 @@ URL-REGEX, ^https:\/\/mall\.meituan\.com\/api\/c\/homepage\/splash, REJECT
 URL-REGEX, ^https:\/\/mall\.meituan\.com\/api\/c\/homepage\/bubble\/operate\/info, REJECT
 
 
-##########################################
+####################################
 # 直连规则
-##########################################
+####################################
 DOMAIN-SUFFIX, meituan.com, DIRECT
 DOMAIN-SUFFIX, meituan.net, DIRECT
 DOMAIN-SUFFIX, maoyan.com, DIRECT
