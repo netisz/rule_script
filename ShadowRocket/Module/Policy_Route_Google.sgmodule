@@ -4,13 +4,13 @@
 #!author = 
 #!homepage = 
 #!icon = 
-#!date = 20240218
+#!date = 20240219
 
 [Rule]
 
-##########################################
+####################################
 # 拦截规则
-##########################################
+####################################
 
 URL-REGEX, ^https:\/\/www\.google\.com\.hk\/gen_204, REJECT
 
@@ -60,26 +60,28 @@ DOMAIN-SUFFIX, marketingplatform.google.com, REJECT
 DOMAIN-SUFFIX, urchin.com, REJECT
 
 
-##########################################
+####################################
 # 直连规则
-##########################################
+####################################
 
 # 如果您并不信任此服务提供商或防止其下载消耗过多带宽资源，可以进入 Safari 设置 -> 安全性标签页中，关闭 「 Fraudulent Website Warning / 访问欺骗性网站时发出警告」功能，并使用 REJECT 策略。
 DOMAIN, safebrowsing.googleapis.com, DIRECT
-# DOMAIN-SUFFIX, googleapis.com, DIRECT
 
 
-##########################################
+
+####################################
 # 代理规则
-##########################################
+####################################
 
 DOMAIN-KEYWORD, gmail, PROXY
 DOMAIN-KEYWORD, google, PROXY
 DOMAIN-KEYWORD, youtube, PROXY
 
+
 [URL Rewrite]
 # Redirect Google Search Service
 ^https?:\/\/(www.)?(g|google)\.cn 302 https://www.google.com
+
 
 [MITM]
 hostname = %APPEND% *.google.cn, *.googlevideo.com, *.google.com.hk
