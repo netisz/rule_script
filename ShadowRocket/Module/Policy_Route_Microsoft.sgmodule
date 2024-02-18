@@ -1,36 +1,37 @@
-#!name=【路由策略】Microsoft
-#!desc=Microsoft公司的路由策略
+#!name =【路由策略】Microsoft
+#!desc = Microsoft公司的路由策略
 #!openUrl =
 #!author = 
 #!homepage =
 #!icon =
-#!date = 20240212
+#!date = 20240219
 
 [Rule]
 
-##########################################
+####################################
 # 拦截规则
-##########################################
+####################################
 
 # URL-REGEX, ^https:\/\/, REJECT
 
 
-##########################################
+####################################
 # 直连规则
-##########################################
+####################################
 
 DOMAIN-SUFFIX, microsoftonline.com, DIRECT
 DOMAIN-SUFFIX, microsoft.com, DIRECT
 DOMAIN-SUFFIX, visualstudio.com, DIRECT
 DOMAIN-SUFFIX, appcenter.ms, DIRECT
 
-##########################################
+####################################
 # 代理规则
-##########################################
+####################################
 
 # Github
 DOMAIN-SUFFIX, github.com, PROXY
 DOMAIN-SUFFIX, githubusercontent.com, PROXY
+
 
 [MITM]
 # hostname = %APPEND% 
