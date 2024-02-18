@@ -4,7 +4,7 @@
 #!author = 
 #!homepage = 
 #!icon = 
-#!date = 20240213
+#!date = 20240218
 
 [Rule]
 
@@ -64,8 +64,9 @@ DOMAIN-SUFFIX, urchin.com, REJECT
 # 直连规则
 ##########################################
 
-# 如果您并不信任此服务提供商或防止其下载消耗过多带宽资源，可以进入 Safari 设置，关闭 Fraudulent Website Warning 功能，并使用 REJECT 策略。
-DOMAIN, safebrowsing.googleapis.com, DIRECT
+# 如果您并不信任此服务提供商或防止其下载消耗过多带宽资源，可以进入 Safari 设置 -> 安全性标签页中，关闭 「 Fraudulent Website Warning / 访问欺骗性网站时发出警告」功能，并使用 REJECT 策略。
+# DOMAIN, safebrowsing.googleapis.com, DIRECT
+DOMAIN-SUFFIX, googleapis.com, DIRECT
 
 
 ##########################################
@@ -81,4 +82,4 @@ DOMAIN-KEYWORD, youtube, PROXY
 ^https?:\/\/(www.)?(g|google)\.cn 302 https://www.google.com
 
 [MITM]
-hostname = %APPEND% *.google.cn, *.googlevideo.com, www.google.com.hk
+hostname = %APPEND% *.google.cn, *.googlevideo.com, *.google.com.hk
