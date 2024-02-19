@@ -37,6 +37,9 @@ URL-REGEX, ^https:\/\/mesh\.if\.iqiyi\.com\/portal\/lw\/abtest, REJECT-DICT
 URL-REGEX, ^https:\/\/mesh\.if\.iqiyi\.com\/portal\/pcw\/abtest, REJECT-DICT
 URL-REGEX, ^https:\/\/mesh\.if\.iqiyi\.com\/portal\/pcw\/abtestPeople, REJECT-DICT
 
+### 未知
+# > https://mesh.if.iqiyi.com/player/display/control/v2?
+
 ### 返回内容为天气预报？
 # > https://mesh.if.iqiyi.com/portal/pcw/weather/data?
 
@@ -46,6 +49,10 @@ URL-REGEX, ^https:\/\/mesh\.if\.iqiyi\.com\/portal\/pcw\/abtestPeople, REJECT-DI
 ### 可能与营销投放策略相关
 # > https://mesh.if.iqiyi.com/tvg/pop_marketing?
 URL-REGEX, ^https:\/\/mesh\.if\.iqiyi\.com\/tvg\/pop_marketing, REJECT-DICT
+
+### 未知，返回 JSON 对象 {}
+# > https://mesh.if.iqiyi.com/tvg/async_pr_control?
+
 
 ### 影片简介
 # > https://mesh.if.iqiyi.com/player/pcw/video/baseInfo?
@@ -66,6 +73,7 @@ URL-REGEX, ^https:\/\/mesh\.if\.iqiyi\.com\/tvg\/pop_marketing, REJECT-DICT
 
 ### 上传记录当前播放影片的时间位置
 # > https://l-rcd.iqiyi.com/apis/qiyirc/setrc.php?
+# > https://l-rcd.iqiyi.com/apis/func/aap?
 
 ### 生成短地址
 # > https://i.vip.iqiyi.com/client/store/qrcode/getTinyUrl?url=
@@ -86,6 +94,12 @@ URL-REGEX, ^https:\/\/app-preload\.iqiyi\.com\/app\/api\/preload, REJECT-DICT
 ### 未知，可能与广告相关
 # > https://sf3-fe-tos.pglstatp-toutiao.com/obj/ad-pattern/renderer/3c8607/index.html
 # > http://pinner-imgserver.byted.org/ad-pattern/renderer/3c8607/index.html
+
+### 可能与广告相关
+# > https://pcw-api.iqiyi.com/strategy/pcw/data/indexAdDianshijuData?
+# > https://pcw-api.iqiyi.com/resource/resource/online/
+### 演员信息
+# > https://pcw-api.iqiyi.com/star/star/basicstarinfo?starId=
 
 ### 未知，返回 JSON 对象 {}
 # > https://du-feige.iqiyi.com/mbdpushservice/api/v2/device/switch.action?
@@ -109,6 +123,9 @@ DOMAIN, msg.qy.net, REJECT
 
 ### 返回内容为当前用户的浏览器请求信息，但有一项是是用户当前浏览器是否处于调试模式
 # > https://mpaas.iqiyi.com/h5/main/common/fp?
+### 未知
+# > https://mpaas.iqiyi.com/common/sns_like/?
+DOMAIN, mpaas.iqiyi.com, REJECT
 
 ### 未知
 # > https://www.iqiyi.com/manifest.json
@@ -126,15 +143,36 @@ DOMAIN, oaa.iqiyi.com, REJECT
 ### 影片正片 TS 视频切片文件存放位置
 # > http://pcw-data.video.iqiyi.com/videos/
 
-### 账号会员信息 / 没什么用
-# > https://vinfo.vip.iqiyi.com/external/vip_users?
-
 ### 播放时间条的缩略图 / preimage2.iqiyipic.com
 # > URL-REGEX, ^https:\/\/preimage2\.iqiyipic\.com\/preimage, REJECT-IMG
 
-### 弹幕 / cmts.iqiyi.com
-# > URL-REGEX, ^https:\/\/cmts\.iqiyi\.com\/bullet\/, REJECT
+### 未知
+# > https://cmonitor.iqiyi.com/apis/cmonitor/keepalive_required.action?
+
+### 未知
+# > https://bar-i.iqiyi.com/myna-api/air/getAirEntity?
+
+### 弹幕相关 / cmts.iqiyi.com
+# > https://cmts.iqiyi.com/bullet/config/channel_config?
+# > https://cmts.iqiyi.com/bullet/v4/sysbullets.z?
+# URL-REGEX, ^https:\/\/cmts\.iqiyi\.com\/bullet\/, REJECT
 # DOMAIN, cmts.iqiyi.com, REJECT
+
+### 用户账号信息，鉴权相关
+# > https://passport.iqiyi.com/apis/user/uid.action?
+# > https://api.vip.iqiyi.com/services/at.action?
+# > https://mesh.if.iqiyi.com/user/pcw/userinfodetail?
+# > https://vinfo.vip.iqiyi.com/external/vip_users?
+
+### 内容付费相关
+# > https://serv.vip.iqiyi.com/services/contentBuy.action?
+
+### 搜索相关
+# > https://search.video.iqiyi.com/m?
+
+### 游戏相关
+# > https://apisgame.iqiyi.com/pcwcenter/position/others/videoTopResource
+
 
 
 ####################################
