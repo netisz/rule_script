@@ -96,7 +96,7 @@ DOMAIN, log.aliyuncs.com, REJECT
 
 #📮 未知
 # > https://s-gm.mmstat.com/arms.1.1
-URL-REGEX, ^https:\/\/s-gm\.mmstat\.com\/arms\.1\.1, REJECT-IMG
+URL-REGEX, ^https:\/\/s-gm\.mmstat\.com\/arms\.\d\.\d, REJECT-IMG
 
 #📮 beacon
 # > https://gm.mmstat.com/aliyundrive.web.action
