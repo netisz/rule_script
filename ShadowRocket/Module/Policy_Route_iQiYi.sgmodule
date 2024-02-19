@@ -74,7 +74,23 @@ URL-REGEX, ^https:\/\/mesh\.if\.iqiyi\.com\/tvg\/pop_marketing, REJECT-DICT
 # > https://t7z.cupid.iqiyi.com/mixer?
 # > https://t7z.cupid.iqiyi.com/track2?
 # > https://t7z.cupid.iqiyi.com/dsp_track3?
+# > http://msga.cupid.iqiyi.com/scp2.gif
+### 将当前设备的ip地址上报，没有返回内容
+# > http://riskip.cupid.iqiyi.com/pcw?
 DOMAIN-SUFFIX, cupid.iqiyi.com, REJECT
+
+### 进入 App 后在首页前置大的广告，烦人，返回内容是 JSON 对象 {}
+# > https://app-preload.iqiyi.com/app/api/preload?
+URL-REGEX, ^https:\/\/app-preload\.iqiyi\.com\/app\/api\/preload, REJECT-DICT
+
+### 未知，可能与广告相关
+# > https://sf3-fe-tos.pglstatp-toutiao.com/obj/ad-pattern/renderer/3c8607/index.html
+# > http://pinner-imgserver.byted.org/ad-pattern/renderer/3c8607/index.html
+
+### 未知，返回 JSON 对象 {}
+# > https://du-feige.iqiyi.com/mbdpushservice/api/v2/device/switch.action?
+# > https://du-feige.iqiyi.com/mbdpushservice/api/v2/device/upload.action?
+
 
 ### 可能是浏览观看行为记录回传，没有返回
 # > https://msg.qy.net/act?
@@ -93,6 +109,9 @@ DOMAIN, msg.qy.net, REJECT
 
 ### 未知
 # > https://www.iqiyi.com/manifest.json
+
+### 回传当前设备的信息
+# > http://toblog.ctobsnssdk.com/service/2/app_log/?
 
 ### Beacon / post data
 # > https://oaa.iqiyi.com/trace
