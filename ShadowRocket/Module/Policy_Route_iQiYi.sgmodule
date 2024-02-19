@@ -63,6 +63,9 @@ URL-REGEX, ^https:\/\/mesh\.if\.iqiyi\.com\/tvg\/pop_marketing, REJECT-DICT
 ### 未知，返回 JSON 对象 {}
 # > https://mesh.if.iqiyi.com/player/pcw/control/content_config?
 
+### 未知，返回 JSON 对象 {}
+# > https://mesh.if.iqiyi.com/player/pcw/video/displayupdown?
+
 ### 影片短片 TS 视频文件存放位置
 # > https://newscdnct.inter.71edge.com/videos/
 ### 广告短片 f4v 视频文件存放位置
