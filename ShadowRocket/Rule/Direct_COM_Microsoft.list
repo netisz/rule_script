@@ -1,9 +1,0 @@
-# NAME: 【直连规则】Microsoft
-# AUTHOR: 
-# REPO:
-# UPDATED: 20240212
-# DOMAIN: 
-# TOTAL: 
-
-DOMAIN-SUFFIX,microsoftonline.com
-DOMAIN-SUFFIX,microsoft.com
