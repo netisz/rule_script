@@ -14,6 +14,10 @@
 
 DOMAIN, ossgw.alicdn.com, REJECT
 
+#📮 未知，返回内容为 JSON 对象 {}
+# > https://px.ucweb.com/api/v1/config
+DOMAIN, px.ucweb.com, REJECT
+
 #📮 未知
 # > https://hudong.alicdn.com/api/data/v2/e53c59907f64488f8c82e53c96d7ddf9.js
 DOMAIN, hudong.alicdn.com, REJECT
@@ -38,6 +42,23 @@ DOMAIN, wgo.mmstat.com, REJECT
 #📮 未知
 # > https://log.mmstat.com/eg.js
 DOMAIN, log.mmstat.com, REJECT
+
+
+# 🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
+# 淘宝
+
+#📮 如果点击功能入口为 H5 地址的话，回传点击功能入口的地址，账号名称等信息，返回内容为 1px gif
+# > https://gm.mmstat.com/jstracker.3?
+URL-REGEX, ^https:\/\/gm\.mmstat\.com\/jstracker\.3\?, REJECT-IMG
+
+#📮 回传设备信息，返回内容为 JSON 对象 {}
+# > https://loggw-ex.alipay.com/loggw/logUpload.do
+
+#📮 回传信息，回传内容未知，返回内容为空，状态码 200
+# > https://h-adashx.ut.taobao.com/upload
+
+#📮 首页下方中间位置的活动入口内容下发，返回内容为 callback，不能屏蔽，屏蔽后会失去最新活动的信息
+# > https://ark-handler-bottom.m.taobao.com/bottom/
 
 # 🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
 # 优酷
@@ -131,6 +152,9 @@ DOMAIN-SUFFIX, alicdn.com, DIRECT
 DOMAIN-SUFFIX, kunluncan.com, DIRECT
 DOMAIN-SUFFIX, alikunlun.com, DIRECT
 DOMAIN-SUFFIX, tbcache.com, DIRECT
+
+# 其他
+DOMAIN-SUFFIX, ucweb.com, DIRECT
 
 # 淘天
 DOMAIN-KEYWORD, alibaba, DIRECT
