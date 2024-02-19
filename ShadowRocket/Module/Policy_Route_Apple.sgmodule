@@ -17,6 +17,8 @@
 # 直连规则
 ####################################
 
+DOMAIN-SUFFIX, safebrowsing.apple, DIRECT
+
 DOMAIN-SUFFIX, apple.com, DIRECT
 DOMAIN-SUFFIX, icloud.com, DIRECT
 DOMAIN-SUFFIX, icloud-content.com, DIRECT
