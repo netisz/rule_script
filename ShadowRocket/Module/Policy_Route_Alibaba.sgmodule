@@ -12,22 +12,28 @@
 # 拦截规则
 ####################################
 
-DOMAIN-SUFFIX, ut.taobao.com, REJECT
-DOMAIN-SUFFIX, tanx.com, REJECT
-DOMAIN, log.aliyuncs.com, REJECT
-DOMAIN, wgo.mmstat.com, REJECT
-DOMAIN, px.effirst.com, REJECT
-DOMAIN, agoo-report.m.taobao.com, REJECT
-DOMAIN, ipm.atm.youku.com, REJECT
-DOMAIN, dualstack-logs.amap.com, REJECT
-DOMAIN, adashx.m.taobao.com, REJECT
 DOMAIN, ossgw.alicdn.com, REJECT
-DOMAIN, ems.youku.com, REJECT
-
 
 #📮 未知
 # > https://hudong.alicdn.com/api/data/v2/e53c59907f64488f8c82e53c96d7ddf9.js
 DOMAIN, hudong.alicdn.com, REJECT
+
+DOMAIN-SUFFIX, ut.taobao.com, REJECT
+DOMAIN, agoo-report.m.taobao.com, REJECT
+DOMAIN, adashx.m.taobao.com, REJECT
+
+DOMAIN-SUFFIX, tanx.com, REJECT
+
+#📮 阿里云盘 beacon
+# > https://px.effirst.com/api/v1/jssdk/upload?
+DOMAIN, px.effirst.com, REJECT
+
+DOMAIN, dualstack-logs.amap.com, REJECT
+
+DOMAIN, ipm.atm.youku.com, REJECT
+DOMAIN, ems.youku.com, REJECT
+
+DOMAIN, wgo.mmstat.com, REJECT
 
 #📮 未知
 # > https://log.mmstat.com/eg.js
@@ -71,11 +77,37 @@ URL-REGEX, ^https:\/\/gm\.mmstat\.com/cnux\.1\.0, REJECT
 URL-REGEX, ^https:\/\/ifs\.tanx\.com\/display_ifs, REJECT
 URL-REGEX, ^https:\/\/px\.ucweb\.com\/api\/v1\/raw\/upload, REJECT
 
-# 咸鱼开屏广告下发
+
+# 🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
+# 咸鱼
+
+#📮 开屏广告下发
+# > https://iyes.youku.com/uts/v1/start/pre
+# > https://iyes.youku.com/uts/v1/start/rt
 # DOMAIN, iyes.youku.com, REJECT
 URL-REGEX, ^https:\/\/iyes\.youku\.com\/uts\/v1\/start\/pre, REJECT-DICT
 URL-REGEX, ^https:\/\/iyes\.youku\.com\/uts\/v1\/start\/rt, REJECT-DICT
 
+
+# 🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
+# 阿里云盘
+
+DOMAIN, log.aliyuncs.com, REJECT
+
+#📮 未知
+# > https://s-gm.mmstat.com/arms.1.1
+URL-REGEX, ^https:\/\/s-gm\.mmstat\.com\/arms\.1\.1, REJECT-IMG
+
+#📮 beacon
+# > https://gm.mmstat.com/aliyundrive.web.action
+URL-REGEX, ^https:\/\/gm\.mmstat\.com\/aliyundrive\.web\.action, REJECT-IMG
+
+#📮 未知
+# > https://arms-retcode.aliyuncs.com/r.png?
+# URL-REGEX, ^https:\/\/arms-retcode\.aliyuncs\.com/r\.png\?, REJECT-IMG
+
+
+# 🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
 # 阿里巴巴
 URL-REGEX, ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict), REJECT-DICT
 URL-REGEX, ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv, REJECT-DICT
@@ -260,4 +292,4 @@ DOMAIN-SUFFIX, ykimg.com, DIRECT
 DOMAIN-SUFFIX, aliapp.org, DIRECT
 
 [MITM]
-hostname = %APPEND% acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, gm.mmstat.com, yt.mmstat.com, ifs.tanx.com, iyes.youku.com, *.ad.youku.com
+hostname = %APPEND% acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, *.mmstat.com, ifs.tanx.com, iyes.youku.com, *.ad.youku.com, arms-retcode.aliyuncs.com
