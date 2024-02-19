@@ -38,7 +38,7 @@ DOMAIN, log.mmstat.com, REJECT
 
 #📮 beacon
 # > https://gm.mmstat.com/yt/youku.pcweb.control
-URL-REGEX, ^https:\/\/gm\.mmstat\.com\/yt\/youku\.pcweb\.control, REJECT-200
+URL-REGEX, ^https:\/\/gm\.mmstat\.com\/yt\/youku\.pcweb\.control, REJECT-IMG
 
 #📮 未知，只有上传记录
 # > https://yt.mmstat.com/yt/vp.vdoview?
@@ -51,6 +51,9 @@ URL-REGEX, ^https:\/\/gm\.mmstat\.com\/yt\/youkuplayer\.api\.error\?, REJECT-IMG
 #📮 弹幕
 # > https://acs.youku.com/h5/mopen.youku.danmu.list/1.0/?
 # URL-REGEX, ^https:\/\/acs\.youku\.com\/h5\/mopen\.youku\.danmu\.list\/1\.0\/\?, REJECT-DICT
+
+#📮 弹幕开关，不能屏蔽
+# > https://gm.mmstat.com/yt/youkupcBarrage.danmu.barragecore
 
 #📮 未知
 # > https://yk-ssp.ad.youku.com/ui?
