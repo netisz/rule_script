@@ -12,6 +12,14 @@
 # 拦截规则
 ####################################
 
+### 用户行为收集
+# > https://toblog.ctobsnssdk.com/service/2/device_register_only/?
+# > https://toblog.ctobsnssdk.com/service/2/log_settings/?
+# > https://toblog.ctobsnssdk.com/service/2/app_log/
+# > https://mcs.ctobsnssdk.com
+DOMAIN-SUFFIX, toblog.ctobsnssdk.com, REJECT
+DOMAIN-SUFFIX, mcs.ctobsnssdk.com, REJECT
+
 # 极光推送 - 广告服务商
 DOMAIN-SUFFIX, jiguang.cn, REJECT
 DOMAIN-SUFFIX, jpush.cn, REJECT
