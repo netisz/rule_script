@@ -20,6 +20,11 @@
 DOMAIN-SUFFIX, toblog.ctobsnssdk.com, REJECT
 DOMAIN-SUFFIX, mcs.ctobsnssdk.com, REJECT
 
+### 全屏广告
+# > https://sf3-fe-tos.pglstatp-toutiao.com/obj/ad-pattern/renderer/3c8607/fallback.js
+DOMAIN-SUFFIX, pglstatp-toutiao.com, REJECT
+
+
 # 极光推送 - 广告服务商
 DOMAIN-SUFFIX, jiguang.cn, REJECT
 DOMAIN-SUFFIX, jpush.cn, REJECT
