@@ -38,19 +38,29 @@ DOMAIN, log.mmstat.com, REJECT
 
 #📮 beacon
 # > https://gm.mmstat.com/yt/youku.pcweb.control
-URL-REGEX, ^https:\/\/gm\.mmstat\.com\/yt\/youku\.pcweb\.control, REJECT
+URL-REGEX, ^https:\/\/gm\.mmstat\.com\/yt\/youku\.pcweb\.control, REJECT-200
+
+#📮 未知，只有上传记录
+# > https://yt.mmstat.com/yt/vp.vdoview?
+URL-REGEX, ^https:\/\/yt\.mmstat\.com\/yt\/vp\.vdoview\?, REJECT-IMG
+
+#📮 未知，只有上传记录
+# > https://gm.mmstat.com/yt/youkuplayer.api.error?
+URL-REGEX, ^https:\/\/gm\.mmstat\.com\/yt\/youkuplayer\.api\.error\?, REJECT-IMG
 
 #📮 弹幕
 # > https://acs.youku.com/h5/mopen.youku.danmu.list/1.0/?
+# URL-REGEX, ^https:\/\/acs\.youku\.com\/h5\/mopen\.youku\.danmu\.list\/1\.0\/\?, REJECT-DICT
 
 #📮 未知
 # > https://yk-ssp.ad.youku.com/ui?
+URL-REGEX, ^https:\/\/yk-ssp\.ad\.youku\.com\/ui\?, REJECT-DICT
 
 #📮 影片暂停显示的广告
 # > https://yk-ssp.ad.youku.com/vp?
 URL-REGEX, ^https:\/\/yk-ssp\.ad\.youku\.com\/vp\?, REJECT-DICT
 
-# 这个url屏蔽后会出现强制登陆
+#📮 这个url屏蔽后会出现强制登陆
 # URL-REGEX, ^https:\/\/gm\.mmstat\.com\/show\.index\.module, REJECT
 
 #
@@ -247,4 +257,4 @@ DOMAIN-SUFFIX, ykimg.com, DIRECT
 DOMAIN-SUFFIX, aliapp.org, DIRECT
 
 [MITM]
-hostname = %APPEND% acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, gm.mmstat.com, ifs.tanx.com, iyes.youku.com, *.ad.youku.com
+hostname = %APPEND% acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, gm.mmstat.com, yt.mmstat.com, ifs.tanx.com, iyes.youku.com, *.ad.youku.com
