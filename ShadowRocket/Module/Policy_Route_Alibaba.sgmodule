@@ -12,12 +12,10 @@
 # 拦截规则
 ####################################
 
-# 用户行为数据回传
 DOMAIN-SUFFIX, ut.taobao.com, REJECT
 DOMAIN-SUFFIX, tanx.com, REJECT
 DOMAIN, log.aliyuncs.com, REJECT
 DOMAIN, wgo.mmstat.com, REJECT
-DOMAIN, log.mmstat.com, REJECT
 DOMAIN, px.effirst.com, REJECT
 DOMAIN, agoo-report.m.taobao.com, REJECT
 DOMAIN, ipm.atm.youku.com, REJECT
@@ -25,10 +23,33 @@ DOMAIN, dualstack-logs.amap.com, REJECT
 DOMAIN, adashx.m.taobao.com, REJECT
 DOMAIN, ossgw.alicdn.com, REJECT
 DOMAIN, ems.youku.com, REJECT
+
+
+#📮 未知
+# > https://hudong.alicdn.com/api/data/v2/e53c59907f64488f8c82e53c96d7ddf9.js
 DOMAIN, hudong.alicdn.com, REJECT
 
-# 优酷 
+#📮 未知
+# > https://log.mmstat.com/eg.js
+DOMAIN, log.mmstat.com, REJECT
+
+# 🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
+# 优酷
+
+#📮 beacon
+# > https://gm.mmstat.com/yt/youku.pcweb.control
 URL-REGEX, ^https:\/\/gm\.mmstat\.com\/yt\/youku\.pcweb\.control, REJECT
+
+#📮 弹幕
+# > https://acs.youku.com/h5/mopen.youku.danmu.list/1.0/?
+
+#📮 未知
+# > https://yk-ssp.ad.youku.com/ui?
+
+#📮 影片暂停显示的广告
+# > https://yk-ssp.ad.youku.com/vp?
+URL-REGEX, ^https:\/\/yk-ssp\.ad\.youku\.com\/vp\?, REJECT-DICT
+
 # 这个url屏蔽后会出现强制登陆
 # URL-REGEX, ^https:\/\/gm\.mmstat\.com\/show\.index\.module, REJECT
 
@@ -226,4 +247,4 @@ DOMAIN-SUFFIX, ykimg.com, DIRECT
 DOMAIN-SUFFIX, aliapp.org, DIRECT
 
 [MITM]
-hostname = %APPEND% acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, gm.mmstat.com, ifs.tanx.com, iyes.youku.com
+hostname = %APPEND% acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, gm.mmstat.com, ifs.tanx.com, iyes.youku.com, *.ad.youku.com
