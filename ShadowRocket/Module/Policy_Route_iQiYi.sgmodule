@@ -91,6 +91,9 @@ URL-REGEX, ^https:\/\/app-preload\.iqiyi\.com\/app\/api\/preload, REJECT-DICT
 # > https://du-feige.iqiyi.com/mbdpushservice/api/v2/device/switch.action?
 # > https://du-feige.iqiyi.com/mbdpushservice/api/v2/device/upload.action?
 
+### 未知
+# > http://qosp.iqiyi.com/mobile_qos_anr?
+DOMAIN-SUFFIX, qosp.iqiyi.com, REJECT
 
 ### 可能是浏览观看行为记录回传，没有返回
 # > https://msg.qy.net/act?
