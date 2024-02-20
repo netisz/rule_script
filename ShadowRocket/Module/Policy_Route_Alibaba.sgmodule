@@ -1,5 +1,5 @@
-#!name = 【路由策略】Alibaba
-#!desc = 阿里巴巴公司旗下淘宝，天猫，1688，闲鱼，一淘，闲鱼，优酷的直连，屏蔽广告的策略
+#!name = 【路由策略】阿里巴巴
+#!desc = 「淘宝｜天猫｜1688｜闲鱼｜一淘｜闲鱼｜淘宝联盟｜优酷」直连和屏蔽广告的策略
 #!openUrl = 
 #!author = NETiS
 #!homepage = 
@@ -16,11 +16,11 @@ DOMAIN, ossgw.alicdn.com, REJECT
 
 DOMAIN-SUFFIX, ctobsnssdk.com, REJECT
 
-#📮 未知，返回内容为 JSON 对象 {}
+#🔶 未知，返回内容为 JSON 对象 {}
 # > https://px.ucweb.com/api/v1/config
 DOMAIN, px.ucweb.com, REJECT
 
-#📮 未知
+#🔶 未知
 # > https://hudong.alicdn.com/api/data/v2/e53c59907f64488f8c82e53c96d7ddf9.js
 DOMAIN, hudong.alicdn.com, REJECT
 
@@ -30,7 +30,7 @@ DOMAIN, adashx.m.taobao.com, REJECT
 
 DOMAIN-SUFFIX, tanx.com, REJECT
 
-#📮 阿里云盘 beacon
+#🔶 阿里云盘 beacon
 # > https://px.effirst.com/api/v1/jssdk/upload?
 DOMAIN, px.effirst.com, REJECT
 
@@ -41,58 +41,58 @@ DOMAIN, ems.youku.com, REJECT
 
 DOMAIN, wgo.mmstat.com, REJECT
 
-#📮 未知
+#🔶 未知
 # > https://log.mmstat.com/eg.js
 DOMAIN, log.mmstat.com, REJECT
 
 
-# 🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
 # 淘宝
 
-#📮 如果点击功能入口为 H5 地址的话，回传点击功能入口的地址，账号名称等信息，返回内容为 1px gif
+#🔶 如果点击功能入口为 H5 地址的话，回传点击功能入口的地址，账号名称等信息，返回内容为 1px gif
 # > https://gm.mmstat.com/jstracker.3?
 URL-REGEX, ^https:\/\/gm\.mmstat\.com\/jstracker\.3\?, REJECT-IMG
 
-#📮 回传设备信息，返回内容为 JSON 对象 {}
+#🔶 回传设备信息，返回内容为 JSON 对象 {}
 # > https://loggw-ex.alipay.com/loggw/logUpload.do
 
-#📮 回传信息，回传内容未知，返回内容为空，状态码 200
+#🔶 回传信息，回传内容未知，返回内容为空，状态码 200
 # > https://h-adashx.ut.taobao.com/upload
 
-#📮 首页下方中间位置的活动入口内容下发，返回内容为 callback，不能屏蔽，屏蔽后会失去最新活动的信息
+#🔶 首页下方中间位置的活动入口内容下发，返回内容为 callback，不能屏蔽，屏蔽后会失去最新活动的信息
 # > https://ark-handler-bottom.m.taobao.com/bottom/
 
-# 🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
 # 优酷
 
-#📮 beacon
+#🔶 beacon
 # > https://gm.mmstat.com/yt/youku.pcweb.control
 URL-REGEX, ^https:\/\/gm\.mmstat\.com\/yt\/youku\.pcweb\.control, REJECT-IMG
 
-#📮 未知，只有上传记录
+#🔶 未知，只有上传记录
 # > https://yt.mmstat.com/yt/vp.vdoview?
 URL-REGEX, ^https:\/\/yt\.mmstat\.com\/yt\/vp\.vdoview\?, REJECT-IMG
 
-#📮 未知，只有上传记录
+#🔶 未知，只有上传记录
 # > https://gm.mmstat.com/yt/youkuplayer.api.error?
 URL-REGEX, ^https:\/\/gm\.mmstat\.com\/yt\/youkuplayer\.api\.error\?, REJECT-IMG
 
-#📮 弹幕
+#🔶 弹幕
 # > https://acs.youku.com/h5/mopen.youku.danmu.list/1.0/?
 # URL-REGEX, ^https:\/\/acs\.youku\.com\/h5\/mopen\.youku\.danmu\.list\/1\.0\/\?, REJECT-DICT
 
-#📮 弹幕开关，不能屏蔽
+#🔶 弹幕开关，不能屏蔽
 # > https://gm.mmstat.com/yt/youkupcBarrage.danmu.barragecore
 
-#📮 未知
+#🔶 未知
 # > https://yk-ssp.ad.youku.com/ui?
 URL-REGEX, ^https:\/\/yk-ssp\.ad\.youku\.com\/ui\?, REJECT-DICT
 
-#📮 影片暂停显示的广告
+#🔶 影片暂停显示的广告
 # > https://yk-ssp.ad.youku.com/vp?
 URL-REGEX, ^https:\/\/yk-ssp\.ad\.youku\.com\/vp\?, REJECT-DICT
 
-#📮 这个url屏蔽后会出现强制登陆
+#🔶 这个url屏蔽后会出现强制登陆
 # URL-REGEX, ^https:\/\/gm\.mmstat\.com\/show\.index\.module, REJECT
 
 #
@@ -101,10 +101,10 @@ URL-REGEX, ^https:\/\/ifs\.tanx\.com\/display_ifs, REJECT
 URL-REGEX, ^https:\/\/px\.ucweb\.com\/api\/v1\/raw\/upload, REJECT
 
 
-# 🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
 # 咸鱼
 
-#📮 开屏广告下发
+#🔶 开屏广告下发
 # > https://iyes.youku.com/uts/v1/start/pre
 # > https://iyes.youku.com/uts/v1/start/rt
 # DOMAIN, iyes.youku.com, REJECT
@@ -112,25 +112,25 @@ URL-REGEX, ^https:\/\/iyes\.youku\.com\/uts\/v1\/start\/pre, REJECT-DICT
 URL-REGEX, ^https:\/\/iyes\.youku\.com\/uts\/v1\/start\/rt, REJECT-DICT
 
 
-# 🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
 # 阿里云盘
 
 DOMAIN, log.aliyuncs.com, REJECT
 
-#📮 未知
+#🔶 未知
 # > https://s-gm.mmstat.com/arms.1.1
 URL-REGEX, ^https:\/\/s-gm\.mmstat\.com\/arms\.\d\.\d, REJECT-IMG
 
-#📮 beacon
+#🔶 beacon
 # > https://gm.mmstat.com/aliyundrive.web.action
 URL-REGEX, ^https:\/\/gm\.mmstat\.com\/aliyundrive\.web\.action, REJECT-IMG
 
-#📮 未知
+#🔶 未知
 # > https://arms-retcode.aliyuncs.com/r.png?
 # URL-REGEX, ^https:\/\/arms-retcode\.aliyuncs\.com/r\.png\?, REJECT-IMG
 
 
-# 🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸🔸
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
 # 阿里巴巴
 URL-REGEX, ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict), REJECT-DICT
 URL-REGEX, ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv, REJECT-DICT
@@ -149,6 +149,7 @@ URL-REGEX, ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(volvo\.secon
 # 直连规则
 ####################################
 
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # CDN
 DOMAIN-SUFFIX, alicdn.com, DIRECT
 DOMAIN-SUFFIX, kunluncan.com, DIRECT
@@ -156,9 +157,13 @@ DOMAIN-SUFFIX, alikunlun.com, DIRECT
 DOMAIN-SUFFIX, tbcache.com, DIRECT
 DOMAIN-SUFFIX, alibabausercontent.com, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # 其他
 DOMAIN-SUFFIX, ucweb.com, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # 淘天
 DOMAIN-KEYWORD, alibaba, DIRECT
 DOMAIN-KEYWORD, taobao, DIRECT
@@ -221,19 +226,28 @@ IP-CIDR, 8.128.0.0/10, DIRECT
 IP-CIDR, 8.208.0.0/12, DIRECT
 
 
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 DOMAIN-SUFFIX, etao.com, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 DOMAIN-SUFFIX, alimama.com, DIRECT
 
-# 阿里云
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# 阿里云盘
 DOMAIN-SUFFIX, aliyun.com, DIRECT
 DOMAIN-SUFFIX, aliyundrive.com, DIRECT
 DOMAIN-SUFFIX, aliyundrive.net, DIRECT
 DOMAIN-SUFFIX, alicloudccp.com, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # 夸克
 DOMAIN-SUFFIX, quark.cn, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # 钉钉
 DOMAIN-SUFFIX, dingtalk.com, DIRECT
 DOMAIN-SUFFIX, ddurl.to, DIRECT
@@ -243,6 +257,8 @@ DOMAIN-SUFFIX, aliapp.org, DIRECT
 DOMAIN-SUFFIX, queniuak.com, DIRECT
 DOMAIN-SUFFIX, effirst.com, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # 菜鸟驿站
 DOMAIN-SUFFIX, cainiao.com, DIRECT
 DOMAIN-SUFFIX, cainiao.com.cn, DIRECT
@@ -254,6 +270,8 @@ DOMAIN-SUFFIX, cainiaoyizhan.com, DIRECT
 DOMAIN-SUFFIX, guoguo-app.com, DIRECT
 DOMAIN-SUFFIX, xiaog.xyz, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 #
 DOMAIN-KEYWORD, litetaobao-app, DIRECT
 DOMAIN-KEYWORD, ltao-user-growth-internet, DIRECT
@@ -263,15 +281,20 @@ URL-REGEX, litetaobao-app, DIRECT
 URL-REGEX, ltao-user-growth-internet, DIRECT
 DOMAIN-SUFFIX, 1688.com, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # 咸鱼
 DOMAIN-SUFFIX, goofish.com, DIRECT
 
 
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # 饿了么
 DOMAIN-SUFFIX, ele.me, DIRECT
 DOMAIN-SUFFIX, elemecdn.com, DIRECT
 DOMAIN-SUFFIX, eleme.cn, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # 考拉海购
 DOMAIN-SUFFIX, freshippo.com, DIRECT
 DOMAIN-SUFFIX, kaola.com, DIRECT
@@ -289,6 +312,7 @@ DOMAIN-SUFFIX, pangolin-sdk-toutiao1.com, DIRECT
 DOMAIN-SUFFIX, alibaba-inc.com, DIRECT
 
 
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # 支付宝
 DOMAIN-KEYWORD, alipay, DIRECT
 DOMAIN-SUFFIX, alipay-corp.com, DIRECT
@@ -312,11 +336,14 @@ DOMAIN-SUFFIX, ifaa.org.cn, DIRECT
 DOMAIN-SUFFIX, luohanacademy.com, DIRECT
 DOMAIN-SUFFIX, sinopayment.com.cn, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # 优酷
 DOMAIN-SUFFIX, youku.com, DIRECT
 DOMAIN-SUFFIX, cibntv.net, DIRECT
 DOMAIN-SUFFIX, ykimg.com, DIRECT
 DOMAIN-SUFFIX, aliapp.org, DIRECT
+
 
 [MITM]
 hostname = %APPEND% acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, *.mmstat.com, ifs.tanx.com, iyes.youku.com, *.ad.youku.com, arms-retcode.aliyuncs.com
