@@ -23,7 +23,7 @@
 # CDN
 
 DOMAIN-SUFFIX, msedge.net, PROXY
-DOMAIN-KEYWORD, [a-z]\-msedge\.net, PROXY
+DOMAIN-KEYWORD, -msedge.net, PROXY
 DOMAIN-SUFFIX, azure.com, PROXY
 DOMAIN-SUFFIX, msocdn.com, PROXY
 DOMAIN-SUFFIX, akamaiedge.net, PROXY
@@ -54,6 +54,24 @@ DOMAIN-SUFFIX, onedrive.com, PROXY
 DOMAIN-SUFFIX, svc.ms, PROXY
 DOMAIN-SUFFIX, trafficmanager.net, PROXY
 DOMAIN-SUFFIX, content.lifecycle.office.net, PROXY
+
+DOMAIN-SUFFIX,1drv.com
+DOMAIN-SUFFIX,livefilestore.com
+DOMAIN-SUFFIX,oneclient.sfx.ms
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,onedrive.live.com
+DOMAIN-SUFFIX,photos.live.com
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,sharepointonline.com
+DOMAIN-SUFFIX,skydrive.wns.windows.com
+DOMAIN-SUFFIX,spoprod-a.akamaihd.net
+DOMAIN-SUFFIX,storage.live.com
+DOMAIN-SUFFIX,storage.msn.com
+DOMAIN-KEYWORD,1drv
+DOMAIN-KEYWORD,onedrive
+DOMAIN-KEYWORD,skydrive
+USER-AGENT,OneDrive*
+USER-AGENT,OneDriveiOSApp*
 
 ####################################
 # 直连规则
