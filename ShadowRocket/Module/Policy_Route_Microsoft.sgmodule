@@ -22,10 +22,36 @@
 # 🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆
 # CDN
 
-DOMAIN-SUFFIX, msedge.net, PROXY
-DOMAIN-KEYWORD, -msedge.net, PROXY
 DOMAIN-SUFFIX, msocdn.com, PROXY
 DOMAIN-SUFFIX, akamaiedge.net, PROXY
+DOMAIN-SUFFIX, msedge.net, PROXY
+DOMAIN-KEYWORD, a-msedge.net, PROXY
+DOMAIN-KEYWORD, b-msedge.net, PROXY
+DOMAIN-KEYWORD, c-msedge.net, PROXY
+DOMAIN-KEYWORD, d-msedge.net, PROXY
+DOMAIN-KEYWORD, e-msedge.net, PROXY
+DOMAIN-KEYWORD, f-msedge.net, PROXY
+DOMAIN-KEYWORD, g-msedge.net, PROXY
+DOMAIN-KEYWORD, h-msedge.net, PROXY
+DOMAIN-KEYWORD, i-msedge.net, PROXY
+DOMAIN-KEYWORD, j-msedge.net, PROXY
+DOMAIN-KEYWORD, k-msedge.net, PROXY
+DOMAIN-KEYWORD, l-msedge.net, PROXY
+DOMAIN-KEYWORD, m-msedge.net, PROXY
+DOMAIN-KEYWORD, n-msedge.net, PROXY
+DOMAIN-KEYWORD, o-msedge.net, PROXY
+DOMAIN-KEYWORD, p-msedge.net, PROXY
+DOMAIN-KEYWORD, q-msedge.net, PROXY
+DOMAIN-KEYWORD, r-msedge.net, PROXY
+DOMAIN-KEYWORD, s-msedge.net, PROXY
+DOMAIN-KEYWORD, t-msedge.net, PROXY
+DOMAIN-KEYWORD, u-msedge.net, PROXY
+DOMAIN-KEYWORD, v-msedge.net, PROXY
+DOMAIN-KEYWORD, w-msedge.net, PROXY
+DOMAIN-KEYWORD, x-msedge.net, PROXY
+DOMAIN-KEYWORD, y-msedge.net, PROXY
+DOMAIN-KEYWORD, z-msedge.net, PROXY
+
 
 
 # 🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆
