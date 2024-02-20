@@ -54,16 +54,23 @@
 # 直连规则
 ####################################
 
-# 中国境内直连
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# 中国所属域名，网络地址段直连
 DOMAIN-SUFFIX, cn, DIRECT
 GEOIP, CN, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # 证书网站
 DOMAIN-SUFFIX, digicert.com, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # CDN
 DOMAIN-SUFFIX, jsdelivr.net, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # Syncthing
 DOMAIN-SUFFIX, syncthing.net, DIRECT
 DOMAIN-SUFFIX, syncthing.net, DIRECT
