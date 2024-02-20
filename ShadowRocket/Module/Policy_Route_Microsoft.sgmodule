@@ -42,10 +42,10 @@ DOMAIN-SUFFIX, mobile.events.data.microsoft.com, PROXY
 
 # ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 
-DOMAIN-SUFFIX, microsoftonline.com, DIRECT
-DOMAIN-SUFFIX, microsoft.com, DIRECT
+# DOMAIN-SUFFIX, microsoftonline.com, DIRECT
+# DOMAIN-SUFFIX, microsoft.com, DIRECT
 
-DOMAIN-SUFFIX, appcenter.ms, DIRECT
+# DOMAIN-SUFFIX, appcenter.ms, DIRECT
 
 
 [MITM]
