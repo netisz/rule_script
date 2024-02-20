@@ -91,10 +91,10 @@ DOMAIN-SUFFIX, svc.ms, PROXY
 DOMAIN-SUFFIX, trafficmanager.net, PROXY
 DOMAIN-SUFFIX, content.lifecycle.office.net, PROXY
 
-DOMAIN-SUFFIX, onedrive.live.com, PROXY
-DOMAIN-SUFFIX, onedrive.com, PROXY
 DOMAIN-SUFFIX, 1drv.com, PROXY
 DOMAIN-SUFFIX, livefilestore.com, PROXY
+DOMAIN-SUFFIX, onedrive.com, PROXY
+DOMAIN-SUFFIX, onedrive.live.com, PROXY
 DOMAIN-SUFFIX, oneclient.sfx.ms, PROXY
 DOMAIN-SUFFIX, photos.live.com, PROXY
 DOMAIN-SUFFIX, sharepoint.com, PROXY
