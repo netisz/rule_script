@@ -22,8 +22,11 @@
 # 🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆
 # CDN
 
-DOMAIN-SUFFIX, t-msedge.net, PROXY
+DOMAIN-SUFFIX, msedge.net, PROXY
+DOMAIN-KEYWORD, [a-z]\-msedge\.net, PROXY
 DOMAIN-SUFFIX, azure.com, PROXY
+DOMAIN-SUFFIX, msocdn.com, PROXY
+DOMAIN-SUFFIX, akamaiedge.net, PROXY
 
 
 # 🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆
@@ -44,16 +47,61 @@ DOMAIN-SUFFIX, vsassets.io, PROXY
 DOMAIN-SUFFIX, mobile.events.data.microsoft.com, PROXY
 
 
+# 🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆
+# OneDrive
+DOMAIN-SUFFIX, onedrive.live.com, PROXY
+DOMAIN-SUFFIX, onedrive.com, PROXY
+DOMAIN-SUFFIX, svc.ms, PROXY
+DOMAIN-SUFFIX, trafficmanager.net, PROXY
+DOMAIN-SUFFIX, content.lifecycle.office.net, PROXY
+
 ####################################
 # 直连规则
 ####################################
-
-# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 
 # DOMAIN-SUFFIX, microsoftonline.com, DIRECT
 # DOMAIN-SUFFIX, microsoft.com, DIRECT
 
 # DOMAIN-SUFFIX, appcenter.ms, DIRECT
+
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# 以下的域名涉及到的服务可以在中国境内直连
+
+DOMAIN-SUFFIX, dl.delivery.mp.microsoft.com, DIRECT
+DOMAIN-SUFFIX, download.windowsupdate.com, DIRECT
+DOMAIN-SUFFIX, res.cdn.office.net, DIRECT
+DOMAIN-SUFFIX, bg.v4.a.dl.ws.microsoft.com, DIRECT
+DOMAIN-SUFFIX, bg4.v4.a.dl.ws.microsoft.com, DIRECT
+DOMAIN-SUFFIX, build.microsoft.com, DIRECT
+DOMAIN-SUFFIX, cdn.marketplaceimages.windowsphone.com, DIRECT
+DOMAIN-SUFFIX, cn.windowssearch.com, DIRECT
+DOMAIN-SUFFIX, ctldl.windowsupdate.com, DIRECT
+DOMAIN-SUFFIX, devblogs.microsoft.com, DIRECT
+DOMAIN-SUFFIX, developer.microsoft.com, DIRECT
+DOMAIN-SUFFIX, docs.microsoft.com, DIRECT
+DOMAIN-SUFFIX, download.microsoft.com, DIRECT
+DOMAIN-SUFFIX, download.visualstudio.microsoft.com, DIRECT
+DOMAIN-SUFFIX, fs.microsoft.com, DIRECT
+DOMAIN-SUFFIX, learn.microsoft.com, DIRECT
+DOMAIN-SUFFIX, msgr.dlservice.microsoft.com, DIRECT
+DOMAIN-SUFFIX, msgruser.dlservice.microsoft.com, DIRECT
+DOMAIN-SUFFIX, myvs.download.prss.microsoft.com, DIRECT
+DOMAIN-SUFFIX, oemsoc.download.prss.microsoft.com, DIRECT
+DOMAIN-SUFFIX, officecdn.microsoft.com, DIRECT
+DOMAIN-SUFFIX, qh.dlservice.microsoft.com, DIRECT
+DOMAIN-SUFFIX, sdx.microsoft.com, DIRECT
+DOMAIN-SUFFIX, silverlight.dlservice.microsoft.com, DIRECT
+DOMAIN-SUFFIX, slupdate.dlservice.microsoft.com, DIRECT
+DOMAIN-SUFFIX, software.download.prss.microsoft.com, DIRECT
+DOMAIN-SUFFIX, storeedgefd.dsx.mp.microsoft.com, DIRECT
+DOMAIN-SUFFIX, surface.downloads.prss.microsoft.com, DIRECT
+DOMAIN-SUFFIX, vscode.download.prss.microsoft.com, DIRECT
+DOMAIN-SUFFIX, vz.download.prss.microsoft.com, DIRECT
+DOMAIN-SUFFIX, wl.dlservice.microsoft.com, DIRECT
+DOMAIN-SUFFIX, wscont1.apps.microsoft.com, DIRECT
+DOMAIN-SUFFIX, wscont2.apps.microsoft.com, DIRECT
+DOMAIN-SUFFIX, xb.dlservice.microsoft.com
 
 
 [MITM]
