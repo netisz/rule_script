@@ -22,6 +22,12 @@ DOMAIN-SUFFIX, data.bilibili.com, REJECT
 # > wss://hw-v2-web-player-tracker.biliapi.net/socket.io/?
 DOMAIN-SUFFIX, hw-v2-web-player-tracker.biliapi.net, REJECT
 
+#⚠️ 未知
+# > wss://ali-web-player-tracker.biliapi.net/socket.io/?
+DOMAIN-SUFFIX, ali-web-player-tracker.biliapi.net, REJECT
+
+wss://hw-v2-web-player-tracker.biliapi.net/socket.io/?
+
 DOMAIN-SUFFIX, dataflow.biliapi.com, REJECT
 
 URL-REGEX, ^https?:\/\/api\.bilibili\.com\/x\/click-interface\/click/h5, REJECT
