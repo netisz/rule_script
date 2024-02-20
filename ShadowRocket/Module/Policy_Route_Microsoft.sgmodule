@@ -20,9 +20,17 @@
 ####################################
 
 # 🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆
+# CDN
+
+DOMAIN-SUFFIX, t-msedge.net, PROXY
+DOMAIN-SUFFIX, azure.com, PROXY
+
+
+# 🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆
 # Github
 DOMAIN-SUFFIX, github.com, PROXY
 DOMAIN-SUFFIX, githubusercontent.com, PROXY
+
 
 # 🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆
 # VSCODE
