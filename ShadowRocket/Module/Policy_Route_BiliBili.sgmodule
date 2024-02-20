@@ -4,7 +4,7 @@
 #!author = 
 #!homepage = 
 #!icon = 
-#!date = 20240219
+#!date = 20240220
 
 [Rule]
 
@@ -12,9 +12,18 @@
 # 拦截规则
 ####################################
 
-# Denied Beacon
-DOMAIN-SUFFIX, dataflow.biliapi.com, REJECT
+#⚠️ Beacon
+# > https://data.bilibili.com/log/web?
+# > https://data.bilibili.com/v2/log/web?
+# > https://data.bilibili.com/log/pbweb/realtime?web
 DOMAIN-SUFFIX, data.bilibili.com, REJECT
+
+#⚠️ 未知
+# > wss://hw-v2-web-player-tracker.biliapi.net/socket.io/?
+DOMAIN-SUFFIX, hw-v2-web-player-tracker.biliapi.net, REJECT
+
+DOMAIN-SUFFIX, dataflow.biliapi.com, REJECT
+
 URL-REGEX, ^https?:\/\/api\.bilibili\.com\/x\/click-interface\/click/h5, REJECT
 URL-REGEX, ^https?:\/\/api\.bilibili\.com\/x\/report\/web\/heartbeat, REJECT
 
