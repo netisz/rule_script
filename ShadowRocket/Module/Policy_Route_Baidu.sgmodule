@@ -12,21 +12,29 @@
 # 拦截规则
 ####################################
 
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
 # 百度联盟 - 广告服务商
 DOMAIN-SUFFIX, union.baidu.cn, REJECT
 DOMAIN-SUFFIX, union.baidu.com, REJECT
 
+
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
 # 百度慧推，广告推送
 DOMAIN, sofire.baidu.com, REJECT
 DOMAIN, sofire.bdstatic.com, REJECT
 
-# 
+
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
+#⚠️ 未知
+# > https://mobads.baidu.com/cpro/ui/mads.php
+# URL-REGEX, ^https?:\/\/mobads\.baidu\.com\/cpro\/ui\/mads\.php, REJECT
 DOMAIN, mobads.baidu.com, REJECT
-# URL-REGEX, ^https?:\/\/mobads\.baidu\.com\/cpro\/ui\/mads.php, REJECT
 
 DOMAIN-SUFFIX, pos.baidu.com, REJECT
 DOMAIN, httpdns.baidubce.com, REJECT
 
+
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
 # 百度输入法
 DOMAIN-KEYWORD, jomodns, REJECT
 DOMAIN, res.mi.baidu.com, REJECT
@@ -36,9 +44,13 @@ URL-REGEX, ^https:\/\/mime\.baidu\.com\/v\d\/hotpatch\/check\?hotpatch, REJECT
 URL-REGEX, ^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo, REJECT
 URL-REGEX, ^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement, REJECT
 
+
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
 # 百度地图开屏广告
 URL-REGEX, ^https:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.jpg, REJECT-IMG
 
+
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
 # 百度地图
 URL-REGEX, ^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare, REJECT
 URL-REGEX, ^https?:\/\/ugc\.map\.baidu\.com\/govui\/rich_content, REJECT
@@ -47,6 +59,8 @@ URL-REGEX, ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads, REJ
 URL-REGEX, ^https?:\/\/newclient\.map\.baidu\.com\/client\/crossmarketing, REJECT
 URL-REGEX, ^https?:\/\/newclient\.map\.baidu\.com\/client\/usersystem\/home\/dynamic, REJECT
 
+
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
 # 百度贴吧
 URL-REGEX, ^https?:\/\/mbd\.baidu\.com/ztbox, REJECT
 URL-REGEX, ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule, REJECT
