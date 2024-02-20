@@ -14,8 +14,6 @@
 
 DOMAIN, ossgw.alicdn.com, REJECT
 
-DOMAIN-SUFFIX, ctobsnssdk.com, REJECT
-
 #⚠️ 未知，返回内容为 JSON 对象 {}
 # > https://px.ucweb.com/api/v1/config
 DOMAIN, px.ucweb.com, REJECT
