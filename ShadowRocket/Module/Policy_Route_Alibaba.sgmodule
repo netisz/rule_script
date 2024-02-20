@@ -16,11 +16,11 @@ DOMAIN, ossgw.alicdn.com, REJECT
 
 DOMAIN-SUFFIX, ctobsnssdk.com, REJECT
 
-#🔶 未知，返回内容为 JSON 对象 {}
+#⚠️ 未知，返回内容为 JSON 对象 {}
 # > https://px.ucweb.com/api/v1/config
 DOMAIN, px.ucweb.com, REJECT
 
-#🔶 未知
+#⚠️ 未知
 # > https://hudong.alicdn.com/api/data/v2/e53c59907f64488f8c82e53c96d7ddf9.js
 DOMAIN, hudong.alicdn.com, REJECT
 
@@ -30,7 +30,7 @@ DOMAIN, adashx.m.taobao.com, REJECT
 
 DOMAIN-SUFFIX, tanx.com, REJECT
 
-#🔶 阿里云盘 beacon
+#⚠️ 阿里云盘 beacon
 # > https://px.effirst.com/api/v1/jssdk/upload?
 DOMAIN, px.effirst.com, REJECT
 
@@ -41,7 +41,7 @@ DOMAIN, ems.youku.com, REJECT
 
 DOMAIN, wgo.mmstat.com, REJECT
 
-#🔶 未知
+#⚠️ 未知
 # > https://log.mmstat.com/eg.js
 DOMAIN, log.mmstat.com, REJECT
 
@@ -49,51 +49,51 @@ DOMAIN, log.mmstat.com, REJECT
 # 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
 # 淘宝
 
-#🔶 如果点击功能入口为 H5 地址的话，回传点击功能入口的地址，账号名称等信息，返回内容为 1px gif
+#⚠️ 如果点击功能入口为 H5 地址的话，回传点击功能入口的地址，账号名称等信息，返回内容为 1px gif
 # > https://gm.mmstat.com/jstracker.3?
 URL-REGEX, ^https:\/\/gm\.mmstat\.com\/jstracker\.3\?, REJECT-IMG
 
-#🔶 回传设备信息，返回内容为 JSON 对象 {}
+#⚠️ 回传设备信息，返回内容为 JSON 对象 {}
 # > https://loggw-ex.alipay.com/loggw/logUpload.do
 
-#🔶 回传信息，回传内容未知，返回内容为空，状态码 200
+#⚠️ 回传信息，回传内容未知，返回内容为空，状态码 200
 # > https://h-adashx.ut.taobao.com/upload
 
-#🔶 首页下方中间位置的活动入口内容下发，返回内容为 callback，不能屏蔽，屏蔽后会失去最新活动的信息
+#⚠️ 首页下方中间位置的活动入口内容下发，返回内容为 callback，不能屏蔽，屏蔽后会失去最新活动的信息
 # > https://ark-handler-bottom.m.taobao.com/bottom/
 
 
 # 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
 # 优酷
 
-#🔶 beacon
+#⚠️ beacon
 # > https://gm.mmstat.com/yt/youku.pcweb.control
 URL-REGEX, ^https:\/\/gm\.mmstat\.com\/yt\/youku\.pcweb\.control, REJECT-IMG
 
-#🔶 未知，只有上传记录
+#⚠️ 未知，只有上传记录
 # > https://yt.mmstat.com/yt/vp.vdoview?
 URL-REGEX, ^https:\/\/yt\.mmstat\.com\/yt\/vp\.vdoview\?, REJECT-IMG
 
-#🔶 未知，只有上传记录
+#⚠️ 未知，只有上传记录
 # > https://gm.mmstat.com/yt/youkuplayer.api.error?
 URL-REGEX, ^https:\/\/gm\.mmstat\.com\/yt\/youkuplayer\.api\.error\?, REJECT-IMG
 
-#🔶 弹幕
+#⚠️ 弹幕
 # > https://acs.youku.com/h5/mopen.youku.danmu.list/1.0/?
 # URL-REGEX, ^https:\/\/acs\.youku\.com\/h5\/mopen\.youku\.danmu\.list\/1\.0\/\?, REJECT-DICT
 
-#🔶 弹幕开关，不能屏蔽
+#⚠️ 弹幕开关，不能屏蔽
 # > https://gm.mmstat.com/yt/youkupcBarrage.danmu.barragecore
 
-#🔶 未知
+#⚠️ 未知
 # > https://yk-ssp.ad.youku.com/ui?
 URL-REGEX, ^https:\/\/yk-ssp\.ad\.youku\.com\/ui\?, REJECT-DICT
 
-#🔶 影片暂停显示的广告
+#⚠️ 影片暂停显示的广告
 # > https://yk-ssp.ad.youku.com/vp?
 URL-REGEX, ^https:\/\/yk-ssp\.ad\.youku\.com\/vp\?, REJECT-DICT
 
-#🔶 这个url屏蔽后会出现强制登陆
+#⚠️ 这个url屏蔽后会出现强制登陆
 # URL-REGEX, ^https:\/\/gm\.mmstat\.com\/show\.index\.module, REJECT
 
 #
@@ -105,7 +105,7 @@ URL-REGEX, ^https:\/\/px\.ucweb\.com\/api\/v1\/raw\/upload, REJECT
 # 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
 # 咸鱼
 
-#🔶 开屏广告下发
+#⚠️ 开屏广告下发
 # > https://iyes.youku.com/uts/v1/start/pre
 # > https://iyes.youku.com/uts/v1/start/rt
 # DOMAIN, iyes.youku.com, REJECT
@@ -118,15 +118,15 @@ URL-REGEX, ^https:\/\/iyes\.youku\.com\/uts\/v1\/start\/rt, REJECT-DICT
 
 DOMAIN, log.aliyuncs.com, REJECT
 
-#🔶 未知
+#⚠️ 未知
 # > https://s-gm.mmstat.com/arms.1.1
 URL-REGEX, ^https:\/\/s-gm\.mmstat\.com\/arms\.\d\.\d, REJECT-IMG
 
-#🔶 beacon
+#⚠️ beacon
 # > https://gm.mmstat.com/aliyundrive.web.action
 URL-REGEX, ^https:\/\/gm\.mmstat\.com\/aliyundrive\.web\.action, REJECT-IMG
 
-#🔶 未知
+#⚠️ 未知
 # > https://arms-retcode.aliyuncs.com/r.png?
 # URL-REGEX, ^https:\/\/arms-retcode\.aliyuncs\.com/r\.png\?, REJECT-IMG
 
