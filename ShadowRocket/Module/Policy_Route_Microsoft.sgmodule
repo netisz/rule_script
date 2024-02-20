@@ -24,19 +24,30 @@
 
 DOMAIN-SUFFIX, msedge.net, PROXY
 DOMAIN-KEYWORD, -msedge.net, PROXY
-DOMAIN-SUFFIX, azure.com, PROXY
 DOMAIN-SUFFIX, msocdn.com, PROXY
 DOMAIN-SUFFIX, akamaiedge.net, PROXY
 
 
 # 🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆
+# Azure
+
+DOMAIN-SUFFIX, azure.com, PROXY
+DOMAIN-SUFFIX, azure-dns.com, PROXY
+DOMAIN-SUFFIX, azure-dns.info, PROXY
+DOMAIN-SUFFIX, azure-dns.net, PROXY
+DOMAIN-SUFFIX, azure-dns.org, PROXY
+
+
+# 🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆
 # Github
+
 DOMAIN-SUFFIX, github.com, PROXY
 DOMAIN-SUFFIX, githubusercontent.com, PROXY
 
 
 # 🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆
 # VSCODE
+
 DOMAIN-SUFFIX, visualstudio.com, PROXY
 DOMAIN-SUFFIX, vscode.dev, PROXY
 DOMAIN-SUFFIX, vscode-cdn.net, PROXY
@@ -49,29 +60,74 @@ DOMAIN-SUFFIX, mobile.events.data.microsoft.com, PROXY
 
 # 🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆
 # OneDrive
-DOMAIN-SUFFIX, onedrive.live.com, PROXY
-DOMAIN-SUFFIX, onedrive.com, PROXY
+
 DOMAIN-SUFFIX, svc.ms, PROXY
 DOMAIN-SUFFIX, trafficmanager.net, PROXY
 DOMAIN-SUFFIX, content.lifecycle.office.net, PROXY
 
-DOMAIN-SUFFIX,1drv.com
-DOMAIN-SUFFIX,livefilestore.com
-DOMAIN-SUFFIX,oneclient.sfx.ms
-DOMAIN-SUFFIX,onedrive.com
-DOMAIN-SUFFIX,onedrive.live.com
-DOMAIN-SUFFIX,photos.live.com
-DOMAIN-SUFFIX,sharepoint.com
-DOMAIN-SUFFIX,sharepointonline.com
-DOMAIN-SUFFIX,skydrive.wns.windows.com
-DOMAIN-SUFFIX,spoprod-a.akamaihd.net
-DOMAIN-SUFFIX,storage.live.com
-DOMAIN-SUFFIX,storage.msn.com
-DOMAIN-KEYWORD,1drv
-DOMAIN-KEYWORD,onedrive
-DOMAIN-KEYWORD,skydrive
-USER-AGENT,OneDrive*
-USER-AGENT,OneDriveiOSApp*
+DOMAIN-SUFFIX, onedrive.live.com, PROXY
+DOMAIN-SUFFIX, onedrive.com, PROXY
+DOMAIN-SUFFIX, 1drv.com, PROXY
+DOMAIN-SUFFIX, livefilestore.com, PROXY
+DOMAIN-SUFFIX, oneclient.sfx.ms, PROXY
+DOMAIN-SUFFIX, photos.live.com, PROXY
+DOMAIN-SUFFIX, sharepoint.com, PROXY
+DOMAIN-SUFFIX, sharepointonline.com, PROXY
+DOMAIN-SUFFIX, skydrive.wns.windows.com, PROXY
+DOMAIN-SUFFIX, spoprod-a.akamaihd.net, PROXY
+DOMAIN-SUFFIX, storage.live.com, PROXY
+DOMAIN-SUFFIX, storage.msn.com, PROXY
+DOMAIN-KEYWORD, 1drv, PROXY
+DOMAIN-KEYWORD, onedrive, PROXY
+DOMAIN-KEYWORD, skydrive, PROXY
+USER-AGENT, OneDrive*, PROXY
+USER-AGENT, OneDriveiOSApp*, PROXY
+
+
+# 🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆
+# Windows
+
+DOMAIN-SUFFIX, microsoft.az, PROXY
+DOMAIN-SUFFIX, microsoft.be, PROXY
+DOMAIN-SUFFIX, microsoft.by, PROXY
+DOMAIN-SUFFIX, microsoft.ca, PROXY
+DOMAIN-SUFFIX, microsoft.cat, PROXY
+DOMAIN-SUFFIX, microsoft.ch, PROXY
+DOMAIN-SUFFIX, microsoft.cl, PROXY
+DOMAIN-SUFFIX, microsoft.com, PROXY
+DOMAIN-SUFFIX, microsoft.cz, PROXY
+DOMAIN-SUFFIX, microsoft.de, PROXY
+DOMAIN-SUFFIX, microsoft.dk, PROXY
+DOMAIN-SUFFIX, microsoft.ee, PROXY
+DOMAIN-SUFFIX, microsoft.es, PROXY
+DOMAIN-SUFFIX, microsoft.eu, PROXY
+DOMAIN-SUFFIX, microsoft.fi, PROXY
+DOMAIN-SUFFIX, microsoft.ge, PROXY
+DOMAIN-SUFFIX, microsoft.hu, PROXY
+DOMAIN-SUFFIX, microsoft.io, PROXY
+DOMAIN-SUFFIX, microsoft.is, PROXY
+DOMAIN-SUFFIX, microsoft.it, PROXY
+DOMAIN-SUFFIX, microsoft.jp, PROXY
+DOMAIN-SUFFIX, microsoft.lt, PROXY
+DOMAIN-SUFFIX, microsoft.lu, PROXY
+DOMAIN-SUFFIX, microsoft.lv, PROXY
+DOMAIN-SUFFIX, microsoft.md, PROXY
+DOMAIN-SUFFIX, microsoft.net, PROXY
+DOMAIN-SUFFIX, microsoft.pl, PROXY
+DOMAIN-SUFFIX, microsoft.pt, PROXY
+DOMAIN-SUFFIX, microsoft.red, PROXY
+DOMAIN-SUFFIX, microsoft.ro, PROXY
+DOMAIN-SUFFIX, microsoft.rs, PROXY
+DOMAIN-SUFFIX, microsoft.ru, PROXY
+DOMAIN-SUFFIX, microsoft.se, PROXY
+DOMAIN-SUFFIX, microsoft.si, PROXY
+DOMAIN-SUFFIX, microsoft.tv, PROXY
+DOMAIN-SUFFIX, microsoft.ua, PROXY
+DOMAIN-SUFFIX, microsoft.uz, PROXY
+DOMAIN-SUFFIX, microsoft.vn, PROXY
+
+
+
 
 ####################################
 # 直连规则
@@ -81,6 +137,11 @@ USER-AGENT,OneDriveiOSApp*
 # DOMAIN-SUFFIX, microsoft.com, DIRECT
 
 # DOMAIN-SUFFIX, appcenter.ms, DIRECT
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# Azure
+
+DOMAIN-SUFFIX, azure-dns.cn, DIRECT
 
 
 # ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
