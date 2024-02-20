@@ -4,7 +4,7 @@
 #!author = 
 #!homepage =
 #!icon =
-#!date = 20240219
+#!date = 20240220
 
 [Rule]
 
@@ -16,21 +16,36 @@
 
 
 ####################################
-# 直连规则
-####################################
-
-DOMAIN-SUFFIX, microsoftonline.com, DIRECT
-DOMAIN-SUFFIX, microsoft.com, DIRECT
-DOMAIN-SUFFIX, visualstudio.com, DIRECT
-DOMAIN-SUFFIX, appcenter.ms, DIRECT
-
-####################################
 # 代理规则
 ####################################
 
+# 🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆
 # Github
 DOMAIN-SUFFIX, github.com, PROXY
 DOMAIN-SUFFIX, githubusercontent.com, PROXY
+
+# 🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆
+# VSCODE
+DOMAIN-SUFFIX, visualstudio.com, PROXY
+DOMAIN-SUFFIX, vscode.dev, PROXY
+DOMAIN-SUFFIX, vscode-cdn.net, PROXY
+DOMAIN-SUFFIX, vscode-unpkg.net, PROXY
+DOMAIN-SUFFIX, msecnd.net, PROXY
+DOMAIN-SUFFIX, exp-tas.com, PROXY
+DOMAIN-SUFFIX, vsassets.io, PROXY
+DOMAIN-SUFFIX, mobile.events.data.microsoft.com, PROXY
+
+
+####################################
+# 直连规则
+####################################
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+
+DOMAIN-SUFFIX, microsoftonline.com, DIRECT
+DOMAIN-SUFFIX, microsoft.com, DIRECT
+
+DOMAIN-SUFFIX, appcenter.ms, DIRECT
 
 
 [MITM]
