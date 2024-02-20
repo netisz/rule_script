@@ -22,7 +22,6 @@
 # 🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆
 # CDN
 
-DOMAIN-SUFFIX, msocdn.com, PROXY
 DOMAIN-SUFFIX, akamaiedge.net, PROXY
 DOMAIN-SUFFIX, msedge.net, PROXY
 DOMAIN-SUFFIX, a-msedge.net, PROXY
@@ -51,6 +50,7 @@ DOMAIN-SUFFIX, w-msedge.net, PROXY
 DOMAIN-SUFFIX, x-msedge.net, PROXY
 DOMAIN-SUFFIX, y-msedge.net, PROXY
 DOMAIN-SUFFIX, z-msedge.net, PROXY
+DOMAIN-SUFFIX, msocdn.com, PROXY
 
 
 
@@ -74,14 +74,14 @@ DOMAIN-SUFFIX, githubusercontent.com, PROXY
 # 🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆
 # VSCODE
 
+DOMAIN-SUFFIX, exp-tas.com, PROXY
+DOMAIN-SUFFIX, mobile.events.data.microsoft.com, PROXY
+DOMAIN-SUFFIX, msecnd.net, PROXY
 DOMAIN-SUFFIX, visualstudio.com, PROXY
+DOMAIN-SUFFIX, vsassets.io, PROXY
 DOMAIN-SUFFIX, vscode.dev, PROXY
 DOMAIN-SUFFIX, vscode-cdn.net, PROXY
 DOMAIN-SUFFIX, vscode-unpkg.net, PROXY
-DOMAIN-SUFFIX, msecnd.net, PROXY
-DOMAIN-SUFFIX, exp-tas.com, PROXY
-DOMAIN-SUFFIX, vsassets.io, PROXY
-DOMAIN-SUFFIX, mobile.events.data.microsoft.com, PROXY
 
 
 # 🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆🔆
