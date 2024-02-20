@@ -17,24 +17,50 @@
 # 直连规则
 ####################################
 
-DOMAIN-SUFFIX, safebrowsing.apple, DIRECT
+# DOMAIN-KEYWORD, safebrowsing.apple, DIRECT
 
-DOMAIN-SUFFIX, apple.com, DIRECT
-DOMAIN-SUFFIX, icloud.com, DIRECT
-DOMAIN-SUFFIX, icloud-content.com, DIRECT
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# 其它公司以及相关的 CDN
+
+DOMAIN-SUFFIX, qtlcdn.com, DIRECT
+
+# Akamai Technologies
+DOMAIN-SUFFIX, akadns.net, DIRECT
+DOMAIN-SUFFIX, akamai.net, DIRECT
+DOMAIN-SUFFIX, edgesuite.net, DIRECT
+
+# VERTEX INC
+DOMAIN-SUFFIX, vertexsmb.com, DIRECT
+
+# 
+DOMAIN-SUFFIX, entrust.net, DIRECT
+
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# Apple 公司其它域名
+
+DOMAIN-SUFFIX, mzstatic.com, DIRECT
 
 DOMAIN-SUFFIX, appleschoolcontent.com, DIRECT
 DOMAIN-SUFFIX, axm-usercontent-apple.com, DIRECT
-DOMAIN-SUFFIX, qtlcdn.com, DIRECT
-DOMAIN-SUFFIX, mzstatic.com, DIRECT
-DOMAIN-SUFFIX, vertexsmb.com, DIRECT
-DOMAIN-SUFFIX, entrust.net, DIRECT
-DOMAIN-SUFFIX, edgesuite.net, DIRECT
-DOMAIN-SUFFIX, ksyuncdn.com, DIRECT
-DOMAIN-SUFFIX, akadns.net, DIRECT
-DOMAIN-SUFFIX, akamai.net, DIRECT
+
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# Apple 地图相关
+
 DOMAIN-SUFFIX, apple-mapkit.com, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# iCloud
+
+DOMAIN-SUFFIX, icloud.com, DIRECT
+DOMAIN-SUFFIX, icloud-content.com, DIRECT
+
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# Apple 基础域名
 
 DOMAIN-SUFFIX, apple.ae, DIRECT
 DOMAIN-SUFFIX, apple.at, DIRECT
@@ -126,14 +152,12 @@ DOMAIN-SUFFIX, apple.tt, DIRECT
 DOMAIN-SUFFIX, apple.tw, DIRECT
 DOMAIN-SUFFIX, apple.uk, DIRECT
 DOMAIN-SUFFIX, apple.us, DIRECT
-# apple.商标
-DOMAIN-SUFFIX, apple.xn--czr694b, DIRECT
-# apple.中国
-DOMAIN-SUFFIX, apple.xn--fiqs8s, DIRECT
 DOMAIN-SUFFIX, apple.xyz, DIRECT
 
 
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # Apple Store
+
 DOMAIN-SUFFIX, aplestore.com, DIRECT
 DOMAIN-SUFFIX, apple-store.cn, DIRECT
 DOMAIN-SUFFIX, apple-store.net, DIRECT
@@ -180,7 +204,10 @@ DOMAIN-SUFFIX, applestoreonline.com, DIRECT
 DOMAIN-SUFFIX, applestorepro.eu, DIRECT
 DOMAIN-SUFFIX, onlineapplestore.com, DIRECT
 
-# App Store
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# App Store / 应用商店
+
 DOMAIN-SUFFIX, app-store.wang, DIRECT
 DOMAIN-SUFFIX, appe-store.com, DIRECT
 DOMAIN-SUFFIX, apple-appstore.cn, DIRECT
@@ -196,7 +223,10 @@ DOMAIN-SUFFIX, appstoreapple.cn, DIRECT
 DOMAIN-SUFFIX, asto.re, DIRECT
 DOMAIN-SUFFIX, tvappstore.net, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # iMac
+
 DOMAIN-SUFFIX, apple-imac.com, DIRECT
 DOMAIN-SUFFIX, appleimac.com, DIRECT
 DOMAIN-SUFFIX, imac-apple.com, DIRECT
@@ -211,7 +241,10 @@ DOMAIN-SUFFIX, imac.rs, DIRECT
 DOMAIN-SUFFIX, imacapple.com, DIRECT
 DOMAIN-SUFFIX, imacapplecomputer.com, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # iPad
+
 DOMAIN-SUFFIX, ebookforipad.com, DIRECT
 DOMAIN-SUFFIX, euroipad.com, DIRECT
 DOMAIN-SUFFIX, findmyipad.com, DIRECT
@@ -237,7 +270,10 @@ DOMAIN-SUFFIX, ipadmini.lk, DIRECT
 DOMAIN-SUFFIX, ipadpro.buzz, DIRECT
 DOMAIN-SUFFIX, ukipad.com, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # iPhone
+
 DOMAIN-SUFFIX, appleiphone.hu, DIRECT
 DOMAIN-SUFFIX, appleiphone.net, DIRECT
 DOMAIN-SUFFIX, appleiphonecell.com, DIRECT
@@ -297,7 +333,9 @@ DOMAIN-SUFFIX, iphoneunlockimei.com, DIRECT
 DOMAIN-SUFFIX, iphonexs.tv, DIRECT
 DOMAIN-SUFFIX, onlyiphone5case.com, DIRECT
 
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # iPod
+
 DOMAIN-SUFFIX, aplleipods.com, DIRECT
 DOMAIN-SUFFIX, appleclassicipod.com, DIRECT
 DOMAIN-SUFFIX, downloadsforipod.com, DIRECT
@@ -345,7 +383,10 @@ DOMAIN-SUFFIX, offrezdesipods.com, DIRECT
 DOMAIN-SUFFIX, simplyipod.com, DIRECT
 DOMAIN-SUFFIX, wwwipodlounge.com, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # MacBook
+
 DOMAIN-SUFFIX, imacsources.com, DIRECT
 DOMAIN-SUFFIX, launchpad.wang, DIRECT
 DOMAIN-SUFFIX, mac.wang, DIRECT
@@ -374,7 +415,10 @@ DOMAIN-SUFFIX, macbookpros.com, DIRECT
 DOMAIN-SUFFIX, macbooksale.com, DIRECT
 DOMAIN-SUFFIX, wwwmacbookair.com, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # Apple Watch
+
 DOMAIN-SUFFIX, apple-watch.com.ru, DIRECT
 DOMAIN-SUFFIX, applewatch.hk, DIRECT
 DOMAIN-SUFFIX, applewatch.tv, DIRECT
@@ -384,7 +428,10 @@ DOMAIN-SUFFIX, applewatchedition.com, DIRECT
 DOMAIN-SUFFIX, applewatchseries3.net, DIRECT
 DOMAIN-SUFFIX, applewatchsport.com, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # Apple Music
+
 DOMAIN-SUFFIX, applemusic.berlin, DIRECT
 DOMAIN-SUFFIX, applemusic.co, DIRECT
 DOMAIN-SUFFIX, applemusic.com, DIRECT
@@ -396,7 +443,10 @@ DOMAIN-SUFFIX, applemusicfestival.com, DIRECT
 DOMAIN-SUFFIX, musickit.net, DIRECT
 DOMAIN-SUFFIX, wwwapplemusic.com, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # Apple News
+
 DOMAIN-SUFFIX, apple.comscoreresearch.com, DIRECT
 DOMAIN-SUFFIX, apple.news, DIRECT
 DOMAIN-SUFFIX, appleenews.com, DIRECT
@@ -405,7 +455,10 @@ DOMAIN-SUFFIX, applenews.hamburg, DIRECT
 DOMAIN-SUFFIX, applenews.tv, DIRECT
 DOMAIN-SUFFIX, applenewsformat.com, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # Apple Pay
+
 DOMAIN-SUFFIX, apple-pay.com, DIRECT
 DOMAIN-SUFFIX, apple-pay.rs, DIRECT
 DOMAIN-SUFFIX, apple-pay.wang, DIRECT
@@ -433,7 +486,10 @@ DOMAIN-SUFFIX, applepaysupplies.tv, DIRECT
 DOMAIN-SUFFIX, applewallet.com, DIRECT
 DOMAIN-SUFFIX, applewallet.tv, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # iBook
+
 DOMAIN-SUFFIX, i-book.com, DIRECT
 DOMAIN-SUFFIX, i-book.net, DIRECT
 DOMAIN-SUFFIX, ibook.co.nz, DIRECT
@@ -443,32 +499,47 @@ DOMAIN-SUFFIX, ibook.net, DIRECT
 DOMAIN-SUFFIX, ibookpartner.com, DIRECT
 DOMAIN-SUFFIX, ibooksauthor.com, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # iPhoto
+
 DOMAIN-SUFFIX, iphoto.eu, DIRECT
 DOMAIN-SUFFIX, iphoto.no, DIRECT
 DOMAIN-SUFFIX, iphoto.se, DIRECT
 DOMAIN-SUFFIX, iphoto.wang, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # iMovie
+
 DOMAIN-SUFFIX, imovie.eu, DIRECT
 DOMAIN-SUFFIX, imoviegallery.com, DIRECT
 DOMAIN-SUFFIX, imoviestage.com, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # Apple Care
+
 DOMAIN-SUFFIX, applecare.berlin, DIRECT
 DOMAIN-SUFFIX, applecare.cc, DIRECT
 DOMAIN-SUFFIX, applecare.eu, DIRECT
 DOMAIN-SUFFIX, applecare.hamburg, DIRECT
 DOMAIN-SUFFIX, applecare.wang, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # macOS
+
 DOMAIN-SUFFIX, appledarwin.com, DIRECT
 DOMAIN-SUFFIX, appledarwin.net, DIRECT
 DOMAIN-SUFFIX, darwinsource.com, DIRECT
 DOMAIN-SUFFIX, darwinsource.org, DIRECT
 DOMAIN-SUFFIX, darwinsourcecode.com, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # Apple ID
+
 DOMAIN-SUFFIX, appleaccount.net, DIRECT
 DOMAIN-SUFFIX, appleid-applemx.com, DIRECT
 DOMAIN-SUFFIX, appleid-applemx.us, DIRECT
@@ -481,7 +552,10 @@ DOMAIN-SUFFIX, appleid.hk, DIRECT
 DOMAIN-SUFFIX, ids-apple.com, DIRECT
 DOMAIN-SUFFIX, myappleid.com, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # Apple TV
+
 DOMAIN-SUFFIX, appletv.com, DIRECT
 DOMAIN-SUFFIX, appletv.fr, DIRECT
 DOMAIN-SUFFIX, appletv.wang, DIRECT
@@ -489,7 +563,10 @@ DOMAIN-SUFFIX, appletv4.cn, DIRECT
 DOMAIN-SUFFIX, appletv4.com.cn, DIRECT
 DOMAIN-SUFFIX, appletvapp.apple, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # Apple One
+
 DOMAIN-SUFFIX, appleone.audio, DIRECT
 DOMAIN-SUFFIX, appleone.blog, DIRECT
 DOMAIN-SUFFIX, appleone.chat, DIRECT
@@ -503,10 +580,16 @@ DOMAIN-SUFFIX, appleone.space, DIRECT
 DOMAIN-SUFFIX, appleone.tech, DIRECT
 DOMAIN-SUFFIX, appleone.website, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # Shazam
+
 DOMAIN-SUFFIX, shazam.com, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # Others
+
 DOMAIN-SUFFIX, 1to1computing.com.au, DIRECT
 DOMAIN-SUFFIX, 1to1conference.com.au, DIRECT
 DOMAIN-SUFFIX, 5lml.com, DIRECT
@@ -758,26 +841,42 @@ DOMAIN-SUFFIX, wwwapple.com, DIRECT
 DOMAIN-SUFFIX, wwwapple.net, DIRECT
 DOMAIN-SUFFIX, wwwlapple.com, DIRECT
 
+
+# apple.商标
+# DOMAIN-SUFFIX, apple.xn--czr694b, DIRECT
+
+# apple.中国
+# DOMAIN-SUFFIX, apple.xn--fiqs8s, DIRECT
+
 # 苹果商店.cn
-DOMAIN-SUFFIX, xn--czrs0t4phtr3a.cn, DIRECT
+# DOMAIN-SUFFIX, xn--czrs0t4phtr3a.cn, DIRECT
+
 # 苹果中国.cn
-DOMAIN-SUFFIX, xn--fiqs8sxootzz.cn, DIRECT
+# DOMAIN-SUFFIX, xn--fiqs8sxootzz.cn, DIRECT
+
 # 苹果中国.网店
-DOMAIN-SUFFIX, xn--fiqs8sxootzz.xn--hxt814e, DIRECT
+# DOMAIN-SUFFIX, xn--fiqs8sxootzz.xn--hxt814e, DIRECT
+
 # 苹果电脑.网店
-DOMAIN-SUFFIX, xn--gtvq61aiijy0b.xn--hxt814e, DIRECT
+# DOMAIN-SUFFIX, xn--gtvq61aiijy0b.xn--hxt814e, DIRECT
+
 # 苹果.wang
-DOMAIN-SUFFIX, xn--gtvz22d.wang, DIRECT
+# DOMAIN-SUFFIX, xn--gtvz22d.wang, DIRECT
+
 # 苹果.网店
-DOMAIN-SUFFIX, xn--gtvz22d.xn--hxt814e, DIRECT
+# DOMAIN-SUFFIX, xn--gtvz22d.xn--hxt814e, DIRECT
+
 # 苹果店.商标
-DOMAIN-SUFFIX, xn--hxtr4rozx.xn--czr694b, DIRECT
+# DOMAIN-SUFFIX, xn--hxtr4rozx.xn--czr694b, DIRECT
+
 # 苹果手机.网店
-DOMAIN-SUFFIX, xn--kput3imi374g.xn--hxt814e, DIRECT
+# DOMAIN-SUFFIX, xn--kput3imi374g.xn--hxt814e, DIRECT
+
 # 苹果专卖店.cn, 
-DOMAIN-SUFFIX, xn--ohq11k7pl25iyo8a.cn, DIRECT
+# DOMAIN-SUFFIX, xn--ohq11k7pl25iyo8a.cn, DIRECT
+
 # 苹果保修.网店
-DOMAIN-SUFFIX, xn--ruq8a011kt6y.xn--hxt814e, DIRECT
+# DOMAIN-SUFFIX, xn--ruq8a011kt6y.xn--hxt814e, DIRECT
 
 
 
