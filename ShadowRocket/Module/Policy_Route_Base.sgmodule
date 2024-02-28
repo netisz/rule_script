@@ -69,7 +69,10 @@ DOMAIN-SUFFIX, digicert.com, DIRECT
 # CDN
 DOMAIN-SUFFIX, jsdelivr.net, DIRECT
 
+DOMAIN-SUFFIX, cdnhwc2.com, DIRECT
+
 # 金山公司
+DOMAIN-SUFFIX, ksyun.com, DIRECT
 DOMAIN-SUFFIX, ksyuncdn.com, DIRECT
 
 
