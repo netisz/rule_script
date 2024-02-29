@@ -75,6 +75,57 @@ DOMAIN-SUFFIX, cdnhwc2.com, DIRECT
 DOMAIN-SUFFIX, ksyun.com, DIRECT
 DOMAIN-SUFFIX, ksyuncdn.com, DIRECT
 
+# 白山云科技
+DOMAIN-SUFFIX, qingcdn.com, DIRECT
+DOMAIN-SUFFIX, bsclink.cn, DIRECT
+DOMAIN-SUFFIX, trpcdn.net, DIRECT
+
+# 网宿
+DOMAIN-SUFFIX, wsdvs.com, DIRECT
+DOMAIN-SUFFIX, wsglb0.com, DIRECT
+DOMAIN-SUFFIX, wscdns.com, DIRECT
+
+# 蓝汛
+DOMAIN-SUFFIX, ccgslb.com.cn, DIRECT
+
+# 帝联
+DOMAIN-SUFFIX, fastcdn.com, DIRECT
+
+# 阿里云
+DOMAIN-KEYWORD, kunlun*.com, DIRECT
+
+# 腾讯云
+DOMAIN-SUFFIX, dnsv1.com, DIRECT
+
+# 百度云
+DOMAIN-SUFFIX, bdydns.com, DIRECT
+
+# 七牛云
+DOMAIN-SUFFIX, qiniudns.com, DIRECT
+
+# 又拍云
+DOMAIN-SUFFIX, aicdn.com, DIRECT
+
+# 云端智度
+DOMAIN-SUFFIX, spdydns.com, DIRECT
+
+# 网易云
+DOMAIN-SUFFIX, 163jiasu.com, DIRECT
+
+# 360云
+DOMAIN-SUFFIX, 360cdn.cn, DIRECT
+DOMAIN-SUFFIX, qihucdn.com, DIRECT
+
+# 亚马逊云
+DOMAIN-SUFFIX, cloudfront.net, DIRECT
+
+# Microsoft Azure
+DOMAIN-SUFFIX, mschcdn.com, DIRECT
+
+# verycdn
+DOMAIN-SUFFIX, verycdn.net, DIRECT
+
+
 
 # ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # Syncthing
