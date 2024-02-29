@@ -69,7 +69,44 @@ DOMAIN-SUFFIX, digicert.com, DIRECT
 # CDN
 DOMAIN-SUFFIX, jsdelivr.net, DIRECT
 
-DOMAIN-SUFFIX, cdnhwc2.com, DIRECT
+# 华为
+# DOMAIN-SUFFIX, cdnhwc2.com, DIRECT
+DOMAIN-KEYWORD, cdnhwc, DIRECT
+DOMAIN-SUFFIX, eduapaashwc.com, DIRECT
+DOMAIN-SUFFIX, hc-cdn.com, DIRECT
+DOMAIN-SUFFIX, hc-sre.com, DIRECT
+DOMAIN-SUFFIX, huaweiapaas.com, DIRECT
+DOMAIN-SUFFIX, huaweicloud-dns.com, DIRECT
+DOMAIN-SUFFIX, huaweicloud-dns.net, DIRECT
+DOMAIN-SUFFIX, huaweicloud-dns.org, DIRECT
+DOMAIN-SUFFIX, huaweicloud-smn.com, DIRECT
+DOMAIN-SUFFIX, huaweicloud-smn.net, DIRECT
+DOMAIN-SUFFIX, huaweicloud.com, DIRECT
+DOMAIN-SUFFIX, huaweicloudapis.com, DIRECT
+DOMAIN-SUFFIX, huaweicloudlive.com, DIRECT
+DOMAIN-SUFFIX, huaweicloudsite.com, DIRECT
+DOMAIN-SUFFIX, huaweicloudwaf.com, DIRECT
+DOMAIN-SUFFIX, huaweioneaccess.com, DIRECT
+DOMAIN-SUFFIX, huaweimarketplace.com, DIRECT
+DOMAIN-SUFFIX, huaweisafedns.com, DIRECT
+DOMAIN-SUFFIX, huaweisre.com, DIRECT
+DOMAIN-SUFFIX, huaweiyun.com, DIRECT
+DOMAIN-SUFFIX, hwastro.com, DIRECT
+DOMAIN-SUFFIX, hwcdnsre.com, DIRECT
+DOMAIN-SUFFIX, hwclouds-dns.com, DIRECT
+DOMAIN-SUFFIX, hwclouds-dns.net, DIRECT
+DOMAIN-SUFFIX, hwclouds.com, DIRECT
+DOMAIN-SUFFIX, hwclouds.mobi, DIRECT
+DOMAIN-SUFFIX, hwcloudsite.com, DIRECT
+DOMAIN-SUFFIX, hwcloudvis.com, DIRECT
+DOMAIN-SUFFIX, imcapptest.com, DIRECT
+DOMAIN-SUFFIX, myhwcdn.com, DIRECT
+DOMAIN-SUFFIX, myhwcloudlive.com, DIRECT
+DOMAIN-SUFFIX, myhwclouds.com, DIRECT
+DOMAIN-SUFFIX, myhwclouds.net, DIRECT
+DOMAIN-SUFFIX, pagescube.com, DIRECT
+DOMAIN-SUFFIX, powerapp.io, DIRECT
+
 
 # 金山公司
 DOMAIN-SUFFIX, ksyun.com, DIRECT
@@ -77,7 +114,6 @@ DOMAIN-SUFFIX, ksyuncdn.com, DIRECT
 
 # 白山云科技
 DOMAIN-SUFFIX, qingcdn.com, DIRECT
-DOMAIN-SUFFIX, bsclink.cn, DIRECT
 DOMAIN-SUFFIX, trpcdn.net, DIRECT
 
 # 网宿
@@ -96,9 +132,11 @@ DOMAIN-KEYWORD, kunlun*.com, DIRECT
 
 # 腾讯云
 DOMAIN-SUFFIX, dnsv1.com, DIRECT
+DOMAIN-SUFFIX, tdnsv8.com, DIRECT
 
 # 百度云
 DOMAIN-SUFFIX, bdydns.com, DIRECT
+DOMAIN-SUFFIX, jomodns.com, DIRECT
 
 # 七牛云
 DOMAIN-SUFFIX, qiniudns.com, DIRECT
