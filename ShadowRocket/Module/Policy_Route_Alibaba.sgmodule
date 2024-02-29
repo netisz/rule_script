@@ -260,6 +260,32 @@ IP-CIDR, 8.208.0.0/12, DIRECT
 
 
 # ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# 淘宝
+DOMAIN-SUFFIX, juhuasuan.com, DIRECT
+DOMAIN-SUFFIX, lingshoujia.com, DIRECT
+DOMAIN-SUFFIX, mashort.cn, DIRECT
+DOMAIN-SUFFIX, pailitao.com, DIRECT
+DOMAIN-SUFFIX, taobao.com, DIRECT
+DOMAIN-SUFFIX, taobao.org, DIRECT
+DOMAIN-SUFFIX, taobaocdn.com, DIRECT
+DOMAIN-SUFFIX, taobizhong.com, DIRECT
+DOMAIN-SUFFIX, taopiaopiao.com, DIRECT
+DOMAIN-SUFFIX, tb.cn, DIRECT
+DOMAIN-SUFFIX, tbcache.com, DIRECT
+DOMAIN-SUFFIX, tburl.in, DIRECT
+DOMAIN-SUFFIX, tmall.com, DIRECT
+DOMAIN-SUFFIX, tmall.ru, DIRECT
+DOMAIN-SUFFIX, tmalltv.com, DIRECT
+DOMAIN-SUFFIX, tmjl.ai, DIRECT
+
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# 1688
+DOMAIN-SUFFIX, 1688.com, DIRECT
+
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# 一淘
 DOMAIN-SUFFIX, etao.com, DIRECT
 
 
@@ -269,10 +295,11 @@ DOMAIN-SUFFIX, alimama.com, DIRECT
 
 # ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # 阿里云盘
-DOMAIN-SUFFIX, aliyun.com, DIRECT
+DOMAIN-SUFFIX, alicloudccp.com, DIRECT
+DOMAIN-SUFFIX, alipan.com, DIRECT
+DOMAIN-SUFFIX, alicloudccp.com, DIRECT
 DOMAIN-SUFFIX, aliyundrive.com, DIRECT
 DOMAIN-SUFFIX, aliyundrive.net, DIRECT
-DOMAIN-SUFFIX, alicloudccp.com, DIRECT
 
 
 # ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
@@ -293,9 +320,9 @@ DOMAIN-SUFFIX, effirst.com, DIRECT
 
 # ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # 菜鸟驿站
+DOMAIN-SUFFIX, 56che.com, DIRECT
 DOMAIN-SUFFIX, cainiao.com, DIRECT
 DOMAIN-SUFFIX, cainiao.com.cn, DIRECT
-DOMAIN-SUFFIX, 56che.com, DIRECT
 DOMAIN-SUFFIX, cainiao-inc.cn, DIRECT
 DOMAIN-SUFFIX, cainiao-inc.com, DIRECT
 DOMAIN-SUFFIX, cainiao-inc.net, DIRECT
@@ -312,12 +339,42 @@ DOMAIN-KEYWORD, litedetail-host, DIRECT
 DOMAIN-SUFFIX, ltao.com, DIRECT
 URL-REGEX, litetaobao-app, DIRECT
 URL-REGEX, ltao-user-growth-internet, DIRECT
-DOMAIN-SUFFIX, 1688.com, DIRECT
 
 
 # ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # 咸鱼
 DOMAIN-SUFFIX, goofish.com, DIRECT
+
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# 盒马
+DOMAIN-SUFFIX, freshhema.com, DIRECT
+DOMAIN-SUFFIX, hemamax.com, DIRECT
+DOMAIN-SUFFIX, hemaos.com, DIRECT
+DOMAIN-SUFFIX, hemashare.cn, DIRECT
+DOMAIN-SUFFIX, shyhhema.com, DIRECT
+
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# 蚂蚁财富
+DOMAIN-SUFFIX, antfortune.com, DIRECT
+
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# 蚂蚁基金
+DOMAIN-SUFFIX, fund123.cn, DIRECT
+
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# 蚂蚁集团
+DOMAIN-SUFFIX, antfin.com, DIRECT
+DOMAIN-SUFFIX, antgroup.com, DIRECT
+DOMAIN-SUFFIX, antgroup-inc.cn, DIRECT
+
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# 神马搜索
+DOMAIN-SUFFIX, sm.cn, DIRECT
 
 
 # ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
@@ -343,6 +400,46 @@ DOMAIN-SUFFIX, volces.com, DIRECT
 DOMAIN-SUFFIX, pangolin-sdk-toutiao1.com, DIRECT
 
 DOMAIN-SUFFIX, alibaba-inc.com, DIRECT
+
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# 飞猪
+DOMAIN-SUFFIX, alitrip.com, DIRECT
+DOMAIN-SUFFIX, feizhu.cn, DIRECT
+DOMAIN-SUFFIX, feizhu.com, DIRECT
+DOMAIN-SUFFIX, fliggy.com, DIRECT
+DOMAIN-SUFFIX, fliggy.hk, DIRECT
+DOMAIN-SUFFIX, iuynfg.com, DIRECT
+
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# 高德地图
+DOMAIN-SUFFIX, amap.com, DIRECT
+DOMAIN-SUFFIX, amapauto.com, DIRECT
+DOMAIN-SUFFIX, autonavi.com, DIRECT
+DOMAIN-SUFFIX, gaode.com, DIRECT
+
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# 虾米音乐
+DOMAIN-SUFFIX, xiami.com, DIRECT
+DOMAIN-SUFFIX, xiami.fm, DIRECT
+DOMAIN-SUFFIX, xiami.net, DIRECT
+
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# 口碑
+DOMAIN-SUFFIX, koubei.com, DIRECT
+
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# 吱声网
+DOMAIN-SUFFIX, zhisheng.com, DIRECT
+
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# npmmirror 中国镜像站
+DOMAIN-SUFFIX, npmmirror.com, DIRECT
 
 
 # ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
@@ -377,6 +474,100 @@ DOMAIN-SUFFIX, cibntv.net, DIRECT
 DOMAIN-SUFFIX, ykimg.com, DIRECT
 DOMAIN-SUFFIX, aliapp.org, DIRECT
 
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# 其它
+DOMAIN-SUFFIX, 25pp.com, DIRECT
+DOMAIN-SUFFIX, 95095.com, DIRECT
+DOMAIN-SUFFIX, 9game.cn, DIRECT
+DOMAIN-SUFFIX, aliapp.org, DIRECT
+DOMAIN-SUFFIX, alibaba-inc.com, DIRECT
+DOMAIN-SUFFIX, alibaba.com, DIRECT
+DOMAIN-SUFFIX, alibabacapital.com, DIRECT
+DOMAIN-SUFFIX, alibabacorp.com, DIRECT
+DOMAIN-SUFFIX, alibabadoctor.com, DIRECT
+DOMAIN-SUFFIX, alibabafuturehotel.com, DIRECT
+DOMAIN-SUFFIX, alibabagroup.com, DIRECT
+DOMAIN-SUFFIX, alibabaplanet.com, DIRECT
+DOMAIN-SUFFIX, alibabaued.com, DIRECT
+DOMAIN-SUFFIX, alibabausercontent.com, DIRECT
+DOMAIN-SUFFIX, alifanyi.com, DIRECT
+DOMAIN-SUFFIX, alihealth.com.cn, DIRECT
+DOMAIN-SUFFIX, alihealth.hk, DIRECT
+DOMAIN-SUFFIX, aliimg.com, DIRECT
+DOMAIN-SUFFIX, alikmd.com, DIRECT
+DOMAIN-SUFFIX, alimama.com, DIRECT
+DOMAIN-SUFFIX, alimebot.com, DIRECT
+DOMAIN-SUFFIX, alimei.com, DIRECT
+DOMAIN-SUFFIX, alios.cn, DIRECT
+DOMAIN-SUFFIX, alipay.cn, DIRECT
+DOMAIN-SUFFIX, alipay.com, DIRECT
+DOMAIN-SUFFIX, alipay.com.cn, DIRECT
+DOMAIN-SUFFIX, alipaydns.com, DIRECT
+DOMAIN-SUFFIX, alipayobjects.com, DIRECT
+DOMAIN-SUFFIX, aliplus.com, DIRECT
+DOMAIN-SUFFIX, aliresearch.com, DIRECT
+DOMAIN-SUFFIX, alisoft.com, DIRECT
+DOMAIN-SUFFIX, alisports.com, DIRECT
+DOMAIN-SUFFIX, alitianji.com, DIRECT
+DOMAIN-SUFFIX, aliunicorn.com, DIRECT
+DOMAIN-SUFFIX, aliway.com, DIRECT
+DOMAIN-SUFFIX, aliwork.com, DIRECT
+DOMAIN-SUFFIX, alixiaomi.com, DIRECT
+DOMAIN-SUFFIX, alizhaopin.com, DIRECT
+DOMAIN-SUFFIX, alyms.cn, DIRECT
+DOMAIN-SUFFIX, asczwa.com, DIRECT
+DOMAIN-SUFFIX, asczxcefsv.com, DIRECT
+DOMAIN-SUFFIX, asmlink.cn, DIRECT
+DOMAIN-SUFFIX, atatech.org, DIRECT
+DOMAIN-SUFFIX, b2byao.com, DIRECT
+DOMAIN-SUFFIX, bazai.com, DIRECT
+DOMAIN-SUFFIX, bcvbw.com, DIRECT
+DOMAIN-SUFFIX, cheng.xin, DIRECT
+DOMAIN-SUFFIX, cloudeagle.cn, DIRECT
+DOMAIN-SUFFIX, damai.cn, DIRECT
+DOMAIN-SUFFIX, dayu.com, DIRECT
+DOMAIN-SUFFIX, dfkhgj.com, DIRECT
+DOMAIN-SUFFIX, doctoryou.ai, DIRECT
+DOMAIN-SUFFIX, doctoryou.cn, DIRECT
+DOMAIN-SUFFIX, dongting.com, DIRECT
+DOMAIN-SUFFIX, dratio.com, DIRECT
+DOMAIN-SUFFIX, emas-poc.com, DIRECT
+DOMAIN-SUFFIX, gongyi.xin, DIRECT
+DOMAIN-SUFFIX, ialicdn.com, DIRECT
+DOMAIN-SUFFIX, iconfont.cn, DIRECT
+DOMAIN-SUFFIX, ics.design, DIRECT
+DOMAIN-SUFFIX, jhgtgb.com, DIRECT
+DOMAIN-SUFFIX, kanbox.com, DIRECT
+DOMAIN-SUFFIX, lazada.com, DIRECT
+DOMAIN-SUFFIX, liangxinyao.com, DIRECT
+DOMAIN-SUFFIX, m-now.cn, DIRECT
+DOMAIN-SUFFIX, maitix.com, DIRECT
+DOMAIN-SUFFIX, mdeer.com, DIRECT
+DOMAIN-SUFFIX, mei.com, DIRECT
+DOMAIN-SUFFIX, miaostreet.com, DIRECT
+DOMAIN-SUFFIX, mshare.cc, DIRECT
+DOMAIN-SUFFIX, nic.xin, DIRECT
+DOMAIN-SUFFIX, philanthropy.xin, DIRECT
+DOMAIN-SUFFIX, phpwind.com, DIRECT
+DOMAIN-SUFFIX, phpwind.net, DIRECT
+DOMAIN-SUFFIX, qingtingtrip.com, DIRECT
+DOMAIN-SUFFIX, rexpos.cn, DIRECT
+DOMAIN-SUFFIX, saee.org.cn, DIRECT
+DOMAIN-SUFFIX, shenjing.com, DIRECT
+DOMAIN-SUFFIX, shuqi.com, DIRECT
+DOMAIN-SUFFIX, shuqireader.com, DIRECT
+DOMAIN-SUFFIX, sparenode.com, DIRECT
+DOMAIN-SUFFIX, supet.com, DIRECT
+DOMAIN-SUFFIX, ttpod.com, DIRECT
+DOMAIN-SUFFIX, wandoujia.com, DIRECT
+DOMAIN-SUFFIX, xin.xin, DIRECT
+DOMAIN-SUFFIX, xinlingshou.cn, DIRECT
+DOMAIN-SUFFIX, yowhale.com, DIRECT
+DOMAIN-SUFFIX, yunos-inc.com, DIRECT
+DOMAIN-SUFFIX, yunos.com, DIRECT
+DOMAIN-SUFFIX, yushanfang.com, DIRECT
+DOMAIN-SUFFIX, zuodao.com, DIRECT
 
 [MITM]
 hostname = %APPEND% acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, *.mmstat.com, ifs.tanx.com, iyes.youku.com, *.ad.youku.com, arms-retcode.aliyuncs.com
