@@ -12,6 +12,22 @@
 # 拦截规则
 ####################################
 
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
+# umeng / 友盟 统计分析类
+DOMAIN-SUFFIX, mobmore.com, REJECT
+DOMAIN-SUFFIX, umeng.com, REJECT
+DOMAIN-SUFFIX, umengcloud.com, REJECT
+DOMAIN-SUFFIX, umsns.com, REJECT
+DOMAIN-SUFFIX, umtrack.com, REJECT
+DOMAIN-SUFFIX, uyunad.com, REJECT
+DOMAIN-SUFFIX, whalecloud.com, REJECT
+
+
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
+# CNZZ
+DOMAIN-SUFFIX, cnzz.com, REJECT
+
+
 DOMAIN, ossgw.alicdn.com, REJECT
 
 #⚠️ 未知，返回内容为 JSON 对象 {}
@@ -188,12 +204,6 @@ DOMAIN-SUFFIX, kunlunwe.com, DIRECT
 DOMAIN-SUFFIX, mxhichina.com, DIRECT
 DOMAIN-SUFFIX, myalicdn.com, DIRECT
 DOMAIN-SUFFIX, tbcache.com, DIRECT
-
-
-
-# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
-# 其他
-DOMAIN-SUFFIX, ucweb.com, DIRECT
 
 
 # ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
@@ -473,6 +483,12 @@ DOMAIN-SUFFIX, youku.com, DIRECT
 DOMAIN-SUFFIX, cibntv.net, DIRECT
 DOMAIN-SUFFIX, ykimg.com, DIRECT
 DOMAIN-SUFFIX, aliapp.org, DIRECT
+
+
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# UC
+DOMAIN-SUFFIX, ucweb.com, DIRECT
+DOMAIN-SUFFIX, uc.cn, DIRECT
 
 
 # ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
