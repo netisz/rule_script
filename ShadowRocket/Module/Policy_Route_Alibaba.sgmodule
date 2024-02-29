@@ -150,11 +150,45 @@ URL-REGEX, ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(volvo\.secon
 
 # ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # CDN
-DOMAIN-SUFFIX, alicdn.com, DIRECT
-DOMAIN-SUFFIX, kunluncan.com, DIRECT
-DOMAIN-SUFFIX, alikunlun.com, DIRECT
-DOMAIN-SUFFIX, tbcache.com, DIRECT
+DOMAIN-SUFFIX, alibabadns.com, DIRECT
 DOMAIN-SUFFIX, alibabausercontent.com, DIRECT
+DOMAIN-SUFFIX, alicdn.com, DIRECT
+DOMAIN-SUFFIX, alicloudapi.com, DIRECT
+DOMAIN-SUFFIX, alidayu.com, DIRECT
+DOMAIN-SUFFIX, alidns.com, DIRECT
+DOMAIN-SUFFIX, alikunlun.com, DIRECT
+DOMAIN-SUFFIX, aliyun-inc.com, DIRECT
+DOMAIN-SUFFIX, aliyun-iot-share.com, DIRECT
+DOMAIN-SUFFIX, aliyun.com, DIRECT
+DOMAIN-SUFFIX, aliyuncdn.com, DIRECT
+DOMAIN-SUFFIX, aliyuncs.com, DIRECT
+DOMAIN-SUFFIX, cdngslb.com, DIRECT
+DOMAIN-SUFFIX, hichina.com, DIRECT
+DOMAIN-SUFFIX, ica-alliance.org, DIRECT
+DOMAIN-SUFFIX, kunlunaq.com, DIRECT
+DOMAIN-SUFFIX, kunlunar.com, DIRECT
+DOMAIN-SUFFIX, kunlunca.com, DIRECT
+DOMAIN-SUFFIX, kunluncan.com, DIRECT
+DOMAIN-SUFFIX, kunlunea.com, DIRECT
+DOMAIN-SUFFIX, kunlungem.com, DIRECT
+DOMAIN-SUFFIX, kunlungr.com, DIRECT
+DOMAIN-SUFFIX, kunlunhuf.com, DIRECT
+DOMAIN-SUFFIX, kunlunle.com, DIRECT
+DOMAIN-SUFFIX, kunlunli.com, DIRECT
+DOMAIN-SUFFIX, kunlunno.com, DIRECT
+DOMAIN-SUFFIX, kunlunpi.com, DIRECT
+DOMAIN-SUFFIX, kunlunra.com, DIRECT
+DOMAIN-SUFFIX, kunlunsa.com, DIRECT
+DOMAIN-SUFFIX, kunlunsc.com, DIRECT
+DOMAIN-SUFFIX, kunlunsl.com, DIRECT
+DOMAIN-SUFFIX, kunlunso.com, DIRECT
+DOMAIN-SUFFIX, kunlunta.com, DIRECT
+DOMAIN-SUFFIX, kunlunvi.com, DIRECT
+DOMAIN-SUFFIX, kunlunwe.com, DIRECT
+DOMAIN-SUFFIX, mxhichina.com, DIRECT
+DOMAIN-SUFFIX, myalicdn.com, DIRECT
+DOMAIN-SUFFIX, tbcache.com, DIRECT
+
 
 
 # ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
