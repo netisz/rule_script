@@ -73,20 +73,53 @@ URL-REGEX, ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/ListFlash
 # 直连规则
 ####################################
 
-DOMAIN-SUFFIX, bilibili.com, DIRECT
-DOMAIN-SUFFIX, biliapi.net, DIRECT
+DOMAIN-KEYWORD, bilibili-game, DIRECT
+
+DOMAIN-SUFFIX, acg.tv, DIRECT
+DOMAIN-SUFFIX, acgvideo.com, DIRECT
+DOMAIN-SUFFIX, animetamashi.cn, DIRECT
+DOMAIN-SUFFIX, animetamashi.com, DIRECT
+DOMAIN-SUFFIX, anitama.cn, DIRECT
+DOMAIN-SUFFIX, anitama.net, DIRECT
+DOMAIN-SUFFIX, b23.tv, DIRECT
+DOMAIN-SUFFIX, bigfun.cn, DIRECT
+DOMAIN-SUFFIX, bigfunapp.cn, DIRECT
+DOMAIN-SUFFIX, bili22.cn, DIRECT
+DOMAIN-SUFFIX, bili2233.cn, DIRECT
+DOMAIN-SUFFIX, bili23.cn, DIRECT
+DOMAIN-SUFFIX, bili33.cn, DIRECT
 DOMAIN-SUFFIX, biliapi.com, DIRECT
-DOMAIN-SUFFIX, bilivideo.com, DIRECT
-DOMAIN-SUFFIX, bilivideo.cn, DIRECT
-DOMAIN-SUFFIX, hdslb.com, DIRECT
-DOMAIN-SUFFIX, kunlunno.com, DIRECT
-DOMAIN-SUFFIX, kunlunar.com, DIRECT
-DOMAIN-SUFFIX, cdn20.com, DIRECT
+DOMAIN-SUFFIX, biliapi.net, DIRECT
+DOMAIN-SUFFIX, bilibili.cc, DIRECT
+DOMAIN-SUFFIX, bilibili.cn, DIRECT
+DOMAIN-SUFFIX, bilibili.com, DIRECT
+DOMAIN-SUFFIX, bilibili.net, DIRECT
+DOMAIN-SUFFIX, bilibilipay.cn, DIRECT
+DOMAIN-SUFFIX, bilibilipay.com, DIRECT
 DOMAIN-SUFFIX, bilicdn1.com, DIRECT
 DOMAIN-SUFFIX, bilicdn2.com, DIRECT
 DOMAIN-SUFFIX, bilicdn3.com, DIRECT
 DOMAIN-SUFFIX, bilicdn4.com, DIRECT
 DOMAIN-SUFFIX, bilicdn5.com, DIRECT
+DOMAIN-SUFFIX, bilicomic.com, DIRECT
+DOMAIN-SUFFIX, bilicomics.com, DIRECT
+DOMAIN-SUFFIX, biligo.com, DIRECT
+DOMAIN-SUFFIX, biliimg.com, DIRECT
+DOMAIN-SUFFIX, biliintl.com, DIRECT
+DOMAIN-SUFFIX, bilivideo.cn, DIRECT
+DOMAIN-SUFFIX, bilivideo.com, DIRECT
+DOMAIN-SUFFIX, bilivideo.net, DIRECT
+DOMAIN-SUFFIX, dreamcast.hk, DIRECT
+DOMAIN-SUFFIX, hdslb.com, DIRECT
+DOMAIN-SUFFIX, hdslb.org, DIRECT
+DOMAIN-SUFFIX, im9.com, DIRECT
+DOMAIN-SUFFIX, maoercdn.com, DIRECT
+DOMAIN-SUFFIX, mincdn.com, DIRECT
+DOMAIN-SUFFIX, yo9.com, DIRECT
+
+DOMAIN-SUFFIX, kunlunno.com, DIRECT
+DOMAIN-SUFFIX, kunlunar.com, DIRECT
+DOMAIN-SUFFIX, cdn20.com, DIRECT
 
 [Script]
 BiliBili_推荐去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js
