@@ -10,5 +10,5 @@
 [Rule]
 
 # https://www.stream-link.org/stream-link.m3u
-DOMAIN-SUFFIX, stream-link.online, PROXY
-DOMAIN-SUFFIX, stream-link.org, PROXY
+# DOMAIN-SUFFIX, stream-link.online, PROXY
+# DOMAIN-SUFFIX, stream-link.org, PROXY
