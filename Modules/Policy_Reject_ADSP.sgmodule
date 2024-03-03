@@ -1,0 +1,120 @@
+#!name = 【拦截策略】广告隐私服务
+#!desc = 拦截常见的广告和隐私服务
+#!openUrl = 
+#!author = 
+#!homepage = 
+#!icon = 
+#!date = 20240220
+
+[Rule]
+
+####################################
+# 拦截规则
+####################################
+
+#⚠️ 用户行为收集
+# > https://toblog.ctobsnssdk.com/service/2/device_register_only/?
+# > https://toblog.ctobsnssdk.com/service/2/log_settings/?
+# > https://toblog.ctobsnssdk.com/service/2/app_log/
+# > https://mcs.ctobsnssdk.com
+# DOMAIN-SUFFIX, toblog.ctobsnssdk.com, REJECT
+# DOMAIN-SUFFIX, mcs.ctobsnssdk.com, REJECT
+DOMAIN-SUFFIX, ctobsnssdk.com, REJECT
+
+#⚠️ 全屏广告
+# > https://sf3-fe-tos.pglstatp-toutiao.com/obj/ad-pattern/renderer/3c8607/fallback.js
+DOMAIN-SUFFIX, pglstatp-toutiao.com, REJECT
+
+
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
+# 极光推送 - 广告服务商
+DOMAIN-SUFFIX, jiguang.cn, REJECT
+DOMAIN-SUFFIX, jpush.cn, REJECT
+DOMAIN-SUFFIX, jpush-ipv6.cn, REJECT
+DOMAIN-SUFFIX, 42r.cn, REJECT
+DOMAIN-SUFFIX, 5566ua.com, REJECT
+DOMAIN-SUFFIX, aurorapush.cn, REJECT
+DOMAIN-SUFFIX, e0n.cn, REJECT
+DOMAIN-SUFFIX, japps.cn, REJECT
+DOMAIN-SUFFIX, jchat.io, REJECT
+DOMAIN-SUFFIX, jmlk.co, REJECT
+DOMAIN-SUFFIX, jpush.io, REJECT
+DOMAIN-SUFFIX, jpushoa.com, REJECT
+DOMAIN-SUFFIX, jsurvey.cn, REJECT
+DOMAIN-SUFFIX, jvoice.cn, REJECT
+DOMAIN-SUFFIX, kc9.cn, REJECT
+DOMAIN-SUFFIX, n0q.cn, REJECT
+DOMAIN-SUFFIX, pushcfg.com, REJECT
+DOMAIN-SUFFIX, s0n.cn, REJECT
+
+
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
+# 快手联盟 - 广告服务商
+DOMAIN, open.e.kuaishou.com, REJECT
+
+
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
+# 秒针系统 - 广告服务商
+DOMAIN-SUFFIX, miaozhen.com, REJECT
+
+
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
+# 达佳互联 - 广告服务商
+DOMAIN-SUFFIX, adukwai.com, REJECT
+
+
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
+# 艾狄墨搏 - 广告服务商
+DOMAIN-SUFFIX, admobile.top, REJECT
+
+
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
+# 天目 - 广告服务商
+DOMAIN-SUFFIX, sdk.tianmu.mobi, REJECT
+
+
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
+# 中国联通
+DOMAIN-SUFFIX, m1.ad.10010.com, REJECT
+
+
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
+# 中国电信
+DOMAIN, ad.21cn.com, REJECT
+DOMAIN, ad.k.21cn.com, REJECT
+DOMAIN, admarket.21cn.com, REJECT
+DOMAIN, adshows.21cn.com, REJECT
+IP-CIDR, 122.229.8.47/32, REJECT
+IP-CIDR, 122.229.29.89/32, REJECT
+
+
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
+# 中国移动
+IP-CIDR, 120.240.95.37/32, REJECT
+
+# 中国移动 - 开屏广告 //client.app.coc.10086.cn
+URL-REGEX, ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit, REJECT-200
+URL-REGEX, ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList, REJECT-200
+
+# 多个悬浮窗
+URL-REGEX, ^https:\/\/(client\.app\.coc|h\.app\.coc|app)\.10086\.cn\/biz-orange\/DN\/emotionMarket, REJECT-200
+
+# 广东移动去开屏
+URL-REGEX, ^https:\/\/service\.gd\.10086\.cn\/gdcmc\/reso\/d\/ts-area\/10011001-1246\.json, REJECT-200
+
+# 山东移动 //m.sd.10086.cn
+URL-REGEX, https:\/\/m\.sd\.10086\.cn\/zapi\/app_common\/homeWelcome\/welcome\.do, REJECT-200
+
+# 广西移动 //gx.10086.cn
+URL-REGEX, ^https:\/\/gx\.10086\.cn\/zt-portal\/gxhzg\/portal\/app\/api\/v, REJECT-200
+
+# 安徽移动 //api.ahmobile.cn
+URL-REGEX, ^https:\/\/api\.ahmobile\.cn:443\/eip\?eip_serv_id=app\.getAllNew, REJECT-200
+
+# 江苏移动 //wap.js.10086.cn
+URL-REGEX, ^https:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v1\/market_content\.page\.queryHasIt, REJECT-200
+URL-REGEX, ^https:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query, REJECT-200
+
+
+[MITM]
+hostname = %APPEND% client.app.coc.10086.cn, h.app.coc.10086.cn, app.10086.cn, service.gd.10086.cn, m.sd.10086.cn, gx.10086.cn, api.ahmobile.cn, wap.js.10086.cn

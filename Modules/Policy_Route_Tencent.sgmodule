@@ -1,0 +1,83 @@
+#!name = 【路由策略】腾讯
+#!desc = 腾讯旗下QQ，微信，腾讯视频的直连，屏蔽广告的策略
+#!openUrl = 
+#!author = 
+#!homepage = 
+#!icon = 
+#!date = 20240219
+
+[Rule]
+
+####################################
+# 拦截规则
+####################################
+
+# 腾讯
+DOMAIN, adsmind.gdtimg.com, REJECT
+DOMAIN, info4.video.qq.com, REJECT
+DOMAIN, info6.video.qq.com, REJECT
+DOMAIN, ios.video.mpush.qq.com, REJECT
+DOMAIN, otheve.beacon.qq.com, REJECT
+DOMAIN, pgdt.gtimg.cn, REJECT
+DOMAIN, tmead.y.qq.com, REJECT
+DOMAIN, tmeadbak.y.qq.com, REJECT
+DOMAIN, tmeadcomm.y.qq.com, REJECT
+DOMAIN, tpns.qq.com, REJECT
+DOMAIN-SUFFIX, l.qq.com, REJECT
+DOMAIN-KEYWORD, trace.qq.com, REJECT
+DOMAIN-KEYWORD, trace.video.qq.com, REJECT
+IP-CIDR, 47.110.187.87/32, REJECT
+DOMAIN-SUFFIX, gdt.qq.com, REJECT
+
+# 腾讯优量汇 - 广告服务商
+DOMAIN, mazu.m.qq.com, REJECT
+DOMAIN, sdk.e.qq.com, REJECT
+
+# 手机QQ
+DOMAIN, adsmind.gdtimg.com, REJECT
+DOMAIN, pgdt.gtimg.cn, REJECT
+
+# 腾讯视频
+DOMAIN, h.trace.qq.com, REJECT
+DOMAIN, aegis.qq.com, REJECT
+
+# 腾讯视频弹幕
+DOMAIN, dm.video.qq.com, REJECT
+
+# 腾讯视频广告
+URL-REGEX, ^https:\/\/pbaccess\.video\.qq\.com\/trpc\.iwan\.pc_video_play_page_svr\.PcVideoPlayPageSvr\/GetSideResourceModule, REJECT
+#URL-REGEX, ^https:\/\/pbaccess\.video\.qq\.com\/trpc\.vector_layout\.page_view\.PageService\/getPage, REJECT
+
+# QQ
+# QQ钱包广告 //m.qianbao.qq.com
+URL-REGEX, ^https:\/\/m\.qianbao\.qq\.com\/services\/walletHome\/getQQshopData, REJECT
+URL-REGEX, ^https:\/\/m\.qianbao\.qq\.com\/services\/walletHome\/getGameData, REJECT
+
+# QQ钱包公益广告
+URL-REGEX, ^https:\/\/m\.qianbao\.qq\.com\/services\/walletHome\/getFootData, REJECT
+
+
+####################################
+# 直连规则
+####################################
+
+# QQ
+DOMAIN-SUFFIX, qq.com, DIRECT
+
+# 微信
+DOMAIN-SUFFIX, servicewechat.com, DIRECT
+DOMAIN-SUFFIX, wechat.com, DIRECT
+DOMAIN-SUFFIX, tencent.com, DIRECT
+DOMAIN-SUFFIX, tencentcloudapi.com, DIRECT
+DOMAIN-SUFFIX, weixinbridge.com, DIRECT
+DOMAIN-SUFFIX, wxworklive.com, DIRECT
+DOMAIN-SUFFIX, ovscdns.net, DIRECT
+DOMAIN-SUFFIX, ovscdns.com, DIRECT
+DOMAIN-SUFFIX, dcloudstc.com, DIRECT
+DOMAIN-SUFFIX, tdnsv6.com, DIRECT
+DOMAIN-SUFFIX, tdnsv15.com, DIRECT
+DOMAIN-SUFFIX, gtimg.com, DIRECT
+
+
+[MITM]
+hostname = %APPEND% m.qianbao.qq.com, pbaccess.video.qq.com

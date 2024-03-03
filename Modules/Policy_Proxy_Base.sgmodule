@@ -1,0 +1,14 @@
+#!name = 【路由策略】强制代理
+#!desc = 强制代理策略
+#!openUrl = 
+#!author = 
+#!homepage = 
+#!icon = 
+#!date = 20240303
+
+
+[Rule]
+
+# https://www.stream-link.org/stream-link.m3u
+# DOMAIN-SUFFIX, stream-link.online, PROXY
+# DOMAIN-SUFFIX, stream-link.org, PROXY
