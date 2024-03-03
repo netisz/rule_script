@@ -57,7 +57,7 @@
 # ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # 中国所属域名，网络地址段直连
 DOMAIN-SUFFIX, cn, DIRECT
-GEOIP, CN, DIRECT
+# GEOIP, CN, DIRECT
 
 
 # ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
@@ -67,6 +67,7 @@ DOMAIN-SUFFIX, digicert.com, DIRECT
 
 # ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
 # CDN
+
 DOMAIN-SUFFIX, jsdelivr.net, DIRECT
 
 # 华为
