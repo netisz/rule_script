@@ -29,6 +29,7 @@ DOMAIN-SUFFIX, msg2.video.qiyi.com, REJECT
 DOMAIN-SUFFIX, policy.video.iqiyi.com, REJECT
 DOMAIN-SUFFIX, yuedu.iqiyi.com, REJECT
 
+
 #⚠️ 疑似为用户组别的灰度测试信息，请求时会附带上设备编号，返回内容为 JSON 对象 {}
 # > https://mesh.if.iqiyi.com/portal/lw/abtest?
 # > https://mesh.if.iqiyi.com/portal/pcw/abtest?
@@ -36,6 +37,10 @@ DOMAIN-SUFFIX, yuedu.iqiyi.com, REJECT
 URL-REGEX, ^https:\/\/mesh\.if\.iqiyi\.com\/portal\/lw\/abtest, REJECT-DICT
 URL-REGEX, ^https:\/\/mesh\.if\.iqiyi\.com\/portal\/pcw\/abtest, REJECT-DICT
 URL-REGEX, ^https:\/\/mesh\.if\.iqiyi\.com\/portal\/pcw\/abtestPeople, REJECT-DICT
+
+# > https://abs.video.iqiyi.com/ABSRequest
+URL-REGEX, ^https:\/\/abs\.video\.iqiyi\.com\/ABSRequest, REJECT-DICT
+
 
 #⚠️ 未知
 # > https://mesh.if.iqiyi.com/player/display/control/v2?
@@ -176,7 +181,7 @@ DOMAIN, oaa.iqiyi.com, REJECT
 
 #⚠️ 游戏相关
 # > https://apisgame.iqiyi.com/pcwcenter/position/others/videoTopResource
-
+DOMAIN-SUFFIX, apisgame.iqiyi.com, REJECT
 
 
 ####################################
@@ -189,4 +194,4 @@ DOMAIN-SUFFIX, 71edge.com, DIRECT
 
 
 [MITM]
-hostname = %APPEND% mesh.if.iqiyi.com
+hostname = %APPEND% mesh.if.iqiyi.com, video.iqiyi.com
