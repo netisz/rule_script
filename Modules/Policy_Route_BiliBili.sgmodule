@@ -16,7 +16,7 @@
 # > https://data.bilibili.com/log/web?
 # > https://data.bilibili.com/v2/log/web?
 # > https://data.bilibili.com/log/pbweb/realtime?web
-DOMAIN-SUFFIX, data.bilibili.com, REJECT
+DOMAIN, data.bilibili.com, REJECT
 
 #⚠️ 未知
 # > wss://hw-v2-web-player-tracker.biliapi.net/socket.io/?
