@@ -183,10 +183,7 @@ DOMAIN, oaa.iqiyi.com, REJECT
 # > https://apisgame.iqiyi.com/pcwcenter/position/others/videoTopResource
 DOMAIN-SUFFIX, apisgame.iqiyi.com, REJECT
 
-#⚠️ 未知
-# > https://static.iqiyi.com/js/common/oaa.min.js
-DOMAIN, static.iqiyi.com, REJECT
-DOMAIN, stc.iqiyipic.com, REJECT
+
 
 ####################################
 # 直连规则
