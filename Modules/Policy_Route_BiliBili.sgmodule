@@ -46,6 +46,8 @@ URL-REGEX, ^https?:\/\/api\.bilibili\.com\/x\/click-interface\/click/h5, REJECT
 
 URL-REGEX, ^https?:\/\/api\.bilibili\.com\/x\/report\/web\/heartbeat, REJECT
 
+URL-REGEX, ^https?:\/\/api\.bilibili\.com\/x\/click\-interface\/web\/heartbeat, REJECT
+
 URL-REGEX, ^https?:\/\/api\.bilibili\.com\/x\/v2\/dm\/ad, REJECT
 
 # 可能的一些推广(beta)
