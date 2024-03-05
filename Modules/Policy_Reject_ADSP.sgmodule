@@ -12,6 +12,11 @@
 # 拦截规则
 ####################################
 
+#⚠️ 百度统计
+# > https://zz.bdstatic.com/linksubmit/push.js
+DOMAIN-SUFFIX, bdstatic.com, REJECT
+
+
 #⚠️ 用户行为收集
 # > https://toblog.ctobsnssdk.com/service/2/device_register_only/?
 # > https://toblog.ctobsnssdk.com/service/2/log_settings/?
