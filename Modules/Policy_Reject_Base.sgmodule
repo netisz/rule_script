@@ -1,0 +1,15 @@
+#!name = 【拦截策略】通用
+#!desc = 
+#!openUrl = 
+#!author = 
+#!homepage = 
+#!icon = 
+#!date = 20240306
+
+[Rule]
+
+####################################
+# 拦截规则
+####################################
+
+DOMAIN-SUFFIX, bdstatic.com, REJECT
