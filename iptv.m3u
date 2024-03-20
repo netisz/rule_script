@@ -1,3 +1,4 @@
+#EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 tvg-id="精品大剧" tvg-name="精品大剧" tvg-logo="https://live.fanmingming.com/tv/精品大剧.png" group-title="NewTV系列",精品大剧
 http://[2409:8087:1a0b:df::4001]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/index.m3u8
 #EXTINF:-1 tvg-id="中国功夫" tvg-name="中国功夫" tvg-logo="https://live.fanmingming.com/tv/中国功夫.png" group-title="NewTV系列",中国功夫
@@ -34,19 +35,19 @@ http://[2409:8087:1a0b:df::4018]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://[2409:8087:7000:20::f]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226009/index.m3u8
 #EXTINF:-1 tvg-id="超级电视剧" tvg-name="超级电视剧" tvg-logo="https://live.fanmingming.com/tv/超级电视剧.png" group-title="NewTV系列",超级电视剧
 http://[2409:8087:1a0b:df::4017]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225716/index.m3u8
-#EXTINF:-1 tvg-id="TVB翡翠" tvg-name="TVB翡翠" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠.png" group-title="港澳",TVB翡翠
+#EXTINF:-1 tvg-id="TVB翡翠" tvg-name="TVB翡翠" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠.png" group-title="香港",TVB翡翠
 https://epg.pw/stream/801a4d6c7df2878951e19be994cbb9ccaef32bfd863db663ee4440375b9e7a70.m3u8
-#EXTINF:-1 tvg-id="TVB翡翠" tvg-name="TVB翡翠" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠.png" group-title="港澳",TVB翡翠
+#EXTINF:-1 tvg-id="TVB翡翠" tvg-name="TVB翡翠" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠.png" group-title="香港",TVB翡翠
 https://epg.pw/stream/80c9fc96e45c72553ecc03313de560755db339689870f9095aa9c685e39879e5.ctv
-#EXTINF:-1 tvg-id="TVB翡翠" tvg-name="TVB翡翠" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠.png" group-title="港澳",TVB翡翠
+#EXTINF:-1 tvg-id="TVB翡翠" tvg-name="TVB翡翠" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠.png" group-title="香港",TVB翡翠
 https://epg.pw/stream/952c3fe5cf37315f2e4e040fcb33734ccf2517bcde6c30c4a38015689f1e7f37.m3u8
-#EXTINF:-1 tvg-id="TVB翡翠" tvg-name="TVB翡翠" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠.png" group-title="港澳",TVB翡翠
+#EXTINF:-1 tvg-id="TVB翡翠" tvg-name="TVB翡翠" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠.png" group-title="香港",TVB翡翠
 https://epg.pw/stream/b1bedc34e0cd84c712106b10fa7bd2055a46898678c37e35aebe43290c2c8a1f.m3u8
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://live.fanmingming.com/tv/翡翠台.png" group-title="港澳",翡翠台
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://live.fanmingming.com/tv/翡翠台.png" group-title="香港",翡翠台
 https://epg.pw/stream/1417f1ccf5d6c9900879891d523bc18cfe17c644a5af97efa6f727d5f4f8ef7d.m3u8
-#EXTINF:-1 tvg-id="翡翠台[geo-blocked]" tvg-name="翡翠台[geo-blocked]" tvg-logo="https://live.fanmingming.com/tv/翡翠台[geo-blocked].png" group-title="港澳",翡翠台[geo-blocked]
+#EXTINF:-1 tvg-id="翡翠台[geo-blocked]" tvg-name="翡翠台[geo-blocked]" tvg-logo="https://live.fanmingming.com/tv/翡翠台[geo-blocked].png" group-title="香港",翡翠台[geo-blocked]
 https://epg.pw/stream/9d4fa7779c923ec2103a461f5d8c22275532ee65b176d1c476ce727188ee512f.m3u8
-#EXTINF:-1 tvg-id="翡翠台[geo-blocked]" tvg-name="翡翠台[geo-blocked]" tvg-logo="https://live.fanmingming.com/tv/翡翠台[geo-blocked].png" group-title="港澳",翡翠台[geo-blocked]
+#EXTINF:-1 tvg-id="翡翠台[geo-blocked]" tvg-name="翡翠台[geo-blocked]" tvg-logo="https://live.fanmingming.com/tv/翡翠台[geo-blocked].png" group-title="香港",翡翠台[geo-blocked]
 https://epg.pw/stream/ba009d94229ed40a5d9289178463fba7aa31fb0622f8ab2d66c01147828743ab.m3u8
 #EXTINF:-1 tvg-id="CCTV-1 综合" tvg-name="CCTV-1 综合" tvg-logo="https://live.fanmingming.com/tv/CCTV-1 综合.png" group-title="央视频道",CCTV-1 综合
 http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226231/index.m3u8
@@ -344,3 +345,4 @@ https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
 https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
 #EXTINF:-1 tvg-id="浙江数码时代" tvg-name="浙江数码时代" tvg-logo="https://live.fanmingming.com/tv/浙江数码时代.png" group-title="浙江频道",浙江数码时代
 https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
+
