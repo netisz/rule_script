@@ -28,6 +28,9 @@ DOMAIN-SUFFIX, ads-api.tiktok.com, REJECT
 DOMAIN-SUFFIX, analytics.tiktok.com, REJECT
 DOMAIN-SUFFIX, ads-sg.tiktok.com, REJECT
 DOMAIN-SUFFIX, analytics-sg.tiktok.com, REJECT
+DOMAIN-SUFFIX, business-api.tiktok.com, REJECT
+DOMAIN-SUFFIX, ads.tiktok.com, REJECT
+DOMAIN-SUFFIX, log.byteoversea.com, REJECT
 
 
 ####################################
