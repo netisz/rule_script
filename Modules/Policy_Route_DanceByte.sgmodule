@@ -24,6 +24,11 @@ DOMAIN-KEYWORD, pangolin-sdk-toutiao, REJECT
 DOMAIN-KEYWORD, pglstatp-toutiao, REJECT
 DOMAIN-KEYWORD, video-cn.snssdk.com, REJECT
 
+DOMAIN-SUFFIX, ads-api.tiktok.com, REJECT
+DOMAIN-SUFFIX, analytics.tiktok.com, REJECT
+DOMAIN-SUFFIX, ads-sg.tiktok.com, REJECT
+DOMAIN-SUFFIX, analytics-sg.tiktok.com, REJECT
+
 
 ####################################
 # 直连规则
