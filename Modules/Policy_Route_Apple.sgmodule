@@ -12,6 +12,18 @@
 # 拦截规则
 ####################################
 
+# 🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲🈲
+
+DOMAIN-SUFFIX, advertising.apple.com, REJECT
+DOMAIN-SUFFIX, iadsdk.apple.com, REJECT
+DOMAIN-SUFFIX, metrics.icloud.com, REJECT
+DOMAIN-SUFFIX, metrics.mzstatic.com, REJECT
+DOMAIN-SUFFIX, api-adservices.apple.com, REJECT
+DOMAIN-SUFFIX, books-analytics-events.apple.com, REJECT
+DOMAIN-SUFFIX, weather-analytics-events.apple.com, REJECT
+DOMAIN-SUFFIX, notes-analytics-events.apple.com, REJECT
+
+
 
 ####################################
 # 直连规则
