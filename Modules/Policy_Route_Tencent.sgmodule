@@ -60,6 +60,7 @@ URL-REGEX, ^https:\/\/m\.qianbao\.qq\.com\/services\/walletHome\/getFootData, RE
 # https://mp.weixin.qq.com/mp/getappmsgad?
 URL-REGEX, ^https:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad, REJECT-200
 URL-REGEX, ^https:\/\/mp\.weixin\.qq\.com\/mp\/relatedarticle, REJECT-200
+URL-REGEX, ^https:\/\/mp\.weixin\.qq\.com\/mp\/getainfo, REJECT-200
 
 ####################################
 # 直连规则
