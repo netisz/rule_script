@@ -330,7 +330,9 @@ http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002827/index.m3
 #EXTINF:-1 tvg-id="CGTN西语" tvg-name="CGTN西语" tvg-logo="https://live.fanmingming.com/tv/CGTN西语.png" group-title="央视频道",CGTN西语
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002716/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="CGTN阿语" tvg-name="CGTN阿语" tvg-logo="https://live.fanmingming.com/tv/CGTN阿语.png" group-title="央视频道",CGTN阿语
-http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002826/index.m3u8?virtualDomain=yinhe.live_hls.zte.comTVB频道
+http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000002826/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
+#EXTINF:-1 tvg-id="TVB翡翠" tvg-name="TVB翡翠" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠.png" group-title="TVB频道",TVB翡翠
+https://epg.pw/stream/b1bedc34e0cd84c712106b10fa7bd2055a46898678c37e35aebe43290c2c8a1f.m3u8
 #EXTINF:-1 tvg-id="TVB翡翠" tvg-name="TVB翡翠" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠.png" group-title="TVB频道",TVB翡翠
 https://epg.pw/stream/801a4d6c7df2878951e19be994cbb9ccaef32bfd863db663ee4440375b9e7a70.m3u8
 #EXTINF:-1 tvg-id="TVB翡翠" tvg-name="TVB翡翠" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠.png" group-title="TVB频道",TVB翡翠
@@ -342,7 +344,9 @@ https://epg.pw/stream/1417f1ccf5d6c9900879891d523bc18cfe17c644a5af97efa6f727d5f4
 #EXTINF:-1 tvg-id="翡翠台[geo-blocked]" tvg-name="翡翠台[geo-blocked]" tvg-logo="https://live.fanmingming.com/tv/翡翠台[geo-blocked].png" group-title="TVB频道",翡翠台[geo-blocked]
 https://epg.pw/stream/ba009d94229ed40a5d9289178463fba7aa31fb0622f8ab2d66c01147828743ab.m3u8
 #EXTINF:-1 tvg-id="翡翠台[geo-blocked]" tvg-name="翡翠台[geo-blocked]" tvg-logo="https://live.fanmingming.com/tv/翡翠台[geo-blocked].png" group-title="TVB频道",翡翠台[geo-blocked]
-https://epg.pw/stream/9d4fa7779c923ec2103a461f5d8c22275532ee65b176d1c476ce727188ee512f.m3u8佛山频道
+https://epg.pw/stream/9d4fa7779c923ec2103a461f5d8c22275532ee65b176d1c476ce727188ee512f.m3u8
+#EXTINF:-1 tvg-id="佛山公共" tvg-name="佛山公共" tvg-logo="https://live.fanmingming.com/tv/佛山公共.png" group-title="佛山频道",佛山公共
+https://epg.pw/stream/df3b71e13ddaeb5072ff755d2b0188a73ddc104394ceb290833cb6e5163d1147.ctv
 #EXTINF:-1 tvg-id="佛山南海" tvg-name="佛山南海" tvg-logo="https://live.fanmingming.com/tv/佛山南海.png" group-title="佛山频道",佛山南海
 https://epg.pw/stream/dc2094c9ff890df373e13a27d8436d6a97d2bad384ed3f5f8283e8d2ee882f46.ctv
 #EXTINF:-1 tvg-id="佛山影視" tvg-name="佛山影視" tvg-logo="https://live.fanmingming.com/tv/佛山影視.png" group-title="佛山频道",佛山影視
@@ -350,7 +354,9 @@ https://epg.pw/stream/8f1ade804f6c4d1a4ccc96f8b333256a2b59162fafb2214e7e088554a3
 #EXTINF:-1 tvg-id="佛山綜合" tvg-name="佛山綜合" tvg-logo="https://live.fanmingming.com/tv/佛山綜合.png" group-title="佛山频道",佛山綜合
 https://epg.pw/stream/e9a89f7684350b8f6687afd89086dfca86b2fb4cdb57afeb0c9d3b7f0f0ba07e.ctv
 #EXTINF:-1 tvg-id="佛山順德" tvg-name="佛山順德" tvg-logo="https://live.fanmingming.com/tv/佛山順德.png" group-title="佛山频道",佛山順德
-https://epg.pw/stream/211907fd37decae763a227ee93351af6dd4297b22b9034b57ac7821b3d7e7d79.ctv广州频道
+https://epg.pw/stream/211907fd37decae763a227ee93351af6dd4297b22b9034b57ac7821b3d7e7d79.ctv
+#EXTINF:-1 tvg-id="廣州影視" tvg-name="廣州影視" tvg-logo="https://live.fanmingming.com/tv/廣州影視.png" group-title="广州频道",廣州影視
+https://epg.pw/stream/2a43a84d657a150eb0dc8688b60bed45d33503727a8d9cee72bc46dbe524e7fe.ctv
 #EXTINF:-1 tvg-id="廣州影視" tvg-name="廣州影視" tvg-logo="https://live.fanmingming.com/tv/廣州影視.png" group-title="广州频道",廣州影視
 https://epg.pw/stream/f9d42426f4beab2d4f8795c7e01ac09d38926bd679db007800a4333e9816d99a.ctv
 #EXTINF:-1 tvg-id="廣州影視" tvg-name="廣州影視" tvg-logo="https://live.fanmingming.com/tv/廣州影視.png" group-title="广州频道",廣州影視
@@ -384,7 +390,9 @@ https://epg.pw/stream/99c0c34f513e726acb88311cd5b4f17c693c70afce4048bf2bfc2dd030
 #EXTINF:-1 tvg-id="廣州綜合" tvg-name="廣州綜合" tvg-logo="https://live.fanmingming.com/tv/廣州綜合.png" group-title="广州频道",廣州綜合
 https://epg.pw/stream/cbeb7fa81324d229d535db0009f5a08f3c974dc70a6ccdade1e268851f1fc424.m3u8
 #EXTINF:-1 tvg-id="廣州綜合頻道" tvg-name="廣州綜合頻道" tvg-logo="https://live.fanmingming.com/tv/廣州綜合頻道.png" group-title="广州频道",廣州綜合頻道
-https://epg.pw/stream/687454fe53b02a61036f7aa1b771a55b237a95494f74f83678aae8cc86009618.m3u8广东频道
+https://epg.pw/stream/687454fe53b02a61036f7aa1b771a55b237a95494f74f83678aae8cc86009618.m3u8
+#EXTINF:-1 tvg-id="广东文化" tvg-name="广东文化" tvg-logo="https://live.fanmingming.com/tv/广东文化.png" group-title="广东频道",广东文化
+https://epg.pw/stream/8f3b867126266339ab049e15358c81e9e41f37658ed7080584c6993395fff5e3.m3u8
 #EXTINF:-1 tvg-id="广东文化" tvg-name="广东文化" tvg-logo="https://live.fanmingming.com/tv/广东文化.png" group-title="广东频道",广东文化
 https://epg.pw/stream/fe735ce06028106adf01f9ed032ab55bfe43c5766926a52575de23b1230f5a99.m3u8
 #EXTINF:-1 tvg-id="广东文化" tvg-name="广东文化" tvg-logo="https://live.fanmingming.com/tv/广东文化.png" group-title="广东频道",广东文化
@@ -398,7 +406,9 @@ https://epg.pw/stream/7b744b420f26b7e05409c912b38ba373d09673a716df66a115e97c48c4
 #EXTINF:-1 tvg-id="广东文化" tvg-name="广东文化" tvg-logo="https://live.fanmingming.com/tv/广东文化.png" group-title="广东频道",广东文化
 https://epg.pw/stream/6e0308695e943b7f146fa9950bc66c8fb659c432c588cd0f81872ad1f4a731bc.m3u8
 #EXTINF:-1 tvg-id="广东民生" tvg-name="广东民生" tvg-logo="https://live.fanmingming.com/tv/广东民生.png" group-title="广东频道",广东民生
-https://epg.pw/stream/f686f036665aad0c5029beb99b2ff9d04901502e799841788eb845072a4b88a8.m3u8广东频道
+https://epg.pw/stream/f686f036665aad0c5029beb99b2ff9d04901502e799841788eb845072a4b88a8.m3u8
+#EXTINF:-1 tvg-id="廣東少兒" tvg-name="廣東少兒" tvg-logo="https://live.fanmingming.com/tv/廣東少兒.png" group-title="广东频道",廣東少兒
+https://epg.pw/stream/cb3e1d8fe708cb08a4b3b6476fdffa8e267e5f8af1c8a52b6068f884c2241131.ctv
 #EXTINF:-1 tvg-id="廣東少兒" tvg-name="廣東少兒" tvg-logo="https://live.fanmingming.com/tv/廣東少兒.png" group-title="广东频道",廣東少兒
 https://epg.pw/stream/9e3bb2f0e2e33140f2eacb1d7cb90fff3e38e70ba760ab5f984b2a9e2f929d87.m3u8
 #EXTINF:-1 tvg-id="廣東影視" tvg-name="廣東影視" tvg-logo="https://live.fanmingming.com/tv/廣東影視.png" group-title="广东频道",廣東影視
@@ -480,7 +490,9 @@ https://epg.pw/stream/869475cf6ab5d187816a1b7fbd8649cfc0b41c452e5595eabb2a36e51a
 #EXTINF:-1 tvg-id="廣東體育" tvg-name="廣東體育" tvg-logo="https://live.fanmingming.com/tv/廣東體育.png" group-title="广东频道",廣東體育
 https://epg.pw/stream/1d9901836bfdd83dcc89edf1fb53c3f62393cd672a8d49266af2c8130921b0ee.m3u8
 #EXTINF:-1 tvg-id="廣東體育" tvg-name="廣東體育" tvg-logo="https://live.fanmingming.com/tv/廣東體育.png" group-title="广东频道",廣東體育
-https://epg.pw/stream/ff6983ce34a2ad295545550992df113dfeb39a061f903a8cf4dd426451c7530b.m3u8深圳频道
+https://epg.pw/stream/ff6983ce34a2ad295545550992df113dfeb39a061f903a8cf4dd426451c7530b.m3u8
+#EXTINF:-1 tvg-id="深圳公共" tvg-name="深圳公共" tvg-logo="https://live.fanmingming.com/tv/深圳公共.png" group-title="深圳频道",深圳公共
+https://epg.pw/stream/55c918e8cb7c7d4e7cd9e907ab6fcad464aa02a0c084a3e865161c0d5df9700d.m3u8
 #EXTINF:-1 tvg-id="深圳公共" tvg-name="深圳公共" tvg-logo="https://live.fanmingming.com/tv/深圳公共.png" group-title="深圳频道",深圳公共
 https://epg.pw/stream/c82a2af6c608bce6059f1c28214c04d8d676c2cf543ad9164a10e73e99edd106.ctv
 #EXTINF:-1 tvg-id="深圳公共" tvg-name="深圳公共" tvg-logo="https://live.fanmingming.com/tv/深圳公共.png" group-title="深圳频道",深圳公共
@@ -550,7 +562,9 @@ https://epg.pw/stream/8009d17741b2707d713a17b7ac10248af0dcd04f297c8aced1a5ef3ea4
 #EXTINF:-1 tvg-id="深圳都市" tvg-name="深圳都市" tvg-logo="https://live.fanmingming.com/tv/深圳都市.png" group-title="深圳频道",深圳都市
 https://epg.pw/stream/42922b3bab314ce0217fdf746165de08e00d0556ebf961ee63049811baacc5ac.m3u8
 #EXTINF:-1 tvg-id="深圳體育" tvg-name="深圳體育" tvg-logo="https://live.fanmingming.com/tv/深圳體育.png" group-title="深圳频道",深圳體育
-https://epg.pw/stream/bf026407d4deedbae659de44da6a15d83a6aebc0f5e365d902163a19810147ec.ctv澳门频道
+https://epg.pw/stream/bf026407d4deedbae659de44da6a15d83a6aebc0f5e365d902163a19810147ec.ctv
+#EXTINF:-1 tvg-id="澳視綜藝" tvg-name="澳視綜藝" tvg-logo="https://live.fanmingming.com/tv/澳視綜藝.png" group-title="澳门频道",澳視綜藝
+https://epg.pw/stream/149458072f1b07220865b62f56c375470c13b15e29743fe3fca9b930c01fd796.m3u8
 #EXTINF:-1 tvg-id="澳視綜藝" tvg-name="澳視綜藝" tvg-logo="https://live.fanmingming.com/tv/澳視綜藝.png" group-title="澳门频道",澳視綜藝
 https://epg.pw/stream/08bd3022f50f54935f186274031312bd757f9ed566e8063b1286b1ab887007ab.m3u8
 #EXTINF:-1 tvg-id="澳視葡文[geo-blocked]" tvg-name="澳視葡文[geo-blocked]" tvg-logo="https://live.fanmingming.com/tv/澳視葡文[geo-blocked].png" group-title="澳门频道",澳視葡文[geo-blocked]
@@ -617,3 +631,4 @@ rtmp://live4.tdm.com.mo/ch4/_definst_/sport_ch4.live
 https://epg.pw/stream/884e30417dbba8371867ed310d37bbf1a636a9ca75a4de69cc471c116494bf85.m3u8
 #EXTINF:-1 tvg-id="澳视体育[geo-blocked]" tvg-name="澳视体育[geo-blocked]" tvg-logo="https://live.fanmingming.com/tv/澳视体育[geo-blocked].png" group-title="澳门频道",澳视体育[geo-blocked]
 https://epg.pw/stream/9aef8e8f1c01b226c1f385bd2dc68af304041a908154aa383914763a3634011a.m3u8
+
