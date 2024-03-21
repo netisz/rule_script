@@ -56,6 +56,9 @@ URL-REGEX, ^https:\/\/m\.qianbao\.qq\.com\/services\/walletHome\/getGameData, RE
 # QQ钱包公益广告
 URL-REGEX, ^https:\/\/m\.qianbao\.qq\.com\/services\/walletHome\/getFootData, REJECT
 
+# 微信
+# https://mp.weixin.qq.com/mp/getappmsgad?
+URL-REGEX, ^https:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad, REJECT-200
 
 ####################################
 # 直连规则
@@ -80,4 +83,4 @@ DOMAIN-SUFFIX, gtimg.com, DIRECT
 
 
 [MITM]
-hostname = %APPEND% m.qianbao.qq.com, pbaccess.video.qq.com
+hostname = %APPEND% m.qianbao.qq.com, pbaccess.video.qq.com, mp.weixin.qq.com
