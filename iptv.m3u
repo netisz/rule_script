@@ -414,8 +414,6 @@ http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
 #EXTINF:-1 tvg-id="TVB新聞臺" tvg-name="TVB新聞臺" tvg-logo="https://live.fanmingming.com/tv/TVB新聞臺.png" group-title="TVB",TVB新聞臺
 http://38.64.72.148/hls/modn/list/4006/chunklist0.m3u8
 #EXTINF:-1 tvg-id="TVB新聞臺" tvg-name="TVB新聞臺" tvg-logo="https://live.fanmingming.com/tv/TVB新聞臺.png" group-title="TVB",TVB新聞臺
-http://103.197.25.29:8500/live.m3u8?c=20
-#EXTINF:-1 tvg-id="TVB新聞臺" tvg-name="TVB新聞臺" tvg-logo="https://live.fanmingming.com/tv/TVB新聞臺.png" group-title="TVB",TVB新聞臺
 http://ali.hlspull.yximgs.com/live/huanqiuhklivejojwhjxojhjjjlfhjljsjcnxjfvbhjdjwjfjjdsswvtvbsxw.flv
 #EXTINF:-1 tvg-id="TVB星河" tvg-name="TVB星河" tvg-logo="https://live.fanmingming.com/tv/TVB星河.png" group-title="TVB",TVB星河
 http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
@@ -606,6 +604,8 @@ https://live.goodiptv.club/api/ghyx.php?id=GuangDongHD_6000
 #EXTINF:-1 tvg-id="廣東衛視" tvg-name="廣東衛視" tvg-logo="https://live.fanmingming.com/tv/廣東衛視.png" group-title="广东",廣東衛視
 https://live.goodiptv.club/api/ghyx.php?id=GuangDongHD_6000
 #EXTINF:-1 tvg-id="廣東衛視" tvg-name="廣東衛視" tvg-logo="https://live.fanmingming.com/tv/廣東衛視.png" group-title="广东",廣東衛視
+http://171.104.193.222:8181/tsfile/live/0125_2.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="廣東衛視" tvg-name="廣東衛視" tvg-logo="https://live.fanmingming.com/tv/廣東衛視.png" group-title="广东",廣東衛視
 http://125.210.152.21:9121/live/hzgq-gdwsgq-h264.m3u8
 #EXTINF:-1 tvg-id="廣東衛視" tvg-name="廣東衛視" tvg-logo="https://live.fanmingming.com/tv/廣東衛視.png" group-title="广东",廣東衛視
 http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225803/1.m3u8
@@ -709,8 +709,6 @@ http://livepull-tcyzb.sztv.com.cn/live/dushi01.m3u8
 http://sxd.nyxg.vip:40000/udp/239.77.1.140:5146
 #EXTINF:-1 tvg-id="三立LIVE FHD" tvg-name="三立LIVE FHD" tvg-logo="https://live.fanmingming.com/tv/三立LIVE FHD.png" group-title="台湾",三立LIVE FHD
 http://ali.hlspull.yximgs.com/live/huanqiuhklivehmcyoywjjubjfdjfvchtcbsjjjvfjhncvndvbsxcbmjsllive.flv
-#EXTINF:-1 tvg-id="三立新聞" tvg-name="三立新聞" tvg-logo="https://live.fanmingming.com/tv/三立新聞.png" group-title="台湾",三立新聞
-http://103.197.25.29:8500/live.m3u8?c=23
 #EXTINF:-1 tvg-id="三立新聞" tvg-name="三立新聞" tvg-logo="https://live.fanmingming.com/tv/三立新聞.png" group-title="台湾",三立新聞
 http://ali.hlspull.yximgs.com/live/huanqiuhklivehmcyoywjjubjdfjfvchtjujxcjxvcbsjfsdxcbmjsllivexw.flv
 #EXTINF:-1 tvg-id="中天亞洲" tvg-name="中天亞洲" tvg-logo="https://live.fanmingming.com/tv/中天亞洲.png" group-title="台湾",中天亞洲
@@ -841,8 +839,6 @@ http://ali.hlspull.yximgs.com/live/huanqiuhklivephjwfpjwvnjfdlsetfjjjjsjsftewjhv
 http://60.248.77.83/sat/tv051.flv
 #EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://live.fanmingming.com/tv/民視.png" group-title="台湾",民視
 rtmp://f13h.mine.nu/sat/tv051
-#EXTINF:-1 tvg-id="民視台灣台" tvg-name="民視台灣台" tvg-logo="https://live.fanmingming.com/tv/民視台灣台.png" group-title="台湾",民視台灣台
-http://198.16.100.90:8278/ftvtaiwan_twn/playlist.m3u8?tid=MEFE5254515252545152&ct=19249&tsum=c17f872b1772df8f76032030cc40bdbd
 #EXTINF:-1 tvg-id="民視新聞" tvg-name="民視新聞" tvg-logo="https://live.fanmingming.com/tv/民視新聞.png" group-title="台湾",民視新聞
 http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 #EXTINF:-1 tvg-id="民視新聞" tvg-name="民視新聞" tvg-logo="https://live.fanmingming.com/tv/民視新聞.png" group-title="台湾",民視新聞
@@ -857,6 +853,8 @@ http://38.64.72.148:80/hls/modn/list/4012/chunklist0.m3u8
 http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 #EXTINF:-1 tvg-id="民視新聞" tvg-name="民視新聞" tvg-logo="https://live.fanmingming.com/tv/民視新聞.png" group-title="台湾",民視新聞
 http://38.64.72.148/hls/modn/list/4012/playlist.m3u8
+#EXTINF:-1 tvg-id="民視臺灣" tvg-name="民視臺灣" tvg-logo="https://live.fanmingming.com/tv/民視臺灣.png" group-title="台湾",民視臺灣
+http://50.7.238.114:8278/ftvtaiwan_twn/playlist.m3u8?tid=MDFD8196635981966359&ct=19226&tsum=b82639ac8b4590b4206effe348e2f9c2
 #EXTINF:-1 tvg-id="民视新闻 hd" tvg-name="民视新闻 hd" tvg-logo="https://live.fanmingming.com/tv/民视新闻 hd.png" group-title="台湾",民视新闻 hd
 http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
 #EXTINF:-1 tvg-id="民视新闻 hd" tvg-name="民视新闻 hd" tvg-logo="https://live.fanmingming.com/tv/民视新闻 hd.png" group-title="台湾",民视新闻 hd
