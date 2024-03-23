@@ -341,8 +341,6 @@ http://61.244.22.5/ch6/hd_ch6.live/playlist.m3u8
 http://61.244.22.5:80/ch2/ch2.live/playelist.m3u8
 #EXTINF:-1 tvg-id="澳視葡文" tvg-name="澳視葡文" tvg-logo="https://live.fanmingming.com/tv/澳視葡文.png" group-title="澳门",澳視葡文
 http://61.244.22.5/ch2/ch2.live/index.m3u8
-#EXTINF:-1 tvg-id="澳視葡文" tvg-name="澳視葡文" tvg-logo="https://live.fanmingming.com/tv/澳視葡文.png" group-title="澳门",澳視葡文
-http://61.244.22.4/ch2/ch2.live/master.m3u8
 #EXTINF:-1 tvg-id="澳視體育" tvg-name="澳視體育" tvg-logo="https://live.fanmingming.com/tv/澳視體育.png" group-title="澳门",澳視體育
 rtmp://live4.tdm.com.mo/ch4/_definst_/sport_ch4.live
 #EXTINF:-1 tvg-id="澳视体育" tvg-name="澳视体育" tvg-logo="https://live.fanmingming.com/tv/澳视体育.png" group-title="澳门",澳视体育
@@ -433,8 +431,40 @@ http://qwas.eatuo.com:9901/tsfile/live/1013_1.m3u8
 http://ali.hlspull.yximgs.com/live/huanqiuhklivefhwwjpthjyjtjjjxcxbfhjjfjvhdtjdvbtvjsjxjfsjjcvbctvbfc.flv
 #EXTINF:-1 tvg-id="TVB翡翠" tvg-name="TVB翡翠" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠.png" group-title="TVB",TVB翡翠
 http://iptv.hiper25.com:42487/TVB/video.m3u8?token=1710447330
+#EXTINF:-1 tvg-id="tvbs新闻台" tvg-name="tvbs新闻台" tvg-logo="https://live.fanmingming.com/tv/tvbs新闻台.png" group-title="TVB",tvbs新闻台
+http://38.64.72.148:80/hls/modn/list/4006/chunklist0.m3u8
+#EXTINF:-1 tvg-id="tvbs新闻台" tvg-name="tvbs新闻台" tvg-logo="https://live.fanmingming.com/tv/tvbs新闻台.png" group-title="TVB",tvbs新闻台
+http://38.64.72.148/hls/modn/list/4006/chunklist1.m3u8
+#EXTINF:-1 tvg-id="tvbs新闻台" tvg-name="tvbs新闻台" tvg-logo="https://live.fanmingming.com/tv/tvbs新闻台.png" group-title="TVB",tvbs新闻台
+http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
+#EXTINF:-1 tvg-id="tvbs新闻台" tvg-name="tvbs新闻台" tvg-logo="https://live.fanmingming.com/tv/tvbs新闻台.png" group-title="TVB",tvbs新闻台
+http://38.64.72.148:80/hls/modn/list/4006/chunklist0.m3u8
+#EXTINF:-1 tvg-id="tvbs新闻台" tvg-name="tvbs新闻台" tvg-logo="https://live.fanmingming.com/tv/tvbs新闻台.png" group-title="TVB",tvbs新闻台
+http://38.64.72.148/hls/modn/list/4006/playlist.m3u8
+#EXTINF:-1 tvg-id="tvbs新闻台" tvg-name="tvbs新闻台" tvg-logo="https://live.fanmingming.com/tv/tvbs新闻台.png" group-title="TVB",tvbs新闻台
+http://38.64.72.148/hls/modn/list/4006/chunklist1.m3u8
+#EXTINF:-1 tvg-id="tvbs新闻台" tvg-name="tvbs新闻台" tvg-logo="https://live.fanmingming.com/tv/tvbs新闻台.png" group-title="TVB",tvbs新闻台
+http://38.64.72.148/hls/modn/list/4006/chunklist0.m3u8
+#EXTINF:-1 tvg-id="tvb娛樂新聞" tvg-name="tvb娛樂新聞" tvg-logo="https://live.fanmingming.com/tv/tvb娛樂新聞.png" group-title="TVB",tvb娛樂新聞
+https://edge6a.v2h-cdn.com/enew/enew.stream/chunklist.m3u8
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://live.fanmingming.com/tv/翡翠台.png" group-title="TVB",翡翠台
 http://qwas.eatuo.com:9901/tsfile/live/1013_1.m3u8
+#EXTINF:-1 tvg-id="CH305/TVB經典" tvg-name="CH305/TVB經典" tvg-logo="https://live.fanmingming.com/tv/CH305/TVB經典.png" group-title="TVB",CH305/TVB經典
+http://mag.premiumplus.tv:80/play/live.php?mac=00:1A:79:B5:69:3C&stream=571197&extension=ts
+#EXTINF:-1 tvg-id="CH305/TVB經典" tvg-name="CH305/TVB經典" tvg-logo="https://live.fanmingming.com/tv/CH305/TVB經典.png" group-title="TVB",CH305/TVB經典
+http://mag.premiumplus.tv:80/play/live.php?mac=00:1A:79:14:6F:8F&stream=571197&extension=ts
+#EXTINF:-1 tvg-id="CH305/TVB經典" tvg-name="CH305/TVB經典" tvg-logo="https://live.fanmingming.com/tv/CH305/TVB經典.png" group-title="TVB",CH305/TVB經典
+http://mag.trexlive.me:8000/play/live.php?mac=00:1A:79:BE:B3:1A&stream=571197&extension=ts
+#EXTINF:-1 tvg-id="CH305/TVB經典" tvg-name="CH305/TVB經典" tvg-logo="https://live.fanmingming.com/tv/CH305/TVB經典.png" group-title="TVB",CH305/TVB經典
+http://line.iptveros.com:8000/play/live.php?mac=00:1A:79:00:9B:7A&stream=571197&extension=ts
+#EXTINF:-1 tvg-id="CH305/TVB經典" tvg-name="CH305/TVB經典" tvg-logo="https://live.fanmingming.com/tv/CH305/TVB經典.png" group-title="TVB",CH305/TVB經典
+http://pal.alphatx.me:80/play/live.php?mac=00:1A:79:00:AA:0E&stream=571197&extension=ts
+#EXTINF:-1 tvg-id="CH305/TVB經典" tvg-name="CH305/TVB經典" tvg-logo="https://live.fanmingming.com/tv/CH305/TVB經典.png" group-title="TVB",CH305/TVB經典
+http://pal.alphatx.me:80/play/live.php?mac=00:1A:79:02:02:FC&stream=571197&extension=ts
+#EXTINF:-1 tvg-id="CH305/TVB經典" tvg-name="CH305/TVB經典" tvg-logo="https://live.fanmingming.com/tv/CH305/TVB經典.png" group-title="TVB",CH305/TVB經典
+http://stalker.ugoiptv.com:80/play/live.php?mac=00:1A:79:37:37:82&stream=571197&extension=ts
+#EXTINF:-1 tvg-id="CH305/TVB經典" tvg-name="CH305/TVB經典" tvg-logo="https://live.fanmingming.com/tv/CH305/TVB經典.png" group-title="TVB",CH305/TVB經典
+http://tv.trexiptv.com:8000/play/live.php?mac=00:1A:79:BC:0C:1F&stream=571197&extension=ts
 #EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://live.fanmingming.com/tv/TVBS.png" group-title="TVB",TVBS
 http://ali.hlspull.yximgs.com/live/huanqiuhklivejpjovdxjojfdejodsjxcvljjfvhnjljjjobjjjsvhjchtvbs.flv
 #EXTINF:-1 tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://live.fanmingming.com/tv/TVBS.png" group-title="TVB",TVBS
@@ -559,14 +589,14 @@ http://219.135.208.218:8083/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid
 http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225966/index.m3u8
 #EXTINF:-1 tvg-id="廣東衛視[ipv6]" tvg-name="廣東衛視[ipv6]" tvg-logo="https://live.fanmingming.com/tv/廣東衛視[ipv6].png" group-title="广东",廣東衛視[ipv6]
 http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226248/index.m3u8
-#EXTINF:-1 tvg-id="廣東衛視" tvg-name="廣東衛視" tvg-logo="https://live.fanmingming.com/tv/廣東衛視.png" group-title="广东",廣東衛視
-http://113.66.6.16:4433/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="廣東衛視[ipv6]" tvg-name="廣東衛視[ipv6]" tvg-logo="https://live.fanmingming.com/tv/廣東衛視[ipv6].png" group-title="广东",廣東衛視[ipv6]
 http://[2409:8087:7001:20:3::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225803/index.m3u8
 #EXTINF:-1 tvg-id="廣東衛視[ipv6]" tvg-name="廣東衛視[ipv6]" tvg-logo="https://live.fanmingming.com/tv/廣東衛視[ipv6].png" group-title="广东",廣東衛視[ipv6]
 http://[2409:8087:7000:20:1000::22]:6060/yinhe/2/ch00000090990000001337/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="廣東衛視" tvg-name="廣東衛視" tvg-logo="https://live.fanmingming.com/tv/廣東衛視.png" group-title="广东",廣東衛視
 http://58.210.168.86:10800/newlive/live/hls/25/live.m3u8
+#EXTINF:-1 tvg-id="廣東衛視" tvg-name="廣東衛視" tvg-logo="https://live.fanmingming.com/tv/廣東衛視.png" group-title="广东",廣東衛視
+http://171.104.193.221:8181/tsfile/live/0125_2.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="廣東衛視" tvg-name="廣東衛視" tvg-logo="https://live.fanmingming.com/tv/廣東衛視.png" group-title="广东",廣東衛視
 http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226216/index.m3u8
 #EXTINF:-1 tvg-id="廣東衛視" tvg-name="廣東衛視" tvg-logo="https://live.fanmingming.com/tv/廣東衛視.png" group-title="广东",廣東衛視
@@ -577,8 +607,6 @@ https://live.goodiptv.club/api/ghyx.php?id=GuangDongHD_6000
 https://live.goodiptv.club/api/ghyx.php?id=GuangDongHD_6000
 #EXTINF:-1 tvg-id="廣東衛視" tvg-name="廣東衛視" tvg-logo="https://live.fanmingming.com/tv/廣東衛視.png" group-title="广东",廣東衛視
 http://125.210.152.21:9121/live/hzgq-gdwsgq-h264.m3u8
-#EXTINF:-1 tvg-id="廣東衛視[ipv6]" tvg-name="廣東衛視[ipv6]" tvg-logo="https://live.fanmingming.com/tv/廣東衛視[ipv6].png" group-title="广东",廣東衛視[ipv6]
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226248/index.m3u8
 #EXTINF:-1 tvg-id="廣東衛視" tvg-name="廣東衛視" tvg-logo="https://live.fanmingming.com/tv/廣東衛視.png" group-title="广东",廣東衛視
 http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225803/1.m3u8
 #EXTINF:-1 tvg-id="廣東衛視" tvg-name="廣東衛視" tvg-logo="https://live.fanmingming.com/tv/廣東衛視.png" group-title="广东",廣東衛視
@@ -622,7 +650,15 @@ http://sxd.nyxg.vip:40000/udp/239.77.1.244:5146
 #EXTINF:-1 tvg-id="深圳少兒" tvg-name="深圳少兒" tvg-logo="https://live.fanmingming.com/tv/深圳少兒.png" group-title="深圳",深圳少兒
 http://ddns.cyruslee.top:8888/udp/239.77.1.244:5146
 #EXTINF:-1 tvg-id="深圳衛視" tvg-name="深圳衛視" tvg-logo="https://live.fanmingming.com/tv/深圳衛視.png" group-title="深圳",深圳衛視
+http://171.104.193.221:8181/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="深圳衛視" tvg-name="深圳衛視" tvg-logo="https://live.fanmingming.com/tv/深圳衛視.png" group-title="深圳",深圳衛視
+http://171.104.193.221:8181/tsfile/live/0126_2.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="深圳衛視" tvg-name="深圳衛視" tvg-logo="https://live.fanmingming.com/tv/深圳衛視.png" group-title="深圳",深圳衛視
+http://171.104.193.222:8181/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="深圳衛視" tvg-name="深圳衛視" tvg-logo="https://live.fanmingming.com/tv/深圳衛視.png" group-title="深圳",深圳衛視
 http://39.134.24.162/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225752/index.m3u8
+#EXTINF:-1 tvg-id="深圳衛視" tvg-name="深圳衛視" tvg-logo="https://live.fanmingming.com/tv/深圳衛視.png" group-title="深圳",深圳衛視
+http://171.104.193.222:8181/tsfile/live/0126_2.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="深圳衛視[ipv6]" tvg-name="深圳衛視[ipv6]" tvg-logo="https://live.fanmingming.com/tv/深圳衛視[ipv6].png" group-title="深圳",深圳衛視[ipv6]
 http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225943/index.m3u8
 #EXTINF:-1 tvg-id="深圳衛視[ipv6]" tvg-name="深圳衛視[ipv6]" tvg-logo="https://live.fanmingming.com/tv/深圳衛視[ipv6].png" group-title="深圳",深圳衛視[ipv6]
@@ -649,10 +685,6 @@ http://116.132.87.246:8888/newlive/live/hls/38/live.m3u8
 http://115.149.139.141:10001/tsfile/live/1032_1.m3u8
 #EXTINF:-1 tvg-id="深圳衛視" tvg-name="深圳衛視" tvg-logo="https://live.fanmingming.com/tv/深圳衛視.png" group-title="深圳",深圳衛視
 https://yang-1989.eu.org/live/szws
-#EXTINF:-1 tvg-id="深圳衛視[ipv6]" tvg-name="深圳衛視[ipv6]" tvg-logo="https://live.fanmingming.com/tv/深圳衛視[ipv6].png" group-title="深圳",深圳衛視[ipv6]
-http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226313/index.m3u8
-#EXTINF:-1 tvg-id="深圳衛視[ipv6]" tvg-name="深圳衛視[ipv6]" tvg-logo="https://live.fanmingming.com/tv/深圳衛視[ipv6].png" group-title="深圳",深圳衛視[ipv6]
-http://[2409:8087:7000:20::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221225801/1.m3u8
 #EXTINF:-1 tvg-id="深圳衛視" tvg-name="深圳衛視" tvg-logo="https://live.fanmingming.com/tv/深圳衛視.png" group-title="深圳",深圳衛視
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225801/index.m3u8?
 #EXTINF:-1 tvg-id="深圳衛視" tvg-name="深圳衛視" tvg-logo="https://live.fanmingming.com/tv/深圳衛視.png" group-title="深圳",深圳衛視
@@ -707,14 +739,16 @@ http://kkwa76.wanicelife.com:8880/live/29us05142n03/fr56tg7ysv/71042.ts
 http://ae2.aatvbox.club:8880/live/29us10233n01/4etfr4w23/71042.ts
 #EXTINF:-1 tvg-id="中天亞洲" tvg-name="中天亞洲" tvg-logo="https://live.fanmingming.com/tv/中天亞洲.png" group-title="台湾",中天亞洲
 http://31.42.185.54:8880/live/hdtv00cbb4dd4ec4/97844036/71042.ts
+#EXTINF:-1 tvg-id="中天亞洲" tvg-name="中天亞洲" tvg-logo="https://live.fanmingming.com/tv/中天亞洲.png" group-title="台湾",中天亞洲
+http://tv.trexiptv.com:8000/play/live.php?mac=00:1A:79:BC:0C:1F&stream=571212&extension=ts
 #EXTINF:-1 tvg-id="中天新聞" tvg-name="中天新聞" tvg-logo="https://live.fanmingming.com/tv/中天新聞.png" group-title="台湾",中天新聞
 http://ali.hlspull.yximgs.com/live/huanqiuhklivepjjtvvjjjyjuujjfvbscvjdjtwjfsjjsjjjcvuyjemjejtxw.flv
-#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://live.fanmingming.com/tv/中視.png" group-title="台湾",中視
-http://50.7.238.114:8278/zhongshihd_twn/playlist.m3u8?tid=MB4B2404962324049623&ct=19193&tsum=671b112a447ed494ae6219c14d0fab93
 #EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://live.fanmingming.com/tv/中視.png" group-title="台湾",中視
 http://60.248.77.83/sat/tv091.flv
 #EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://live.fanmingming.com/tv/中視.png" group-title="台湾",中視
 rtmp://f13h.mine.nu/sat/tv091
+#EXTINF:-1 tvg-id="中視" tvg-name="中視" tvg-logo="https://live.fanmingming.com/tv/中視.png" group-title="台湾",中視
+http://211.23.114.106:8502/http/61.221.81.94:8088/hls/72/814/ch46.m3u8
 #EXTINF:-1 tvg-id="中視新聞" tvg-name="中視新聞" tvg-logo="https://live.fanmingming.com/tv/中視新聞.png" group-title="台湾",中視新聞
 http://ali.hlspull.yximgs.com/live/huanqiuhklivepnvjydstudjbsjcvbfjjjsjfjsjwetymjldhdujocnjsxw.flv
 #EXTINF:-1 tvg-id="人間衛視" tvg-name="人間衛視" tvg-logo="https://live.fanmingming.com/tv/人間衛視.png" group-title="台湾",人間衛視
@@ -727,8 +761,6 @@ https://cdn.deepcore.online/hlsme/ctv_hk_720.m3u8
 https://cdn.deepcore.online/hlsme/ctv_hk.m3u8?zgangd
 #EXTINF:-1 tvg-id="华视" tvg-name="华视" tvg-logo="https://live.fanmingming.com/tv/华视.png" group-title="台湾",华视
 http://60.248.77.83/sat/tv111.flv
-#EXTINF:-1 tvg-id="华视" tvg-name="华视" tvg-logo="https://live.fanmingming.com/tv/华视.png" group-title="台湾",华视
-http://ali.hlspull.yximgs.com/live/huanqiuhklivepdymvcjnjjjcvbcvbjtyjjjffcfjvjftojjbvcjfednhs.flv
 #EXTINF:-1 tvg-id="华视" tvg-name="华视" tvg-logo="https://live.fanmingming.com/tv/华视.png" group-title="台湾",华视
 rtmp://f13h.mine.nu/sat/tv111
 #EXTINF:-1 tvg-id="博斯高球" tvg-name="博斯高球" tvg-logo="https://live.fanmingming.com/tv/博斯高球.png" group-title="台湾",博斯高球
@@ -779,16 +811,12 @@ https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w117
 http://61.58.60.230:9319/live/123.m3u8
 #EXTINF:-1 tvg-id="國會頻道2" tvg-name="國會頻道2" tvg-logo="https://live.fanmingming.com/tv/國會頻道2.png" group-title="台湾",國會頻道2
 http://61.58.60.230:9319/live/124.m3u8
-#EXTINF:-1 tvg-id="東森幼幼" tvg-name="東森幼幼" tvg-logo="https://live.fanmingming.com/tv/東森幼幼.png" group-title="台湾",東森幼幼
-http://211.23.114.106:8515/http/61.221.81.94:8088/hls/63/805/ch09.m3u8
 #EXTINF:-1 tvg-id="東森戲劇" tvg-name="東森戲劇" tvg-logo="https://live.fanmingming.com/tv/東森戲劇.png" group-title="台湾",東森戲劇
 http://ali.hlspull.yximgs.com/live/huanqiuhkliveyvjojmfdycvbjcxljdjfxdcvnjvdwspjcophjfvjtycxjpjjmendsxd.flv
 #EXTINF:-1 tvg-id="東森洋片" tvg-name="東森洋片" tvg-logo="https://live.fanmingming.com/tv/東森洋片.png" group-title="台湾",東森洋片
 http://jyjxy.7766.org:8811/hls/59/index.m3u8
 #EXTINF:-1 tvg-id="東森洋片" tvg-name="東森洋片" tvg-logo="https://live.fanmingming.com/tv/東森洋片.png" group-title="台湾",東森洋片
 https://edge1.laotv.la:443/live/DongsenForeignMovie/index.m3u8
-#EXTINF:-1 tvg-id="東森綜合" tvg-name="東森綜合" tvg-logo="https://live.fanmingming.com/tv/東森綜合.png" group-title="台湾",東森綜合
-http://211.23.114.106:8524/http/60.251.39.91:8081/hls/63/805/ch12.m3u8
 #EXTINF:-1 tvg-id="東森美洲" tvg-name="東森美洲" tvg-logo="https://live.fanmingming.com/tv/東森美洲.png" group-title="台湾",東森美洲
 http://38.64.72.148:80/hls/modn/list/2015/chunklist1.m3u8
 #EXTINF:-1 tvg-id="東森美洲" tvg-name="東森美洲" tvg-logo="https://live.fanmingming.com/tv/東森美洲.png" group-title="台湾",東森美洲
@@ -801,6 +829,8 @@ http://38.64.72.148:80/hls/modn/list/2015/chunklist0.m3u8
 https://edge1.laotv.la:443/live/DongsenMovie/index.m3u8
 #EXTINF:-1 tvg-id="東森超視" tvg-name="東森超視" tvg-logo="https://live.fanmingming.com/tv/東森超視.png" group-title="台湾",東森超視
 rtmp://f13h.mine.nu/sat/tv331
+#EXTINF:-1 tvg-id="東森電影" tvg-name="東森電影" tvg-logo="https://live.fanmingming.com/tv/東森電影.png" group-title="台湾",東森電影
+http://198.16.100.90:8278/ettvmovie/playlist.m3u8?tid=MEDE1688528216885282&ct=19193&tsum=843fbd698e260c1fcda128dce85ead3b
 #EXTINF:-1 tvg-id="東森電影" tvg-name="東森電影" tvg-logo="https://live.fanmingming.com/tv/東森電影.png" group-title="台湾",東森電影
 http://ali.hlspull.yximgs.com/live/huanqiuhklivejowdxnjltdjhecvxcjjejjejyhjdyduojuomdfjhjjjdjsjy.flv
 #EXTINF:-1 tvg-id="東森電影" tvg-name="東森電影" tvg-logo="https://live.fanmingming.com/tv/東森電影.png" group-title="台湾",東森電影
@@ -841,6 +871,8 @@ http://38.64.72.148/hls/modn/list/4012/playlist.m3u8
 https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8
 #EXTINF:-1 tvg-id="ABC NEWS 24" tvg-name="ABC NEWS 24" tvg-logo="https://live.fanmingming.com/tv/ABC NEWS 24.png" group-title="Australia",ABC NEWS 24
 https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8
+#EXTINF:-1 tvg-id="Australia Channel" tvg-name="Australia Channel" tvg-logo="https://live.fanmingming.com/tv/Australia Channel.png" group-title="Australia",Australia Channel
+https://videodelivery.net/9fb3596948ddf463fde0ec4b85625b24/manifest/video.m3u8
 #EXTINF:-1 tvg-id="abc tv (720p)" tvg-name="abc tv (720p)" tvg-logo="https://live.fanmingming.com/tv/abc tv (720p).png" group-title="Australia",abc tv (720p)
 https://d2e809bgs49c6y.cloudfront.net/live/d87c2b7b-9ecf-4e6e-b63b-b32772bd7851/live.isml/d87c2b7b-9ecf-4e6e-b63b-b32772bd7851.m3u8
 #EXTINF:-1 tvg-id="abc tv (720p)" tvg-name="abc tv (720p)" tvg-logo="https://live.fanmingming.com/tv/abc tv (720p).png" group-title="Australia",abc tv (720p)
@@ -863,6 +895,8 @@ http://ae2.aatvbox.club:8880/live/29us10233n01/4etfr4w23/71068.ts
 http://31.42.185.54:8880/live/hdtv00cbb4dd4ec4/97844036/71068.ts
 #EXTINF:-1 tvg-id="abcaustralia" tvg-name="abcaustralia" tvg-logo="https://live.fanmingming.com/tv/abcaustralia.png" group-title="Australia",abcaustralia
 https://ctrl.laotv.la/live/ABCA/index.m3u8
+#EXTINF:-1 tvg-id="beIN Sports Australia" tvg-name="beIN Sports Australia" tvg-logo="https://live.fanmingming.com/tv/beIN Sports Australia.png" group-title="Australia",beIN Sports Australia
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01334-beinsportsllc-beinxtra-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-id="time line australia" tvg-name="time line australia" tvg-logo="https://live.fanmingming.com/tv/time line australia.png" group-title="Australia",time line australia
 https://lds-timeline-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ABC MIAMI" tvg-name="ABC MIAMI" tvg-logo="https://live.fanmingming.com/tv/ABC MIAMI.png" group-title="Australia",ABC MIAMI
@@ -916,8 +950,6 @@ https://abcnews-streams.akamaized.net/hls/live/2023561/abcnews2/master.m3u8
 #EXTINF:-1 tvg-id="ABC News Live" tvg-name="ABC News Live" tvg-logo="https://live.fanmingming.com/tv/ABC News Live.png" group-title="Australia",ABC News Live
 https://abcnews-streams.akamaized.net/hls/live/2023562/abcnews3/master.m3u8
 #EXTINF:-1 tvg-id="abc me" tvg-name="abc me" tvg-logo="https://live.fanmingming.com/tv/abc me.png" group-title="Australia",abc me
-http://str1.cvtv.xyz/ABC?token=live
-#EXTINF:-1 tvg-id="abc me" tvg-name="abc me" tvg-logo="https://live.fanmingming.com/tv/abc me.png" group-title="Australia",abc me
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02
 #EXTINF:-1 tvg-id="discovery id" tvg-name="discovery id" tvg-logo="https://live.fanmingming.com/tv/discovery id.png" group-title="Discovery",discovery id
 http://190.61.43.117:45000/play/a06e
@@ -935,6 +967,8 @@ http://190.61.43.117:45000/play/a040
 https://cdn-1.nxplay.com.br/DISCOVERY_TURBO_NX/index.m3u8
 #EXTINF:-1 tvg-id="discovery turbo" tvg-name="discovery turbo" tvg-logo="https://live.fanmingming.com/tv/discovery turbo.png" group-title="Discovery",discovery turbo
 http://stream.flynetwifi.com:1935/live/mobile-109/playlist.m3u8
+#EXTINF:-1 tvg-id="DISCOVERY HD WORLD" tvg-name="DISCOVERY HD WORLD" tvg-logo="https://live.fanmingming.com/tv/DISCOVERY HD WORLD.png" group-title="Discovery",DISCOVERY HD WORLD
+https://varun-iptv.netlify.app/m3u/discoverytelugu.m3u8
 #EXTINF:-1 tvg-id="discovery channel cee hd" tvg-name="discovery channel cee hd" tvg-logo="https://live.fanmingming.com/tv/discovery channel cee hd.png" group-title="Discovery",discovery channel cee hd
 http://ott.watch/stream/E9LDH2ZCN7/177.m3u8
 #EXTINF:-1 tvg-id="discovery channel cee hd" tvg-name="discovery channel cee hd" tvg-logo="https://live.fanmingming.com/tv/discovery channel cee hd.png" group-title="Discovery",discovery channel cee hd
@@ -951,6 +985,36 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs08
 https://raw.githubusercontent.com/mimipipi22/lalajo/main/discoverysci.m3u8
 #EXTINF:-1 tvg-id="discovery turbo" tvg-name="discovery turbo" tvg-logo="https://live.fanmingming.com/tv/discovery turbo.png" group-title="Discovery",discovery turbo
 https://varun-iptv.netlify.app/m3u/Discovery_Turbo.m3u8
+#EXTINF:-1 tvg-id="DISCOVERY SCIENCE" tvg-name="DISCOVERY SCIENCE" tvg-logo="https://live.fanmingming.com/tv/DISCOVERY SCIENCE.png" group-title="Discovery",DISCOVERY SCIENCE
+http://mag.premiumplus.tv:80/play/live.php?mac=00:1A:79:B5:69:3C&stream=571211&extension=ts
+#EXTINF:-1 tvg-id="DISCOVERY SCIENCE" tvg-name="DISCOVERY SCIENCE" tvg-logo="https://live.fanmingming.com/tv/DISCOVERY SCIENCE.png" group-title="Discovery",DISCOVERY SCIENCE
+http://muka03.wanicelife.com:8880/live/3ca06263n03/asfded23/71073.ts
+#EXTINF:-1 tvg-id="DISCOVERY SCIENCE" tvg-name="DISCOVERY SCIENCE" tvg-logo="https://live.fanmingming.com/tv/DISCOVERY SCIENCE.png" group-title="Discovery",DISCOVERY SCIENCE
+http://mag.premiumplus.tv:80/play/live.php?mac=00:1A:79:14:6F:8F&stream=571211&extension=ts
+#EXTINF:-1 tvg-id="DISCOVERY SCIENCE" tvg-name="DISCOVERY SCIENCE" tvg-logo="https://live.fanmingming.com/tv/DISCOVERY SCIENCE.png" group-title="Discovery",DISCOVERY SCIENCE
+http://mag.trexlive.me:8000/play/live.php?mac=00:1A:79:BE:B3:1A&stream=571211&extension=ts
+#EXTINF:-1 tvg-id="DISCOVERY SCIENCE" tvg-name="DISCOVERY SCIENCE" tvg-logo="https://live.fanmingming.com/tv/DISCOVERY SCIENCE.png" group-title="Discovery",DISCOVERY SCIENCE
+http://line.iptveros.com:8000/play/live.php?mac=00:1A:79:00:9B:7A&stream=571211&extension=ts
+#EXTINF:-1 tvg-id="DISCOVERY SCIENCE" tvg-name="DISCOVERY SCIENCE" tvg-logo="https://live.fanmingming.com/tv/DISCOVERY SCIENCE.png" group-title="Discovery",DISCOVERY SCIENCE
+http://pal.alphatx.me:80/play/live.php?mac=00:1A:79:00:AA:0E&stream=571211&extension=ts
+#EXTINF:-1 tvg-id="DISCOVERY SCIENCE" tvg-name="DISCOVERY SCIENCE" tvg-logo="https://live.fanmingming.com/tv/DISCOVERY SCIENCE.png" group-title="Discovery",DISCOVERY SCIENCE
+http://pal.alphatx.me:80/play/live.php?mac=00:1A:79:02:02:FC&stream=571211&extension=ts
+#EXTINF:-1 tvg-id="DISCOVERY SCIENCE" tvg-name="DISCOVERY SCIENCE" tvg-logo="https://live.fanmingming.com/tv/DISCOVERY SCIENCE.png" group-title="Discovery",DISCOVERY SCIENCE
+http://stalker.ugoiptv.com:80/play/live.php?mac=00:1A:79:37:37:82&stream=571211&extension=ts
+#EXTINF:-1 tvg-id="DISCOVERY SCIENCE" tvg-name="DISCOVERY SCIENCE" tvg-logo="https://live.fanmingming.com/tv/DISCOVERY SCIENCE.png" group-title="Discovery",DISCOVERY SCIENCE
+http://abcnew.site:8880/live/DAANM168/fnvbxK5eF8/71073.ts
+#EXTINF:-1 tvg-id="DISCOVERY SCIENCE" tvg-name="DISCOVERY SCIENCE" tvg-logo="https://live.fanmingming.com/tv/DISCOVERY SCIENCE.png" group-title="Discovery",DISCOVERY SCIENCE
+http://ott.watch/stream/E9LDH2ZCN7/146.m3u8
+#EXTINF:-1 tvg-id="DISCOVERY SCIENCE" tvg-name="DISCOVERY SCIENCE" tvg-logo="https://live.fanmingming.com/tv/DISCOVERY SCIENCE.png" group-title="Discovery",DISCOVERY SCIENCE
+http://kkwa76.wanicelife.com:8880/live/29us05142n03/fr56tg7ysv/71073.ts
+#EXTINF:-1 tvg-id="DISCOVERY SCIENCE" tvg-name="DISCOVERY SCIENCE" tvg-logo="https://live.fanmingming.com/tv/DISCOVERY SCIENCE.png" group-title="Discovery",DISCOVERY SCIENCE
+http://ae2.aatvbox.club:8880/live/29us10233n01/4etfr4w23/71073.ts
+#EXTINF:-1 tvg-id="DISCOVERY SCIENCE" tvg-name="DISCOVERY SCIENCE" tvg-logo="https://live.fanmingming.com/tv/DISCOVERY SCIENCE.png" group-title="Discovery",DISCOVERY SCIENCE
+http://31.42.185.54:8880/live/hdtv00cbb4dd4ec4/97844036/71073.ts
+#EXTINF:-1 tvg-id="DISCOVERY SCIENCE" tvg-name="DISCOVERY SCIENCE" tvg-logo="https://live.fanmingming.com/tv/DISCOVERY SCIENCE.png" group-title="Discovery",DISCOVERY SCIENCE
+http://tv.trexiptv.com:8000/play/live.php?mac=00:1A:79:BC:0C:1F&stream=571211&extension=ts
+#EXTINF:-1 tvg-id="DISCOVERY SCIENCE" tvg-name="DISCOVERY SCIENCE" tvg-logo="https://live.fanmingming.com/tv/DISCOVERY SCIENCE.png" group-title="Discovery",DISCOVERY SCIENCE
+https://varun-iptv.netlify.app/m3u/Discovery_Science.m3u8
 #EXTINF:-1 tvg-id="Discovery HD" tvg-name="Discovery HD" tvg-logo="https://live.fanmingming.com/tv/Discovery HD.png" group-title="Discovery",Discovery HD
 http://muka03.wanicelife.com:8880/live/3ca06263n03/asfded23/71071.ts
 #EXTINF:-1 tvg-id="Discovery HD" tvg-name="Discovery HD" tvg-logo="https://live.fanmingming.com/tv/Discovery HD.png" group-title="Discovery",Discovery HD
@@ -968,7 +1032,29 @@ http://49.0.64.96:8007/Discovery
 #EXTINF:-1 tvg-id="Discovery HD" tvg-name="Discovery HD" tvg-logo="https://live.fanmingming.com/tv/Discovery HD.png" group-title="Discovery",Discovery HD
 http://ae2.aatvbox.club:8880/live/29us10233n01/4etfr4w23/71071.ts
 #EXTINF:-1 tvg-id="Discovery HD" tvg-name="Discovery HD" tvg-logo="https://live.fanmingming.com/tv/Discovery HD.png" group-title="Discovery",Discovery HD
+http://tv.trexiptv.com:8000/play/live.php?mac=00:1A:79:BC:0C:1F&stream=571210&extension=ts
+#EXTINF:-1 tvg-id="Discovery HD" tvg-name="Discovery HD" tvg-logo="https://live.fanmingming.com/tv/Discovery HD.png" group-title="Discovery",Discovery HD
 http://muka03.wanicelife.com:8880/live/29us11163n02/4ref34wr43/71071.ts
+#EXTINF:-1 tvg-id="Investigation Discovery" tvg-name="Investigation Discovery" tvg-logo="https://live.fanmingming.com/tv/Investigation Discovery.png" group-title="Discovery",Investigation Discovery
+http://mag.premiumplus.tv:80/play/live.php?mac=00:1A:79:B5:69:3C&stream=45545&extension=ts&play_token=mWwBIuYWG4
+#EXTINF:-1 tvg-id="Investigation Discovery" tvg-name="Investigation Discovery" tvg-logo="https://live.fanmingming.com/tv/Investigation Discovery.png" group-title="Discovery",Investigation Discovery
+http://mag.premiumplus.tv:80/play/live.php?mac=00:1A:79:14:6F:8F&stream=174728&extension=ts&play_token=mWwBIuYWG4
+#EXTINF:-1 tvg-id="Investigation Discovery" tvg-name="Investigation Discovery" tvg-logo="https://live.fanmingming.com/tv/Investigation Discovery.png" group-title="Discovery",Investigation Discovery
+http://mag.trexlive.me:8000/play/live.php?mac=00:1A:79:BE:B3:1A&stream=174728&extension=ts&play_token=mWwBIuYWG4
+#EXTINF:-1 tvg-id="Investigation Discovery" tvg-name="Investigation Discovery" tvg-logo="https://live.fanmingming.com/tv/Investigation Discovery.png" group-title="Discovery",Investigation Discovery
+http://line.iptveros.com:8000/play/live.php?mac=00:1A:79:00:9B:7A&stream=174728&extension=ts&play_token=mWwBIuYWG4
+#EXTINF:-1 tvg-id="Investigation Discovery" tvg-name="Investigation Discovery" tvg-logo="https://live.fanmingming.com/tv/Investigation Discovery.png" group-title="Discovery",Investigation Discovery
+http://pal.alphatx.me:80/play/live.php?mac=00:1A:79:00:AA:0E&stream=174728&extension=ts&play_token=mWwBIuYWG4
+#EXTINF:-1 tvg-id="Investigation Discovery" tvg-name="Investigation Discovery" tvg-logo="https://live.fanmingming.com/tv/Investigation Discovery.png" group-title="Discovery",Investigation Discovery
+http://pal.alphatx.me:80/play/live.php?mac=00:1A:79:02:02:FC&stream=174728&extension=ts&play_token=mWwBIuYWG4
+#EXTINF:-1 tvg-id="Investigation Discovery" tvg-name="Investigation Discovery" tvg-logo="https://live.fanmingming.com/tv/Investigation Discovery.png" group-title="Discovery",Investigation Discovery
+http://stalker.ugoiptv.com:80/play/live.php?mac=00:1A:79:37:37:82&stream=174728&extension=ts&play_token=mWwBIuYWG4
+#EXTINF:-1 tvg-id="Investigation Discovery" tvg-name="Investigation Discovery" tvg-logo="https://live.fanmingming.com/tv/Investigation Discovery.png" group-title="Discovery",Investigation Discovery
+http://tv.trexiptv.com:8000/play/live.php?mac=00:1A:79:BC:0C:1F&stream=45545&extension=ts&play_token=mWwBIuYWG4
+#EXTINF:-1 tvg-id="Investigation Discovery" tvg-name="Investigation Discovery" tvg-logo="https://live.fanmingming.com/tv/Investigation Discovery.png" group-title="Discovery",Investigation Discovery
+https://varun-iptv.netlify.app/m3u/Investigation_Discovery.m3u8
+#EXTINF:-1 tvg-id="Investigation Discovery" tvg-name="Investigation Discovery" tvg-logo="https://live.fanmingming.com/tv/Investigation Discovery.png" group-title="Discovery",Investigation Discovery
+https://raw.githubusercontent.com/mimipipi22/lalajo/main/investigationdiscovery.m3u8
 #EXTINF:-1 tvg-id="discovery family us" tvg-name="discovery family us" tvg-logo="https://live.fanmingming.com/tv/discovery family us.png" group-title="Discovery",discovery family us
 https://6oclock.xyz:8443/oVTsSvYjZu/cAXDNm9LY9/22621
 #EXTINF:-1 tvg-id="discoveryasia" tvg-name="discoveryasia" tvg-logo="https://live.fanmingming.com/tv/discoveryasia.png" group-title="Discovery",discoveryasia
@@ -986,6 +1072,10 @@ http://pal.alphatx.me:80/play/live.php?mac=00:1A:79:02:02:FC&stream=571181&exten
 #EXTINF:-1 tvg-id="discoveryasia" tvg-name="discoveryasia" tvg-logo="https://live.fanmingming.com/tv/discoveryasia.png" group-title="Discovery",discoveryasia
 http://stalker.ugoiptv.com:80/play/live.php?mac=00:1A:79:37:37:82&stream=571181&extension=ts
 #EXTINF:-1 tvg-id="discoveryasia" tvg-name="discoveryasia" tvg-logo="https://live.fanmingming.com/tv/discoveryasia.png" group-title="Discovery",discoveryasia
+http://iptvquan.duckdns.org:9876/udp/225.1.2.223:30120
+#EXTINF:-1 tvg-id="discoveryasia" tvg-name="discoveryasia" tvg-logo="https://live.fanmingming.com/tv/discoveryasia.png" group-title="Discovery",discoveryasia
+http://tv.trexiptv.com:8000/play/live.php?mac=00:1A:79:BC:0C:1F&stream=571181&extension=ts
+#EXTINF:-1 tvg-id="discoveryasia" tvg-name="discoveryasia" tvg-logo="https://live.fanmingming.com/tv/discoveryasia.png" group-title="Discovery",discoveryasia
 http://protv.fun/play/live.php?mac=00:1a:79:56:77:6c&extension=ts&stream=571181
 #EXTINF:-1 tvg-id="discoveryasia" tvg-name="discoveryasia" tvg-logo="https://live.fanmingming.com/tv/discoveryasia.png" group-title="Discovery",discoveryasia
 https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
@@ -998,9 +1088,63 @@ http://202.60.106.14:8080/1344/playlist.m3u8
 #EXTINF:-1 tvg-id="Sky Cinema Disney" tvg-name="Sky Cinema Disney" tvg-logo="https://live.fanmingming.com/tv/Sky Cinema Disney.png" group-title="Disney",Sky Cinema Disney
 http://abcnew.site:8880/live/29us10233n01/4etfr4w23/28930.ts
 #EXTINF:-1 tvg-id="Sky Cinema Disney" tvg-name="Sky Cinema Disney" tvg-logo="https://live.fanmingming.com/tv/Sky Cinema Disney.png" group-title="Disney",Sky Cinema Disney
-http://ae2.aatvbox.club:8880/live/DAANM168/fnvbxK5eF8/28930.ts
-#EXTINF:-1 tvg-id="Sky Cinema Disney" tvg-name="Sky Cinema Disney" tvg-logo="https://live.fanmingming.com/tv/Sky Cinema Disney.png" group-title="Disney",Sky Cinema Disney
 http://31.42.185.54:8880/live/hdtv00cbb4dd4ec4/97844036/28930.ts
+#EXTINF:-1 tvg-id="DISNEY JR" tvg-name="DISNEY JR" tvg-logo="https://live.fanmingming.com/tv/DISNEY JR.png" group-title="Disney",DISNEY JR
+http://mag.premiumplus.tv:80/play/live.php?mac=00:1A:79:B5:69:3C&stream=571208&extension=ts&play_token=eby2CKrfl4
+#EXTINF:-1 tvg-id="DISNEY JR" tvg-name="DISNEY JR" tvg-logo="https://live.fanmingming.com/tv/DISNEY JR.png" group-title="Disney",DISNEY JR
+http://mag.premiumplus.tv:80/play/live.php?mac=00:1A:79:14:6F:8F&stream=571208&extension=ts&play_token=eby2CKrfl4
+#EXTINF:-1 tvg-id="DISNEY JR" tvg-name="DISNEY JR" tvg-logo="https://live.fanmingming.com/tv/DISNEY JR.png" group-title="Disney",DISNEY JR
+http://mag.trexlive.me:8000/play/live.php?mac=00:1A:79:BE:B3:1A&stream=571208&extension=ts&play_token=eby2CKrfl4
+#EXTINF:-1 tvg-id="DISNEY JR" tvg-name="DISNEY JR" tvg-logo="https://live.fanmingming.com/tv/DISNEY JR.png" group-title="Disney",DISNEY JR
+http://line.iptveros.com:8000/play/live.php?mac=00:1A:79:00:9B:7A&stream=571208&extension=ts&play_token=eby2CKrfl4
+#EXTINF:-1 tvg-id="DISNEY JR" tvg-name="DISNEY JR" tvg-logo="https://live.fanmingming.com/tv/DISNEY JR.png" group-title="Disney",DISNEY JR
+http://pal.alphatx.me:80/play/live.php?mac=00:1A:79:00:AA:0E&stream=571208&extension=ts&play_token=eby2CKrfl4
+#EXTINF:-1 tvg-id="DISNEY JR" tvg-name="DISNEY JR" tvg-logo="https://live.fanmingming.com/tv/DISNEY JR.png" group-title="Disney",DISNEY JR
+http://pal.alphatx.me:80/play/live.php?mac=00:1A:79:02:02:FC&stream=571208&extension=ts&play_token=eby2CKrfl4
+#EXTINF:-1 tvg-id="DISNEY JR" tvg-name="DISNEY JR" tvg-logo="https://live.fanmingming.com/tv/DISNEY JR.png" group-title="Disney",DISNEY JR
+http://stalker.ugoiptv.com:80/play/live.php?mac=00:1A:79:37:37:82&stream=571208&extension=ts&play_token=eby2CKrfl4
+#EXTINF:-1 tvg-id="DISNEY JR" tvg-name="DISNEY JR" tvg-logo="https://live.fanmingming.com/tv/DISNEY JR.png" group-title="Disney",DISNEY JR
+http://190.61.43.117:45000/play/a045
+#EXTINF:-1 tvg-id="DISNEY JR" tvg-name="DISNEY JR" tvg-logo="https://live.fanmingming.com/tv/DISNEY JR.png" group-title="Disney",DISNEY JR
+http://tv.trexiptv.com:8000/play/live.php?mac=00:1A:79:BC:0C:1F&stream=571208&extension=ts&play_token=eby2CKrfl4
+#EXTINF:-1 tvg-id="DISNEY JUNIOR" tvg-name="DISNEY JUNIOR" tvg-logo="https://live.fanmingming.com/tv/DISNEY JUNIOR.png" group-title="Disney",DISNEY JUNIOR
+http://mag.premiumplus.tv:80/play/live.php?mac=00:1A:79:B5:69:3C&stream=571208&extension=ts
+#EXTINF:-1 tvg-id="DISNEY JUNIOR" tvg-name="DISNEY JUNIOR" tvg-logo="https://live.fanmingming.com/tv/DISNEY JUNIOR.png" group-title="Disney",DISNEY JUNIOR
+http://mag.premiumplus.tv:80/play/live.php?mac=00:1A:79:14:6F:8F&stream=571208&extension=ts
+#EXTINF:-1 tvg-id="DISNEY JUNIOR" tvg-name="DISNEY JUNIOR" tvg-logo="https://live.fanmingming.com/tv/DISNEY JUNIOR.png" group-title="Disney",DISNEY JUNIOR
+http://mag.trexlive.me:8000/play/live.php?mac=00:1A:79:BE:B3:1A&stream=571208&extension=ts
+#EXTINF:-1 tvg-id="DISNEY JUNIOR" tvg-name="DISNEY JUNIOR" tvg-logo="https://live.fanmingming.com/tv/DISNEY JUNIOR.png" group-title="Disney",DISNEY JUNIOR
+http://line.iptveros.com:8000/play/live.php?mac=00:1A:79:00:9B:7A&stream=571208&extension=ts
+#EXTINF:-1 tvg-id="DISNEY JUNIOR" tvg-name="DISNEY JUNIOR" tvg-logo="https://live.fanmingming.com/tv/DISNEY JUNIOR.png" group-title="Disney",DISNEY JUNIOR
+http://pal.alphatx.me:80/play/live.php?mac=00:1A:79:00:AA:0E&stream=571208&extension=ts
+#EXTINF:-1 tvg-id="DISNEY JUNIOR" tvg-name="DISNEY JUNIOR" tvg-logo="https://live.fanmingming.com/tv/DISNEY JUNIOR.png" group-title="Disney",DISNEY JUNIOR
+http://pal.alphatx.me:80/play/live.php?mac=00:1A:79:02:02:FC&stream=571208&extension=ts
+#EXTINF:-1 tvg-id="DISNEY JUNIOR" tvg-name="DISNEY JUNIOR" tvg-logo="https://live.fanmingming.com/tv/DISNEY JUNIOR.png" group-title="Disney",DISNEY JUNIOR
+http://stalker.ugoiptv.com:80/play/live.php?mac=00:1A:79:37:37:82&stream=571208&extension=ts
+#EXTINF:-1 tvg-id="DISNEY JUNIOR" tvg-name="DISNEY JUNIOR" tvg-logo="https://live.fanmingming.com/tv/DISNEY JUNIOR.png" group-title="Disney",DISNEY JUNIOR
+http://tv.trexiptv.com:8000/play/live.php?mac=00:1A:79:BC:0C:1F&stream=571208&extension=ts
+#EXTINF:-1 tvg-id="DISNEYXD" tvg-name="DISNEYXD" tvg-logo="https://live.fanmingming.com/tv/DISNEYXD.png" group-title="Disney",DISNEYXD
+http://pal.alphatx.me:80/play/live.php?mac=00:1A:79:02:02:FC&stream=683171&extension=ts
+#EXTINF:-1 tvg-id="DISNEYXD" tvg-name="DISNEYXD" tvg-logo="https://live.fanmingming.com/tv/DISNEYXD.png" group-title="Disney",DISNEYXD
+http://stalker.ugoiptv.com:80/play/live.php?mac=00:1A:79:37:37:82&stream=683171&extension=ts
+#EXTINF:-1 tvg-id="DISNEYXD" tvg-name="DISNEYXD" tvg-logo="https://live.fanmingming.com/tv/DISNEYXD.png" group-title="Disney",DISNEYXD
+http://pro-solut-xi.eu:5436/bossna/testiptvvv/10115
+#EXTINF:-1 tvg-id="DISNEYXD" tvg-name="DISNEYXD" tvg-logo="https://live.fanmingming.com/tv/DISNEYXD.png" group-title="Disney",DISNEYXD
+http://tv.trexiptv.com:8000/play/live.php?mac=00:1A:79:BC:0C:1F&stream=683171&extension=ts
+#EXTINF:-1 tvg-id="DISNEYXD" tvg-name="DISNEYXD" tvg-logo="https://live.fanmingming.com/tv/DISNEYXD.png" group-title="Disney",DISNEYXD
+http://mag.premiumplus.tv:80/play/live.php?mac=00:1A:79:B5:69:3C&stream=683171&extension=ts
+#EXTINF:-1 tvg-id="DISNEYXD" tvg-name="DISNEYXD" tvg-logo="https://live.fanmingming.com/tv/DISNEYXD.png" group-title="Disney",DISNEYXD
+http://mag.premiumplus.tv:80/play/live.php?mac=00:1A:79:14:6F:8F&stream=683171&extension=ts
+#EXTINF:-1 tvg-id="DISNEYXD" tvg-name="DISNEYXD" tvg-logo="https://live.fanmingming.com/tv/DISNEYXD.png" group-title="Disney",DISNEYXD
+http://mag.trexlive.me:8000/play/live.php?mac=00:1A:79:BE:B3:1A&stream=683171&extension=ts
+#EXTINF:-1 tvg-id="DISNEYXD" tvg-name="DISNEYXD" tvg-logo="https://live.fanmingming.com/tv/DISNEYXD.png" group-title="Disney",DISNEYXD
+http://line.iptveros.com:8000/play/live.php?mac=00:1A:79:00:9B:7A&stream=683171&extension=ts
+#EXTINF:-1 tvg-id="DISNEYXD" tvg-name="DISNEYXD" tvg-logo="https://live.fanmingming.com/tv/DISNEYXD.png" group-title="Disney",DISNEYXD
+http://pal.alphatx.me:80/play/live.php?mac=00:1A:79:00:AA:0E&stream=683171&extension=ts
+#EXTINF:-1 tvg-id="DISNEYXD" tvg-name="DISNEYXD" tvg-logo="https://live.fanmingming.com/tv/DISNEYXD.png" group-title="Disney",DISNEYXD
+https://cdn-nvm-chicago.lolokoko.tv/DisneyXD.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="DISNEYXD" tvg-name="DISNEYXD" tvg-logo="https://live.fanmingming.com/tv/DISNEYXD.png" group-title="Disney",DISNEYXD
+http://3b9673b8.cbilant.com/iptv/72ADL97PMPSR6F/1082/index.m3u8
 #EXTINF:-1 tvg-id="Disney Channel" tvg-name="Disney Channel" tvg-logo="https://live.fanmingming.com/tv/Disney Channel.png" group-title="Disney",Disney Channel
 http://abcnew.site:8880/live/DAANM168/fnvbxK5eF8/60230.ts
 #EXTINF:-1 tvg-id="Disney Channel" tvg-name="Disney Channel" tvg-logo="https://live.fanmingming.com/tv/Disney Channel.png" group-title="Disney",Disney Channel
