@@ -1,6 +1,4 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-#EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://live.fanmingming.com/tv/欢笑剧场.png" group-title="卫视 [4K]",欢笑剧场
-http://[2409:8087:7001:20:1000::82]:6410/yinhe/2/ch00000090990000002156/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="CCTV5+ 体育赛事" tvg-name="CCTV5+ 体育赛事" tvg-logo="https://live.fanmingming.com/tv/CCTV5+ 体育赛事.png" group-title="央视 [2K]",CCTV5+ 体育赛事
 http://[2409:8087:7001:20:1000::85]:6410/yinhe/2/ch00000090990000001008/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="CCTV15 音乐" tvg-name="CCTV15 音乐" tvg-logo="https://live.fanmingming.com/tv/CCTV15 音乐.png" group-title="央视 [2K]",CCTV15 音乐
