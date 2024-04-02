@@ -4,7 +4,7 @@ http://[2409:8087:7000:20::14]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/32
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://live.fanmingming.com/tv/欢笑剧场.png" group-title="中国 [4K]",欢笑剧场
 http://[2409:8087:7001:20:1000::82]:6410/yinhe/2/ch00000090990000002156/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 
-#EXTINF:-1 tvg-id="测试" tvg-name="测试" tvg-logo="https://live.fanmingming.com/tv/测试.png" group-title="中国 [4K]",测试
+#EXTINF:-1 tvg-id="华数测试" tvg-name="华数测试" tvg-logo="https://live.fanmingming.com/tv/华数测试.png" group-title="中国 [4K]",华数测试
 http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000459/index.m3u8?IAS
 
 #EXTINF:-1 tvg-id="4KUHD" tvg-name="4KUHD" tvg-logo="https://live.fanmingming.com/tv/4KUHD.png" group-title="中国 [4K]",4KUHD
