@@ -97,7 +97,7 @@ http://[2409:8087:7000:20::d]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/322
 http://[2409:8087:7001:20:3::3]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226224/index.m3u8
 #EXTINF:-1 tvg-id="纪实人文" tvg-name="纪实人文" tvg-logo="https://live.fanmingming.com/tv/纪实人文.png" group-title="卫视 [2K]",纪实人文
 http://[2409:8087:7001:20:3::4]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226230/index.m3u8
-#EXTINF:-1 tvg-id="未知" tvg-name="未知" tvg-logo="https://live.fanmingming.com/tv/未知.png" group-title="新增频道 [2K]",未知
+#EXTINF:-1 tvg-id="CCTV1 综合" tvg-name="CCTV1 综合" tvg-logo="https://live.fanmingming.com/tv/CCTV1 综合.png" group-title="央视 [2K]",CCTV1 综合
 http://[2409:8087:7000:20::11]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226231/index.m3u8
 #EXTINF:-1 tvg-id="纪实科教" tvg-name="纪实科教" tvg-logo="https://live.fanmingming.com/tv/纪实科教.png" group-title="卫视 [2K]",纪实科教
 http://[2409:8087:7001:20:2::5]:80/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226232/index.m3u8
