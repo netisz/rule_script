@@ -1,11 +1,11 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-#EXTINF:-1 tvg-id="SiTV-7 欢笑剧场 [4K]" tvg-name="SiTV-7 欢笑剧场 [4K]" tvg-logo="https://live.fanmingming.com/tv/SiTV-7 欢笑剧场 [4K].png" group-title="SiTV",SiTV-7 欢笑剧场 [4K]
+#EXTINF:-1 tvg-id="SiTV-7 欢笑剧场 [4K]" tvg-name="SiTV-7 欢笑剧场 [4K]" tvg-logo="https://live.fanmingming.com/tv/SiTV-7 欢笑剧场 [4K].png" group-title="SiTV","SiTV-7 欢笑剧场 [4K]"
 http://[2409:8087:7001:20:1000::85]:6410/yinhe/2/ch00000090990000002156/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="CCTV5+ 体育赛事 [2K]" tvg-name="CCTV5+ 体育赛事 [2K]" tvg-logo="https://live.fanmingming.com/tv/CCTV5+ 体育赛事 [2K].png" group-title="央视",CCTV5+ 体育赛事 [2K]
+#EXTINF:-1 tvg-id="CCTV5+ 体育赛事 [2K]" tvg-name="CCTV5+ 体育赛事 [2K]" tvg-logo="https://live.fanmingming.com/tv/CCTV5+ 体育赛事 [2K].png" group-title="央视","CCTV5+ 体育赛事 [2K]"
 http://[2409:8087:7001:20:1000::83]:6410/yinhe/2/ch00000090990000001008/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="CCTV15 音乐 [2K]" tvg-name="CCTV15 音乐 [2K]" tvg-logo="https://live.fanmingming.com/tv/CCTV15 音乐 [2K].png" group-title="央视",CCTV15 音乐 [2K]
+#EXTINF:-1 tvg-id="CCTV15 音乐 [2K]" tvg-name="CCTV15 音乐 [2K]" tvg-logo="https://live.fanmingming.com/tv/CCTV15 音乐 [2K].png" group-title="央视","CCTV15 音乐 [2K]"
 http://[2409:8087:7001:20:1000::85]:6410/yinhe/2/ch00000090990000001020/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
-#EXTINF:-1 tvg-id="CGTN 英语 [2K]" tvg-name="CGTN 英语 [2K]" tvg-logo="https://live.fanmingming.com/tv/CGTN 英语 [2K].png" group-title="央视",CGTN 英语 [2K]
+#EXTINF:-1 tvg-id="CGTN 英语 [2K]" tvg-name="CGTN 英语 [2K]" tvg-logo="https://live.fanmingming.com/tv/CGTN 英语 [2K].png" group-title="央视","CGTN 英语 [2K]"
 http://[2409:8087:7001:20:1000::82]:6410/yinhe/2/ch00000090990000001024/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
 #EXTINF:-1 tvg-id="北京卫视 [2K]" tvg-name="北京卫视 [2K]" tvg-logo="https://live.fanmingming.com/tv/北京卫视 [2K].png" group-title="卫视",北京卫视 [2K]
 http://[2409:8087:7001:20:1000::85]:6410/yinhe/2/ch00000090990000001025/index.m3u8?virtualDomain=yinhe.live_hls.zte.com
