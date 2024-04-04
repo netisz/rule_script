@@ -4,9 +4,11 @@ https://iptv.hiper25.com/TVB/video.m3u8
 #EXTINF:-1 tvg-id="凤凰卫视" tvg-name="凤凰卫视" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视.png" group-title="香港 [2K]",凤凰卫视
 https://edge2.laotv.la/live/PhxChinese/sc-gaFECQ/v1_index.m3u8
 
-#EXTINF:-1 tvg-id="Yahoo! Finance" tvg-name="Yahoo! Finance" tvg-logo="https://live.fanmingming.com/tv/Yahoo! Finance.png" group-title="海外 [2K]",Yahoo! Finance
+#EXTINF:-1 tvg-id="Yahoo! Finance" tvg-name="Yahoo! Finance" tvg-logo="https://live.fanmingming.com/tv/Yahoo! Finance.png" group-title="国外 [2K]",Yahoo! Finance
 https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Gusto TV" tvg-name="Gusto TV" tvg-logo="https://live.fanmingming.com/tv/Gusto TV.png" group-title="海外 [2K]",Gusto TV
+#EXTINF:-1 tvg-id="Gusto TV" tvg-name="Gusto TV" tvg-logo="https://live.fanmingming.com/tv/Gusto TV.png" group-title="国外 [2K]",Gusto TV
 https://d3cajslujfq92p.cloudfront.net/playlist.m3u8
 
+#EXTINF:-1 tvg-id="Red Bull TV" tvg-name="Red Bull TV" tvg-logo="https://live.fanmingming.com/tv/Red Bull TV.png" group-title="国外 [2K]",Red Bull TV
+http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
