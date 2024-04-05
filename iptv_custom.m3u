@@ -4,3 +4,5 @@ https://glive.grtn.cn/live/wenhua_test0203.m3u8?auth_key=1617289309-0-0-7b273098
 #EXTINF:-1 tvg-id="大立" tvg-name="大立" tvg-logo="https://live.fanmingming.com/tv/大立.png" group-title="台湾",大立
 http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 
+#EXTINF:-1 group-title="海外",Live Now FOX
+https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
