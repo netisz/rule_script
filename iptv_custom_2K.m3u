@@ -1,6 +1,7 @@
 #EXTINF:-1 tvg-id="TVB翡翠台" tvg-name="TVB翡翠台" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠台.png" group-title="香港 [2K]",TVB翡翠台
 https://iptv.hiper25.com/TVB/video.m3u8
 
+
 #EXTINF:-1 tvg-id="凤凰卫视资讯台" tvg-name="凤凰卫视资讯台" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视资讯台.png" group-title="香港 [2K]",凤凰卫视资讯台
 http://113.64.145.229:8081/hls/36/index.m3u8
 
