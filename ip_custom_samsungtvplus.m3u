@@ -69,3 +69,6 @@ https://yahoo-samsung.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="YoungHollywood.us group-title="SamsungTVPlus"",Young Hollywood (720p)
 https://younghollywood-rakuten-samsung.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="WeatherSpy.us" group-title="SamsungTVPlus",WeatherSpy
+https://jukin-weatherspy-1-us.samsung.wurl.tv/playlist.m3u8
