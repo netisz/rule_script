@@ -10,22 +10,22 @@ https://bonappetit-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="BratTV.us" group-title="SamsungTVPlus",Brat TV (1080p)
 https://brat-samsung-us.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Buzzr.us" group-title="SamsungTVPlus",Buzzr (1080p)
+#EXTINF:-1 tvg-id="Buzzr.us" group-title="SamsungTVPlus",Buzzr【怀旧回播】(1080p)
 https://buzzr-samsungus.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Buzzr.us" group-title="SamsungTVPlus",Buzzr (1080p)
+#EXTINF:-1 tvg-id="Buzzr.us" group-title="SamsungTVPlus",Buzzr【怀旧回播】(1080p)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/samsungus-buzzr-samsungtv-us/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Circle.us" group-title="SamsungTVPlus",Circle (1080p)
 https://circle-samsung.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="EDGEsport.uk" group-title="SamsungTVPlus",EDGEsport (1080p)
+#EXTINF:-1 tvg-id="EDGEsport.uk" group-title="SamsungTVPlus",EDGEsport【体育节目】(1080p)
 https://edgesport-rakuten-samsung.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="EstrellaNews.us" group-title="SamsungTVPlus",Estrella News (1080p)
 https://estrellanews-samsung-us.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ESTV.us", group-title="SamsungTVPlus"ESTV (1080p)
+#EXTINF:-1 tvg-id="ESTV.us" group-title="SamsungTVPlus",ESTV【西班牙语】(1080p)
 https://estv-rakuten-samsung.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="IGN.us" group-title="SamsungTVPlus",IGN (1080p)
@@ -61,14 +61,14 @@ https://sportsgrid-samsungus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TheYoungTurks.us" group-title="SamsungTVPlus",The Young Turks (TYT) (720p)
 https://tyt-samsungus.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="XploreTV.us" group-title="SamsungTVPlus",Xplore (1080p)
+#EXTINF:-1 tvg-id="XploreTV.us" group-title="SamsungTVPlus",Xplore【野外探索】(1080p)
 https://xlpore-samsungus.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="YahooFinance.us" group-title="SamsungTVPlus",Yahoo! Finance (1080p)
+#EXTINF:-1 tvg-id="YahooFinance.us" group-title="SamsungTVPlus",Yahoo! Finance【雅虎财经】(1080p)
 https://yahoo-samsung.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="YoungHollywood.us group-title="SamsungTVPlus"",Young Hollywood (720p)
 https://younghollywood-rakuten-samsung.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="WeatherSpy.us" group-title="SamsungTVPlus",WeatherSpy (720p)
+#EXTINF:-1 tvg-id="WeatherSpy.us" group-title="SamsungTVPlus",WeatherSpy【气象侦探】(720p)
 https://jukin-weatherspy-1-us.samsung.wurl.tv/playlist.m3u8
