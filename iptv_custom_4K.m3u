@@ -1,13 +1,13 @@
 #EXTINF:-1 tvg-id="华数测试" tvg-name="华数测试" tvg-logo="https://live.fanmingming.com/tv/华数测试.png" group-title="国内 [4K]",华数测试
 http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000459/index.m3u8?IAS
 
-#EXTINF:-1 tvg-id="4KUHD" tvg-name="4KUHD" tvg-logo="https://live.fanmingming.com/tv/4KUHD.png" group-title="国内 [4K]",4KUHD
+#EXTINF:-1 tvg-id="4KUHD" tvg-name="4KUHD" tvg-logo="https://live.fanmingming.com/tv/4KUHD.png" group-title="已失效 [4K]",4KUHD
 http://[2409:8087:7001:20:1000::85]:6410/000000001000/1000000004000011651/index.m3u8?channel-id=ystenlive&Contentid=1000000004000011651&livemode=1&stbId=3
 
-#EXTINF:-1 tvg-id="CCTV16 奥林匹克" tvg-name="CCTV16 奥林匹克" tvg-logo="https://live.fanmingming.com/tv/CCTV16 奥林匹克.png" group-title="国内 [4K]",CCTV16 奥林匹克
+#EXTINF:-1 tvg-id="CCTV16 奥林匹克" tvg-name="CCTV16 奥林匹克" tvg-logo="https://live.fanmingming.com/tv/CCTV16 奥林匹克.png" group-title="已失效 [4K]",CCTV16 奥林匹克
 http://[2409:8087:7001:20:1000::85]:6410/000000001000/5000000008000023254/index.m3u8?channel-id=bestzb&Contentid=5000000008000023254&livemode=1&stbId=3
 
-#EXTINF:-1 tvg-id="华数电影" tvg-name="华数电影" tvg-logo="https://live.fanmingming.com/tv/华数电影.png" group-title="国内 [4K]",华数电影
+#EXTINF:-1 tvg-id="华数电影" tvg-name="华数电影" tvg-logo="https://live.fanmingming.com/tv/华数电影.png" group-title="已失效 [4K]",华数电影
 http://[2409:8087:7001:20:1000::85]:6410/000000001000/6000000003000004748/index.m3u8?channel-id=wasusyt&Contentid=6000000003000004748&livemode=1&stbId=3
 
 #EXTINF:-1 tvg-id="苏州电视台" tvg-name="苏州电视台" tvg-logo="https://live.fanmingming.com/tv/苏州电视台.png" group-title="国内 [4K]",苏州电视台
