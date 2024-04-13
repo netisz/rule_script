@@ -219,7 +219,7 @@ DOMAIN-SUFFIX, syncthing.net, DIRECT
 # Samsung TV Plus
 DOMAIN-SUFFIX, amagi.tv, DIRECT
 DOMAIN-SUFFIX, wurl.tv, DIRECT
-
+DOMAIN-SUFFIX, wurl.com, DIRECT
 
 
 [MITM]
