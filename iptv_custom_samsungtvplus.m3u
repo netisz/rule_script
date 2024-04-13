@@ -92,6 +92,9 @@ https://stormcast-telenovelatv-1-fr.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="WildSideTV.fr" group-title="Samsung FR",Wildside TV (720p)
 https://versatile-wildsidetv-1-fr.samsung.wurl.tv/playlist.m3u8
 
+#EXTINF:-1 tvg-id="FashionTVEurope.fr" status="online" group-title="Samsung FR",Fashion TV (1080p)
+https://fashiontv-fashiontv-4-de.samsung.wurl.com/manifest/playlist.m3u8
+
 
 
 
@@ -107,7 +110,11 @@ https://insighttv-rakuten-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="InsightTV.nl" group-title="Samsung NL",Insight TV (720p)
 https://insighttv-samsung-us.amagi.tv/playlist.m3u8
 
+#EXTINF:-1 tvg-id="InsightTV.nl" status="online" group-title="Samsung NL",Insight TV (720p)
+https://insighttv-samsung-de.amagi.tv/playlist.m3u8
 
+#EXTINF:-1 tvg-id="InWonder.nl" status="online" group-title="Samsung NL",InWonder (720p)
+https://inwonder-samsung-de.amagi.tv/playlist.m3u8
 
 
 
@@ -193,3 +200,26 @@ https://edgesport-rakuten-samsung.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="TNTV.pf" group-title="Samsung PF",TNTV (1080p)
 https://tntv-samsung-fr.amagi.tv/playlist.m3u8
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="CNNInternationalEurope.us" status="online" group-title="Samsung DE",CNN International Germany (720p)
+https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SofyTV.ch" status="online" group-title="Samsung DE",Sofy TV (720p)
+https://sofy-ger-samsung.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TastemadeGermany.de" status="online" group-title="Samsung DE",Tastemade Deutschland (720p)
+https://tastemade-de-samsung.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" status="online" group-title="Samsung DE",Euronews Deutsch (720p)
+https://rakuten-euronews-5-de.samsung.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" status="online" group-title="Samsung DE",Fuel TV (1080p)
+https://fueltv-fueltv-5-de.samsung.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" status="online" group-title="Samsung DE",Xite (720p)
+https://xite-samsung-de.amagi.tv/playlist.m3u8
