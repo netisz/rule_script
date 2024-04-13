@@ -17,35 +17,38 @@ https://sofytv-samsungfr.amagi.tv/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-id="ThePetCollective.es" group-title="Samsung ES",The Pet Collective
+#EXTINF:-1 tvg-id="ThePetCollective.es" group-title="Samsung ES",The Pet Collective (720p)
 https://the-pet-collective-international-es.samsung.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="PlanetaJuniorTV.es" group-title="Samsung ES",Planeta Junior TV
 https://deaplaneta-planetakidz-1-es.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="RakutenTVActionMovies.es" group-title="Samsung ES",Rakuten Action Movies
+#EXTINF:-1 tvg-id="RakutenTVActionMovies.es" group-title="Samsung ES",Rakuten Action Movies (720p)
 https://rakuten-actionmovies-2-es.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="RakutenTVComedyMovies.es" group-title="Samsung ES",Rakuten Comedy Movies
+#EXTINF:-1 tvg-id="RakutenTVComedyMovies.es" group-title="Samsung ES",Rakuten Comedy Movies (720p)
 https://rakuten-comedymovies-2-es.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="RakutenTVDramaMovies.es" group-title="Samsung ES",Rakuten Drama
+#EXTINF:-1 tvg-id="RakutenTVDramaMovies.es" group-title="Samsung ES",Rakuten Drama (720p)
 https://rakuten-tvshows-2-es.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="RakutenTVFamilyMovies.es" group-title="Samsung ES",Rakuten Family
+#EXTINF:-1 tvg-id="RakutenTVFamilyMovies.es" group-title="Samsung ES",Rakuten Family (720p)
 https://rakuten-family-2-es.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="RakutenTVSpotlight.es" group-title="Samsung ES",Rakuten Spotlight
+#EXTINF:-1 tvg-id="RakutenTVSpotlight.es" group-title="Samsung ES",Rakuten Spotlight (720p)
 https://rakuten-spotlight-2-es.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="Samsung ES",iHola Play
+#EXTINF:-1 tvg-id="" group-title="Samsung ES",iHola Play (720p)
 https://rakuten-hola-2-es.samsung.wurl.tv/playlist.m3u8
 
 
 
 
-#EXTINF:-1 tvg-id="Caillou.fr" group-title="Samsung FR",Caillou
+#EXTINF:-1 tvg-id="Caillou.fr" group-title="Samsung FR",Caillou (720p)
 https://dhx-caillou-1-es.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Caillou.fr" group-title="Samsung FR",Caillou (720p)
+https://dhx-caillou-2-fr.samsung.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="EuronewsSpanish.fr" group-title="Samsung FR",Euronews en Español (720p)
 https://rakuten-euronews-4-es.samsung.wurl.tv/manifest/playlist.m3u8
@@ -53,14 +56,11 @@ https://rakuten-euronews-4-es.samsung.wurl.tv/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="FashionTVEurope.fr" group-title="Samsung FR",Fashion TV (Spain) (1080p)
 https://fashiontv-fashiontv-2-es.samsung.wurl.tv/manifest/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="Samsung FR",BBC Doctor Who
+#EXTINF:-1 tvg-id="" group-title="Samsung FR",BBC Doctor Who (720p)
 https://bbceu-doctorwho-3-fr.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="BBCDrama.fr" group-title="Samsung FR",BBC Drama
+#EXTINF:-1 tvg-id="BBCDrama.fr" group-title="Samsung FR",BBC Drama (720p)
 https://bbceu-bbcdrama-1-fr.samsung.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Caillou.fr" group-title="Samsung FR",Caillou
-https://dhx-caillou-2-fr.samsung.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="EuronewsFrench.fr" group-title="Samsung FR",Euronews Français (720p)
 https://euronews-euronews-french-3-us.plex.wurl.tv/playlist.m3u8
@@ -86,7 +86,7 @@ https://rakuten-spotlight-7-fr.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="" group-title="Samsung FR",Rakuten TV Shows (720p)
 https://rakuten-tvshows-7-fr.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" group-title="Samsung FR",Stormcast Novelas TV
+#EXTINF:-1 tvg-id="" group-title="Samsung FR",Stormcast Novelas TV (720p)
 https://stormcast-telenovelatv-1-fr.samsung.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="WildSideTV.fr" group-title="Samsung FR",Wildside TV (720p)
@@ -171,10 +171,10 @@ https://younghollywood-rakuten-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="WeatherSpy.us" tvg-name="WeatherSpy.us" tvg-logo="https://v.fastcdn.co/t/ce0680fc/147b82c9/1690316573-50673365-220x124-WEATHERSPY-LOGO-WHIT.png" group-title="Samsung US",WeatherSpy【气象侦探】(720p)
 https://jukin-weatherspy-1-us.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="PeopleAreAwesome.us" group-title="Samsung US",People are Awesome
+#EXTINF:-1 tvg-id="PeopleAreAwesome.us" group-title="Samsung US",People are Awesome (720p)
 https://jukin-peopleareawesome-2-es.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Tastemade.us" group-title="Samsung US",Tastemade
+#EXTINF:-1 tvg-id="Tastemade.us" group-title="Samsung US",Tastemade (1080p)
 https://tastemade-es16tm-samsung.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="BloombergTVPlus.us" group-title="Samsung US",Bloomberg TV+ UHD (2160p)
