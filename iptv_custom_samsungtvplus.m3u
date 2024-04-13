@@ -1,3 +1,33 @@
+## 法国地区
+
+#EXTINF:-1 tvg-id="Caillou.fr",Caillou
+https://dhx-caillou-1-es.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="EuronewsSpanish.fr",Euronews en Español (720p)
+https://rakuten-euronews-4-es.samsung.wurl.tv/manifest/playlist.m3u8
+
+#EXTINF:-1 tvg-id="FashionTVEurope.fr",Fashion TV (Spain) (1080p)
+https://fashiontv-fashiontv-2-es.samsung.wurl.tv/manifest/playlist.m3u8
+
+
+
+#########################################
+## 
+#########################################
+
+#EXTINF:-1 tvg-id="InTrouble.nl" group-title="Samsung TV Plus",InTrouble (1080p)
+https://introuble-samsung.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="InWonder.nl" group-title="Samsung TV Plus",InWonder (720p)
+https://inwonder-samsung-us.amagi.tv/playlist.m3u8
+
+
+
+
+#########################################
+## 美国地区
+#########################################
+
 #EXTINF:-1 tvg-id="LiveNOWfromFOX.us" group-title="Samsung US",Live Now FOX (720p)
 https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
 
@@ -7,22 +37,19 @@ https://fox-foxsoul-samsungus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="bonappetit.us" group-title="Samsung US",bon appétit (1080p)
 https://bonappetit-samsung.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="BratTV.us" group-title="Samsung TV Plus",Brat TV (1080p)
+#EXTINF:-1 tvg-id="BratTV.us" group-title="Samsung US",Brat TV (1080p)
 https://brat-samsung-us.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Buzzr.us" group-title="Samsung TV Plus",Buzzr【怀旧回播】(1080p)
+#EXTINF:-1 tvg-id="Buzzr.us" group-title="Samsung US",Buzzr【怀旧回播】(1080p)
 https://buzzr-samsungus.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Buzzr.us" group-title="Samsung TV Plus",Buzzr【怀旧回播】(1080p)
+#EXTINF:-1 tvg-id="Buzzr.us" group-title="Samsung US",Buzzr【怀旧回播】(1080p)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/samsungus-buzzr-samsungtv-us/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Circle.us" group-title="Samsung TV Plus",Circle (1080p)
+#EXTINF:-1 tvg-id="Circle.us" group-title="Samsung US",Circle (1080p)
 https://circle-samsung.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="EDGEsport.uk" group-title="Samsung TV Plus",EDGEsport【体育节目】(1080p)
-https://edgesport-rakuten-samsung.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="EstrellaNews.us" group-title="Samsung TV Plus",Estrella News (1080p)
+#EXTINF:-1 tvg-id="EstrellaNews.us" group-title="Samsung US",Estrella News (1080p)
 https://estrellanews-samsung-us.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="ESTV.us" group-title="Samsung TV Plus",ESTV【西班牙语】(1080p)
@@ -37,16 +64,12 @@ https://insighttv-rakuten-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="InsightTV.nl" group-title="Samsung TV Plus",Insight TV (720p)
 https://insighttv-samsung-us.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="InTrouble.nl" group-title="Samsung TV Plus",InTrouble (1080p)
-https://introuble-samsung.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="InWonder.nl" group-title="Samsung TV Plus",InWonder (720p)
-https://inwonder-samsung-us.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="MovieSphere.us" group-title="Samsung TV Plus",MovieSphere (1080p)
 https://moviesphere-samsung-samsungus.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="MyTimeMovieNetworkEast.us" group-title="Samsung TV Plus",MyTime Movie Network (1080p)
+#EXTINF:-1 tvg-id="MyTimeMovieNetworkEast.us" group-title="Samsung TV Plus",MyTime Movie UK (1080p)
 https://mytimeuk-rakuten-samsung.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="NewsmaxTV.us" group-title="Samsung TV Plus",Newsmax (1080p)
@@ -73,14 +96,13 @@ https://younghollywood-rakuten-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="WeatherSpy.us" tvg-name="WeatherSpy.us" tvg-logo="https://v.fastcdn.co/t/ce0680fc/147b82c9/1690316573-50673365-220x124-WEATHERSPY-LOGO-WHIT.png" group-title="Samsung US",WeatherSpy【气象侦探】(720p)
 https://jukin-weatherspy-1-us.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Caillou.fr",Caillou
-https://dhx-caillou-1-es.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="EuronewsSpanish.fr",Euronews en Español (720p)
-https://rakuten-euronews-4-es.samsung.wurl.tv/manifest/playlist.m3u8
 
-#EXTINF:-1 tvg-id="FashionTVEurope.fr",Fashion TV (Spain) (1080p)
-https://fashiontv-fashiontv-2-es.samsung.wurl.tv/manifest/playlist.m3u8
+
+#EXTINF:-1 tvg-id="EDGEsport.uk" group-title="Samsung UK",EDGEsport【体育节目】(1080p)
+https://edgesport-rakuten-samsung.amagi.tv/playlist.m3u8
+
+
 
 #EXTINF:-1 tvg-id="",iHola Play
 https://rakuten-hola-2-es.samsung.wurl.tv/playlist.m3u8
@@ -136,7 +158,7 @@ https://euronews-euronews-french-3-us.plex.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="EuronewsFrench.fr",Euronews Français (720p)
 https://rakuten-euronews-2-fr.samsung.wurl.tv/manifest/playlist.m3u8
 
-#EXTINF:-1 tvg-id="",Mytime Movies (1080p)
+#EXTINF:-1 tvg-id="MyTimeMovieNetwork.fr",Mytime Movies FR (1080p)
 https://mytimefrance-rakuten-samsung.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="RakutenTVActionMovies.fr",Rakuten Action Movies (720p)
