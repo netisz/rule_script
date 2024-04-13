@@ -17,7 +17,7 @@ https://sofytv-samsungfr.amagi.tv/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-id="ThePetCollective.es" group-title="Samsung ES",The Pet Collective (720p)
+#EXTINF:-1 tvg-id="ThePetCollective.es" group-title="Samsung ES",【动物】The Pet Collective (720p)
 https://the-pet-collective-international-es.samsung.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="PlanetaJuniorTV.es" group-title="Samsung ES",Planeta Junior TV
@@ -118,7 +118,7 @@ https://inwonder-samsung-de.amagi.tv/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-id="LiveNOWfromFOX.us" group-title="Samsung US",Live Now FOX (720p)
+#EXTINF:-1 tvg-id="LiveNOWfromFOX.us" group-title="Samsung US",【新闻】Live Now FOX (720p)
 https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="FoxSoul.us" group-title="Samsung US",Fox Soul (1080p)
@@ -130,10 +130,10 @@ https://bonappetit-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="BratTV.us" group-title="Samsung US",Brat TV (1080p)
 https://brat-samsung-us.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Buzzr.us" group-title="Samsung US",Buzzr【怀旧回播】(1080p)
+#EXTINF:-1 tvg-id="Buzzr.us" group-title="Samsung US",【怀旧】Buzzr (1080p)
 https://buzzr-samsungus.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Buzzr.us" group-title="Samsung US",Buzzr【怀旧回播】(1080p)
+#EXTINF:-1 tvg-id="Buzzr.us" group-title="Samsung US",【怀旧】Buzzr (1080p)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/samsungus-buzzr-samsungtv-us/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Circle.us" group-title="Samsung US",Circle (1080p)
@@ -142,7 +142,7 @@ https://circle-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="EstrellaNews.us" group-title="Samsung US",Estrella News (1080p)
 https://estrellanews-samsung-us.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ESTV.us" group-title="Samsung US",ESTV【西班牙语】(1080p)
+#EXTINF:-1 tvg-id="ESTV.us" group-title="Samsung US",ESTV (1080p)
 https://estv-rakuten-samsung.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="IGN.us" group-title="Samsung US",IGN (1080p)
@@ -166,32 +166,32 @@ https://sportsgrid-samsungus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TheYoungTurks.us" group-title="Samsung US",The Young Turks (TYT) (720p)
 https://tyt-samsungus.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="XploreTV.us" group-title="Samsung US",Xplore【野外探索】(1080p)
+#EXTINF:-1 tvg-id="XploreTV.us" group-title="Samsung US",【户外】Xplore (1080p)
 https://xlpore-samsungus.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="YahooFinance.us" group-title="Samsung US",Yahoo! Finance【雅虎财经】(1080p)
+#EXTINF:-1 tvg-id="YahooFinance.us" group-title="Samsung US",【财经】Yahoo! Finance (1080p)
 https://yahoo-samsung.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="YoungHollywood.us group-title="Samsung US",Young Hollywood (720p)
 https://younghollywood-rakuten-samsung.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="WeatherSpy.us" tvg-name="WeatherSpy.us" tvg-logo="https://v.fastcdn.co/t/ce0680fc/147b82c9/1690316573-50673365-220x124-WEATHERSPY-LOGO-WHIT.png" group-title="Samsung US",WeatherSpy【气象侦探】(720p)
+#EXTINF:-1 tvg-id="WeatherSpy.us" tvg-name="WeatherSpy.us" tvg-logo="https://v.fastcdn.co/t/ce0680fc/147b82c9/1690316573-50673365-220x124-WEATHERSPY-LOGO-WHIT.png" group-title="Samsung US",【纪录】WeatherSpy (720p)
 https://jukin-weatherspy-1-us.samsung.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="PeopleAreAwesome.us" group-title="Samsung US",People are Awesome (720p)
 https://jukin-peopleareawesome-2-es.samsung.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Tastemade.us" group-title="Samsung US",Tastemade (1080p)
+#EXTINF:-1 tvg-id="Tastemade.us" group-title="Samsung US",【美食】Tastemade (1080p)
 https://tastemade-es16tm-samsung.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="BloombergTVPlus.us" group-title="Samsung US",Bloomberg TV+ UHD (2160p)
+#EXTINF:-1 tvg-id="BloombergTVPlus.us" group-title="Samsung US",【新闻】Bloomberg TV+ UHD (2160p)
 https://bloomberg-bloombergtv-1-fr.samsung.wurl.tv/manifest/playlist.m3u8
 
 
 
 
 
-#EXTINF:-1 tvg-id="EDGEsport.uk" group-title="Samsung UK",EDGEsport【体育节目】(1080p)
+#EXTINF:-1 tvg-id="EDGEsport.uk" group-title="Samsung UK",【体育】EDGEsport (1080p)
 https://edgesport-rakuten-samsung.amagi.tv/playlist.m3u8
 
 
@@ -212,7 +212,7 @@ https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="SofyTV.ch" status="online" group-title="Samsung DE",Sofy TV (720p)
 https://sofy-ger-samsung.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TastemadeGermany.de" status="online" group-title="Samsung DE",Tastemade Deutschland (720p)
+#EXTINF:-1 tvg-id="TastemadeGermany.de" status="online" group-title="Samsung DE",【美食】Tastemade Deutschland (720p)
 https://tastemade-de-samsung.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" status="online" group-title="Samsung DE",Euronews Deutsch (720p)
@@ -221,5 +221,5 @@ https://rakuten-euronews-5-de.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="" status="online" group-title="Samsung DE",Fuel TV (1080p)
 https://fueltv-fueltv-5-de.samsung.wurl.com/manifest/playlist.m3u8
 
-#EXTINF:-1 tvg-id="" status="online" group-title="Samsung DE",Xite (720p)
+#EXTINF:-1 tvg-id="" status="online" group-title="Samsung DE",【音乐】Xite (720p)
 https://xite-samsung-de.amagi.tv/playlist.m3u8
