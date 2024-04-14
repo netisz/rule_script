@@ -1,5 +1,3 @@
-#EXTINF:-1 tvg-id="频道名称" tvg-name="频道名称" tvg-logo="https://epg.112114.xyz/logo/频道名称.png" group-title="分组名称",频道名称
-IPv6地址
 #EXTINF:-1 tvg-id="黑龙江新闻法治" tvg-name="黑龙江新闻法治" tvg-logo="https://epg.112114.xyz/logo/黑龙江新闻法治.png" group-title="黑龙江 [2K]",黑龙江新闻法治
 http://[2409:8087:1a01:df::4011]/PLTV/88888888/224/3221225967/index.m3u8
 #EXTINF:-1 tvg-id="黑龙江影视" tvg-name="黑龙江影视" tvg-logo="https://epg.112114.xyz/logo/黑龙江影视.png" group-title="黑龙江 [2K]",黑龙江影视
