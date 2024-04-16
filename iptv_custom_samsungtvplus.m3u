@@ -151,7 +151,7 @@ https://ign-samsungus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MovieSphere.us" group-title="Samsung US",MovieSphere (1080p)
 https://moviesphere-samsung-samsungus.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="MyTimeMovieNetworkEast.us" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/netisz/rule_script/IPTV_Logo/MyTimeMovieNetwork.png" group-title="Samsung US",MyTime Movie UK (1080p)
+#EXTINF:-1 tvg-id="MyTimeMovieNetworkEast.us" tvg-logo="https://github.com/netisz/rule_script/blob/IPTV_Logo/MyTimeMovieNetwork.png?raw=true" group-title="Samsung US",MyTime Movie UK (1080p)
 https://mytimeuk-rakuten-samsung.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="NewsmaxTV.us" group-title="Samsung US",Newsmax (1080p)
@@ -175,7 +175,7 @@ https://yahoo-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="YoungHollywood.us group-title="Samsung US",Young Hollywood (720p)
 https://younghollywood-rakuten-samsung.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="WeatherSpy.us" tvg-name="WeatherSpy.us" tvg-logo="https://mirror.ghproxy.com/https://raw.githubusercontent.com/netisz/rule_script/IPTV_Logo/WeatherSpy.png" group-title="Samsung US",【纪录】WeatherSpy (720p)
+#EXTINF:-1 tvg-id="WeatherSpy.us" tvg-name="WeatherSpy.us" tvg-logo="https://mirror.ghproxy.com/https://github.com/netisz/rule_script/blob/IPTV_Logo/WeatherSpy.jpeg?raw=true" group-title="Samsung US",【纪录】WeatherSpy (720p)
 https://jukin-weatherspy-1-us.samsung.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="PeopleAreAwesome.us" group-title="Samsung US",People are Awesome (720p)
