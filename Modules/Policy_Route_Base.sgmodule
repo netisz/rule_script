@@ -222,5 +222,10 @@ DOMAIN-SUFFIX, wurl.tv, DIRECT
 DOMAIN-SUFFIX, wurl.com, DIRECT
 
 
+# ♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️♻️
+# 凤凰卫视
+DOMAIN-SUFFIX, ifeng.com, DIRECT
+
+
 [MITM]
 # hostname = %APPEND% 
