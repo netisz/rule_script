@@ -1,6 +1,15 @@
 #EXTINF:-1 tvg-id="华数测试" tvg-name="华数测试" tvg-logo="https://epg.112114.xyz/logo/华数测试.png" group-title="国内 [4K]",华数测试
 http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000459/index.m3u8?IAS
 
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://epg.112114.xyz/logo/CCTV4K.png" group-title="国内 [4K]",CCTV4K
+http://61.170.81.235/liveali-tp4k.cctv.cn/live/4K0219.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://epg.112114.xyz/logo/CCTV16.png" group-title="国内 [4K]",CCTV16
+http://114.80.179.245/liveali-tp4k.cctv.cn/live/CCTV16-4K.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CCTV8K" tvg-name="CCTV8K" tvg-logo="https://epg.112114.xyz/logo/CCTV8K.png" group-title="国内 [8K]",北京纪实
+http://114.80.179.241/liveali-tp4k.cctv.cn/live/4K36M/playlist.m3u8
+
 #EXTINF:-1 tvg-id="北京纪实" tvg-name="北京纪实" tvg-logo="https://epg.112114.xyz/logo/北京纪实.png" group-title="国内 [8K]",北京纪实
 http://49.7.69.235/downflv.brtvcloud.com/8klive/8kliveok.m3u8
 
