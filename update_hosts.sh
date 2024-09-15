@@ -3,10 +3,13 @@
 # 1. 将文件复制到容器内部
 # sudo docker container cp ./update_hosts.sh jellyfin:/config/
 
-# 2. 更新 hosts 命令
+# 2. 检查文件是否已经复制到容器内部
+# docker exec jellyfin ls -l /config/update_hosts.sh
+
+# 3. 更新 hosts 命令
 # docker exec jellyfin /config/update_hosts.sh
 
-# 3. 查看 hosts 内容
+# 4. 查看 hosts 内容
 # docker exec jellyfin cat /etc/hosts
 
 
